@@ -1,0 +1,38 @@
+PoE napajeni
+Raspberry pi
+oddelena vlan + moznost wifi
+tampering kontakt
+min 2 ctecky na jeden modul
+dalkove otevirani
+odolna krabice
+read only fs
+remote logovani
+overovani pres API
+ 
+ 
+omezení vstupu podle času/člověka/statusu
+7 portů na jednu čtečku
+1 port na spínání zámku
+chceme verzi B+, protože má víc GPIO pinů
+koupit:
+2x RaspberryPi 2
+     1053,- Kč - http://cz.rs-online.com/web/p/processor-microcontroller-development-kits/832-6274
+2x micro SD karta (4GB)
+89,- Kč - http://www.alza.cz/verbatim-microsd-4gb-sdhc-class-4-d183197.htm
+88,- Kč - http://www.czc.cz/verbatim-micro-sdhc-4gb-class-4_2/164705/produkt
+0x PoE splitter - máme dva
+2x kabel napájecí - micro usb - zatím nám asi stačí obyč USB -> micro USB
+68,- Kč - http://www.czc.cz/gembird-micro-usb-2-0-am-mbm5p-1m/152207/produkt
+1x zámek - je nějaký - kde? je třeba ho najít
+1x krabice
+Konektory na gpio piny - dutinková lišta 2x20 pinů, rozteč 2,54 mm
+25,- Kč - https://www.gme.cz/dutinkova-lista-bl240g-p832-072
+spíš bych tam dal jumper kabely http://eshop.minidroid.cz/propojovac-drty/147-premium-female-female-jumper-wires-40-x-6.html
+Součástky k relé
+Relé - 32,- Kč - https://www.gme.cz/relras0515-p634-246, v originále je https://www.ghielectronics.com/downloads/man/20084141716341001RelayX1.pdf
+Tranzistor - 1,30 Kč - https://www.gme.cz/bipolarni-tranzistor-bc327-40-p210-014 asi tady ten, kdo se v tom má vyznat, v originále je http://pdf1.alldatasheet.com/datasheet-pdf/view/33775/WINGS/S8550/+237J7UyGLGybuCvzB+/datasheet.pdf
+Dioda - 1,10 Kč - asi https://www.gme.cz/dioda-1n4148-p220-003
+Rezistor 1K0 - 2,50 Kč - https://www.gme.cz/ru-1k-0207-0-25w-5-p119-043
+DC konektor, pokud bychom to chtěli napájet přímo, ne přes redukci na microUSB
+https://www.gme.cz/napajeci-souosy-konektor-wealthmetal-ds-214b-p806-328 - 2,20 Kč
+
