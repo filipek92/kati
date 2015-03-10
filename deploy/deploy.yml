@@ -1,0 +1,22 @@
+---
+- hosts: all
+  vars: 
+    ansible_ssh_user: root
+  tasks: 
+    # basic packages
+    - name: install basic packages
+      apt: name={{item}} state=present
+      with_items: 
+        - htop
+        - tmux
+        - mosh
+        - iotop
+        - vim
+        - rsync
+        - git
+        - raspi-config
+        - rpi-update
+        - python
+        - python-rpi.gpio
+    - name: clone kati repo
+      git: repo=git@github.com:techSU/kati.git dest=/root/kati/ update=yes
