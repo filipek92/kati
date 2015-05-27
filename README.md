@@ -3,6 +3,7 @@
 Kati is access system developed for [club Buben](http://www.buk.cvut.cz) of [CTU Student Union](http://su.cvut.cz).
 
 Authentication and authorization is performed by these steps:
+
 1. user attaches identification card to reader located near the door
 2. reader parses identification of the card
 3. authorization request is send to IS to perform authorization and authentication
