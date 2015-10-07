@@ -1,0 +1,494 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Oct-03-2015 at 15:12:30}
+primitive 'CAP NP_KATI_C508_100 NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='KATI_C508';
+    VALUE='100 nF';
+  end_body;
+end_primitive;
+primitive 'CAP POL_0_KATI_C63RAD_22 UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL_0';
+    JEDEC_TYPE='KATI_C63RAD';
+    VALUE='22 uF';
+  end_body;
+end_primitive;
+primitive 'CAP POL_0_KATI_C100RAD_1000 UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP POL_0';
+    JEDEC_TYPE='KATI_C100RAD';
+    VALUE='1000 uF';
+  end_body;
+end_primitive;
+primitive 'DIODE_KATI_DO201_BY299';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='KATI_DO201';
+    VALUE='BY299';
+  end_body;
+end_primitive;
+primitive 'DIODE_KATI_DO35_1N4148';
+  pin
+    'A':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    'K':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE';
+    JEDEC_TYPE='KATI_DO35';
+    VALUE='1N4148';
+  end_body;
+end_primitive;
+primitive 'CONNECTOR TWINAX-J_KATI_DS214B_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CONNECTOR TWINAX-J';
+    JEDEC_TYPE='KATI_DS214B';
+    VALUE='DC 7-16 V';
+  end_body;
+end_primitive;
+primitive 'HEADER 20X2_KATI_HEADER40_BOTTO';
+  pin
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '10':
+      PIN_NUMBER='(10)';
+      PINUSE='UNSPEC';
+    '12':
+      PIN_NUMBER='(12)';
+      PINUSE='UNSPEC';
+    '14':
+      PIN_NUMBER='(14)';
+      PINUSE='UNSPEC';
+    '16':
+      PIN_NUMBER='(16)';
+      PINUSE='UNSPEC';
+    '18':
+      PIN_NUMBER='(18)';
+      PINUSE='UNSPEC';
+    '20':
+      PIN_NUMBER='(20)';
+      PINUSE='UNSPEC';
+    '22':
+      PIN_NUMBER='(22)';
+      PINUSE='UNSPEC';
+    '24':
+      PIN_NUMBER='(24)';
+      PINUSE='UNSPEC';
+    '26':
+      PIN_NUMBER='(26)';
+      PINUSE='UNSPEC';
+    '28':
+      PIN_NUMBER='(28)';
+      PINUSE='UNSPEC';
+    '30':
+      PIN_NUMBER='(30)';
+      PINUSE='UNSPEC';
+    '32':
+      PIN_NUMBER='(32)';
+      PINUSE='UNSPEC';
+    '34':
+      PIN_NUMBER='(34)';
+      PINUSE='UNSPEC';
+    '36':
+      PIN_NUMBER='(36)';
+      PINUSE='UNSPEC';
+    '38':
+      PIN_NUMBER='(38)';
+      PINUSE='UNSPEC';
+    '40':
+      PIN_NUMBER='(40)';
+      PINUSE='UNSPEC';
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+    '11':
+      PIN_NUMBER='(11)';
+      PINUSE='UNSPEC';
+    '13':
+      PIN_NUMBER='(13)';
+      PINUSE='UNSPEC';
+    '15':
+      PIN_NUMBER='(15)';
+      PINUSE='UNSPEC';
+    '17':
+      PIN_NUMBER='(17)';
+      PINUSE='UNSPEC';
+    '19':
+      PIN_NUMBER='(19)';
+      PINUSE='UNSPEC';
+    '21':
+      PIN_NUMBER='(21)';
+      PINUSE='UNSPEC';
+    '23':
+      PIN_NUMBER='(23)';
+      PINUSE='UNSPEC';
+    '25':
+      PIN_NUMBER='(25)';
+      PINUSE='UNSPEC';
+    '27':
+      PIN_NUMBER='(27)';
+      PINUSE='UNSPEC';
+    '29':
+      PIN_NUMBER='(29)';
+      PINUSE='UNSPEC';
+    '31':
+      PIN_NUMBER='(31)';
+      PINUSE='UNSPEC';
+    '33':
+      PIN_NUMBER='(33)';
+      PINUSE='UNSPEC';
+    '35':
+      PIN_NUMBER='(35)';
+      PINUSE='UNSPEC';
+    '37':
+      PIN_NUMBER='(37)';
+      PINUSE='UNSPEC';
+    '39':
+      PIN_NUMBER='(39)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 20X2';
+    JEDEC_TYPE='KATI_HEADER40_BOTTOM';
+    VALUE='Header 2x20 to RPi';
+  end_body;
+end_primitive;
+primitive 'HEADER 9_KATI_CONN9_HEADER TO I';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 9';
+    JEDEC_TYPE='KATI_CONN9';
+    VALUE='Header to Indoor reader';
+  end_body;
+end_primitive;
+primitive 'HEADER 9_KATI_CONN9_HEADER TO O';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    '5':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    '6':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
+    '9':
+      PIN_NUMBER='(9)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 9';
+    JEDEC_TYPE='KATI_CONN9';
+    VALUE='Header to Outdoor header';
+  end_body;
+end_primitive;
+primitive 'HEADER 3_KATI_CONN3_HEADER TO L';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 3';
+    JEDEC_TYPE='KATI_CONN3';
+    VALUE='Header to Lock';
+  end_body;
+end_primitive;
+primitive 'HEADER 2_KATI_CONN2_HEADER TO T';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 2';
+    JEDEC_TYPE='KATI_CONN2';
+    VALUE='Header to Tampering contact';
+  end_body;
+end_primitive;
+primitive 'HEADER 3_KATI_CONN3_HEADER WITH';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 3';
+    JEDEC_TYPE='KATI_CONN3';
+    VALUE='Header with 1WIRE';
+  end_body;
+end_primitive;
+primitive 'HEADER 4_KATI_HEADER4_HEADER WI';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='HEADER 4';
+    JEDEC_TYPE='KATI_HEADER4';
+    VALUE='Header with serial port';
+  end_body;
+end_primitive;
+primitive 'R_KATI_RES_R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='KATI_RES';
+    VALUE='R';
+  end_body;
+end_primitive;
+primitive 'R_KATI_RES_4K7';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='KATI_RES';
+    VALUE='4k7';
+  end_body;
+end_primitive;
+primitive 'RELAY SPDT_KATI_RELAY_RAS-0515';
+  pin
+    'COMMON':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'NC':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'NO':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'COIL1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'COIL2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RELAY SPDT';
+    JEDEC_TYPE='KATI_RELAY';
+    VALUE='RAS-0515';
+  end_body;
+end_primitive;
+primitive 'PNP BCE_0_TO92_BC369-030';
+  pin
+    'B':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'E':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'C':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='PNP BCE_0';
+    JEDEC_TYPE='TO92';
+    VALUE='BC369-030';
+  end_body;
+end_primitive;
+primitive '78XX/SM_5_KATI_TO220_HS_L4940V5';
+  pin
+    'VIN':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+    'VOUT':
+      PIN_NUMBER='(3)';
+      PINUSE='POWER';
+    'GND#2':
+      PIN_NUMBER='(2)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    POWER_PINS='(GND:4)';
+    PART_NAME='78XX/SM_5';
+    JEDEC_TYPE='KATI_TO220_HS';
+    VALUE='L4940V5';
+  end_body;
+end_primitive;
+primitive 'TMP01_0_KATI_SO8_LM75A';
+  pin
+    'SDA':
+      PIN_NUMBER='(1)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'SCL':
+      PIN_NUMBER='(2)';
+      INPUT_LOAD='(*)';
+    'OS':
+      PIN_NUMBER='(3)';
+      INPUT_LOAD='(*)';
+      OUTPUT_LOAD='(*)';
+      BIDIRECTIONAL='TRUE';
+    'GND':
+      PIN_NUMBER='(4)';
+      PINUSE='POWER';
+    'A2':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'A1':
+      PIN_NUMBER='(6)';
+      PINUSE='UNSPEC';
+    'A0':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    'VCC':
+      PIN_NUMBER='(8)';
+      PINUSE='POWER';
+  end_pin;
+  body
+    PART_NAME='TMP01_0';
+    JEDEC_TYPE='KATI_SO8';
+    VALUE='LM75A';
+  end_body;
+end_primitive;
+END.

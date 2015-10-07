@@ -1,0 +1,24 @@
+\t (00:00:04) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:04)     Journal start - Wed Oct 07 18:17:25 2015
+\t (00:00:04)         Host=NTB User=Pavel Pid=6544 CPUs=4
+\t (00:00:04) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
+\t (00:00:04) 
+\t (00:00:07) Opening existing design...
+\d (00:00:07) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:00:07) trapsize 4887
+\i (00:00:07) trapsize 4755
+\i (00:00:07) trapsize 4909
+\i (00:00:07) trapsize 5050
+\i (00:00:07) trapsize 5509
+\i (00:00:08) generaledit 
+\i (00:00:10) trapsize 9211
+\i (00:00:11) trapsize 3606
+\i (00:00:12) zoom fit 
+\i (00:00:12) trapsize 3305
+\i (00:00:15) refresh symbol 
+\i (00:00:18) setwindow form.upd_element
+\i (00:00:18) FORM upd_element close  
+\i (00:00:18) setwindow pcb
+\i (00:00:18) generaledit 
+\i (00:00:22) exit 
+\t (00:00:23)     Journal end - Wed Oct 07 18:17:43 2015
