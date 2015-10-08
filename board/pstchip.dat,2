@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Oct-03-2015 at 14:11:11}
+{ Using PSTWRITER 16.6.0 d001Oct-03-2015 at 15:12:30}
 primitive 'CAP NP_KATI_C508_100 NF';
   pin
     '1':
@@ -15,7 +15,7 @@ primitive 'CAP NP_KATI_C508_100 NF';
     VALUE='100 nF';
   end_body;
 end_primitive;
-primitive 'CAP POL_0_KATI_C36RAD_22 UF';
+primitive 'CAP POL_0_KATI_C63RAD_22 UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -26,7 +26,7 @@ primitive 'CAP POL_0_KATI_C36RAD_22 UF';
   end_pin;
   body
     PART_NAME='CAP POL_0';
-    JEDEC_TYPE='KATI_C36RAD';
+    JEDEC_TYPE='KATI_C63RAD';
     VALUE='22 uF';
   end_body;
 end_primitive;
@@ -417,20 +417,20 @@ primitive 'RELAY SPDT_KATI_RELAY_RAS-0515';
     VALUE='RAS-0515';
   end_body;
 end_primitive;
-primitive 'PNP BCE_TO92_BC369-030';
+primitive 'PNP BCE_0_TO92_BC369-030';
   pin
     'B':
-      PIN_NUMBER='(1)';
+      PIN_NUMBER='(3)';
       PINUSE='UNSPEC';
     'E':
-      PIN_NUMBER='(3)';
+      PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
     'C':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='PNP BCE';
+    PART_NAME='PNP BCE_0';
     JEDEC_TYPE='TO92';
     VALUE='BC369-030';
   end_body;

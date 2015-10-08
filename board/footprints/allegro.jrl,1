@@ -1,0 +1,35 @@
+\t (00:03:45) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:03:45)     Journal start - Thu Oct 08 20:55:54 2015
+\t (00:03:45)         Host=NTB User=Pavel Pid=3576 CPUs=4
+\t (00:03:45) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
+\t (00:03:45) 
+\d (00:03:45) Design opened: D:/Dokumenty/buk/kati/board/footprints/kati_hole_RPi.dra
+\i (00:03:45) generaledit 
+\i (00:03:47) prepopup 0.0652 0.1689
+\i (00:03:49) pick grid 0.1245 0.8385
+\t (00:03:49) last pick:  0.0000 0.0000
+\i (00:03:49) prepopup 0.1245 0.8385
+\i (00:03:53) pop dyn_option_select '@:@Show element' 
+\i (00:03:53) show element 
+\i (00:03:54) generaledit 
+\i (00:03:55) setwindow text
+\i (00:03:55) close 
+\i (00:03:59) setwindow pcb
+\i (00:03:59) replace padstack 
+\i (00:04:06) setwindow form.mini
+\i (00:04:06) FORM mini oldname ka 
+\i (00:04:07) FORM mini oldname_browse  
+\i (00:04:09) fillin "Kati_Hole_Rpi"
+\i (00:04:10) FORM mini newname_browse  
+\i (00:04:22) fillin "menu_cancel"
+\i (00:04:24) FORM mini newname KATI_HOLE_RPI 
+\i (00:04:24) FORM mini replace  
+\i (00:04:29) setwindow pcb
+\i (00:04:29) save 
+\t (00:04:29) Performing DRC...
+\t (00:04:29) No DRC errors detected.
+\i (00:04:35) fillin yes 
+\t (00:04:35) Symbol 'kati_hole_rpi.bsm' created.
+\i (00:04:35) generaledit 
+\i (00:18:37) exit 
+\t (00:18:38)     Journal end - Thu Oct 08 21:10:46 2015

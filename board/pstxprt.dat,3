@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Oct-03-2015 at 14:30:52 }
+{ Using PSTWRITER 16.6.0 d001Oct-08-2015 at 21:21:19 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='KATI';
@@ -168,12 +168,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- T1 'PNP BCE_TO92_BC369-030':;
+ T1 'PNP BCE_0_KATI_TO92_BC369-030':;
 
 SECTION_NUMBER 1
- '@KATI.SCHEMATICS(SCH_1):INS1975@TRANSISTOR.PNP BCE.NORMAL(CHIPS)':
- C_PATH='@kati.schematics(sch_1):ins1975@transistor.\pnp bce.normal\(chips)',
- P_PATH='@kati.schematics(sch_1):page1_ins1975@transistor.\pnp bce.normal\(chips)',
+ '@KATI.SCHEMATICS(SCH_1):INS1975@KATI.PNP BCE_0.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins1975@kati.\pnp bce_0.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins1975@kati.\pnp bce_0.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

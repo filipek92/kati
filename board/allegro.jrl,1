@@ -1,245 +1,36 @@
-\t (00:00:02) allegro 16.6 S026 (v16-6-112BY) Windows 32
-\t (00:00:02)     Journal start - Thu Oct 08 19:01:22 2015
-\t (00:00:02)         Host=NTB User=Pavel Pid=6452 CPUs=4
-\t (00:00:02) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
-\i (00:00:05) trapsize 3354
-\i (00:00:05) trapsize 3293
-\i (00:00:05) trapsize 3364
-\i (00:00:05) trapsize 3427
-\i (00:00:05) trapsize 3427
+\t (00:00:01) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:01)     Journal start - Thu Oct 08 21:22:42 2015
+\t (00:00:01)         Host=NTB User=Pavel Pid=2980 CPUs=4
+\t (00:00:01) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe -mpssession Pavel D:\Dokumenty\buk\kati\board\Kati.brd
+\t (00:00:01) 
+\t (00:00:04) Opening existing design...
+\d (00:00:04) Design opened: D:/DOKUMENTY/BUK/KATI/BOARD/Kati.brd
+\i (00:00:04) trapsize 3354
+\i (00:00:04) trapsize 3293
+\i (00:00:04) trapsize 3364
+\i (00:00:04) trapsize 3427
+\i (00:00:04) trapsize 3427
 \i (00:00:05) generaledit 
-\i (00:00:29) zoom points 
-\t (00:00:29) Pick 1st corner of the new window.
-\i (00:00:31) drag_start -30.9101 20.7324
-\i (00:00:33) drag_stop -2.7414 7.7104
-\i (00:00:33) trapsize 878
-\i (00:00:33) generaledit 
-\i (00:00:38) roam y -96 
-\i (00:00:38) roam y -96
-\i (00:00:38) roam y -96 
-\i (00:00:38) roam y -96
-\i (00:00:39) roam y -96 
-\i (00:00:39) roam y -96
-\i (00:00:40) roam y -96 
-\i (00:00:40) roam y -96
-\i (00:00:42) roam x -96 
-\i (00:00:42) roam x -96
-\i (00:00:42) roam x -96 
-\i (00:00:42) roam x -96
-\i (00:00:42) roam y -96 
-\i (00:00:42) roam y -96
-\i (00:00:43) roam y -96 
-\i (00:00:43) roam y -96
-\i (00:00:43) roam x 96 
-\i (00:00:43) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:44) roam y 96 
-\i (00:00:44) roam y 96
-\i (00:00:44) roam x 96 
-\i (00:00:44) roam x 96
-\i (00:00:45) roam x 96 
-\i (00:00:45) roam x 96
-\i (00:00:45) roam x 96 
-\i (00:00:45) roam x 96
-\i (00:00:45) roam x 96 
-\i (00:00:45) roam x 96
-\i (00:00:45) roam x 96 
-\i (00:00:45) roam x 96
-\i (00:00:45) roam y 96 
-\i (00:00:45) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:46) roam y 96 
-\i (00:00:46) roam y 96
-\i (00:00:47) roam y 96 
-\i (00:00:47) roam y 96
-\i (00:00:47) roam y 96 
-\i (00:00:47) roam y 96
-\i (00:00:47) roam y 96 
-\i (00:00:47) roam y 96
-\i (00:00:47) roam y 96 
-\i (00:00:47) roam y 96
-\i (00:00:47) roam y 96 
-\i (00:00:47) roam y 96
-\i (00:00:47) roam y 96 
-\i (00:00:47) roam y 96
-\i (00:00:47) roam y 96 
-\i (00:00:47) roam y 96
-\i (00:00:47) roam x -96 
-\i (00:00:47) roam x -96
-\i (00:00:49) zoom fit 
-\i (00:00:49) trapsize 3427
-\i (00:01:00) color192 
-\i (00:01:00) setwindow cvf.dialog
-\i (00:01:00) cvf layer_mode
-\i (00:01:00) setwindow pcb
-\i (00:01:00) generaledit 
-\i (00:01:01) setwindow cvf.dialog
-\i (00:01:01) cvf layer_tree_item 'Areas'
-\i (00:01:01) cvf layer_tree_item 'Board Geometry'
-\i (00:01:03) cvf okay
-\i (00:01:10) setwindow pcb
-\i (00:01:10) pick grid -3.4268 10.4519
-\t (00:01:10) last pick:  -3.1750 10.1600
-\i (00:01:10) prepopup -3.2212 10.1777
-\i (00:01:13) pop dyn_option_select '@:@Show element' 
-\i (00:01:13) show element 
-\i (00:01:13) generaledit 
-\i (00:01:13) zoom out 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom out -6.0312 13.6731
-\i (00:01:13) trapsize 6854
-\i (00:01:13) zoom out 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom out -6.0312 13.6732
-\i (00:01:13) trapsize 13707
-\i (00:01:13) zoom out 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom out -6.0312 13.6731
-\i (00:01:13) trapsize 27415
-\i (00:01:13) zoom out 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom out -8.5168 135.5570
-\i (00:01:13) trapsize 33867
-\i (00:01:13) zoom out 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom out 83.6160 214.5280
-\i (00:01:13) trapsize 33867
-\i (00:01:13) zoom out 1 
-\i (00:01:13) setwindow pcb
-\i (00:01:13) zoom out 83.6160 214.5280
-\i (00:01:13) trapsize 33867
-\i (00:01:14) zoom in 1 
-\i (00:01:14) setwindow pcb
-\i (00:01:14) zoom in 83.6160 214.5280
-\i (00:01:14) trapsize 16933
-\i (00:01:14) zoom in 1 
-\i (00:01:14) setwindow pcb
-\i (00:01:14) zoom in 83.6160 214.5280
-\i (00:01:14) trapsize 8467
-\i (00:01:14) zoom in 1 
-\i (00:01:14) setwindow pcb
-\i (00:01:14) zoom in 83.6160 214.5280
-\i (00:01:14) trapsize 4233
-\i (00:01:14) zoom in 1 
-\i (00:01:14) setwindow pcb
-\i (00:01:14) zoom in 83.6160 214.5280
-\i (00:01:14) trapsize 2117
-\i (00:01:14) zoom in 1 
-\i (00:01:14) setwindow pcb
-\i (00:01:14) zoom in 83.6160 214.5280
-\i (00:01:14) trapsize 1058
-\i (00:01:15) zoom out 1 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) zoom out 85.0977 215.6498
-\i (00:01:15) trapsize 2117
-\i (00:01:15) zoom out 1 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) zoom out 85.0976 215.6499
-\i (00:01:15) trapsize 4233
-\i (00:01:15) zoom out 1 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) zoom out 85.0977 215.6499
-\i (00:01:15) trapsize 8467
-\i (00:01:15) zoom out 1 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) zoom out 85.0976 215.6499
-\i (00:01:15) trapsize 16933
-\i (00:01:15) zoom out 1 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) zoom out 85.0977 215.6498
-\i (00:01:15) trapsize 33867
-\i (00:01:15) zoom out 1 
-\i (00:01:15) setwindow pcb
-\i (00:01:15) zoom out 131.0293 250.4267
-\i (00:01:15) trapsize 33867
-\i (00:01:17) setwindow text
-\i (00:01:17) close 
-\i (00:01:19) setwindow pcb
-\i (00:01:19) zoom fit 
-\i (00:01:19) trapsize 3427
-\i (00:01:20) pick grid 40.4369 4.4206
-\t (00:01:20) last pick:  40.6400 4.4450
-\i (00:01:25) artwork 
-\i (00:01:28) setwindow form.film_control
-\i (00:01:28) FORM film_control filmtree 'MULTISEL YES' TOP 
-\i (00:01:28) FORM film_control filmtree  TOP 
-\i (00:01:34) FORM film_control create  
-\t (00:01:34) Checking db records
-\t (00:01:34)     checking for orphans...
-\t (00:01:34)     Checked 100 percent
-\t (00:01:34) Done dbdoctor.
-\t (00:01:34) Starting Create artwork films...
-\w (00:01:34) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:01:35) Artwork generated with warnings.
-\i (00:01:55) setwindow text
-\i (00:01:55) close 
-\i (00:01:56) setwindow form.film_control
-\i (00:01:56) FORM film_control cancel  
-\i (00:01:56) setwindow pcb
-\i (00:01:56) generaledit 
-\i (00:02:26) new 
-\e (00:02:26) Do you want to save the changes you made to Kati.brd?
-\i (00:02:31) fillin no 
-\i (00:02:46) newdrawfillin "tmp.brd" "Board"
-\t (00:02:46)     Journal end - Thu Oct 08 19:04:06 2015
+\i (00:00:42) xhilite 
+\i (00:00:43) xname_flush 
+\i (00:00:43) done 
+\i (00:00:43) generaledit 
+\i (00:01:34) color192 
+\i (00:01:34) setwindow cvf.dialog
+\i (00:01:34) cvf layer_mode
+\i (00:01:34) setwindow pcb
+\i (00:01:34) generaledit 
+\i (00:01:36) setwindow cvf.dialog
+\i (00:01:36) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:01:36) cvf layers_visible stack-up stack-up/bottom FALSE
+\i (00:01:36) cvf layers_visible stack-up stack-up/soldermask_top TRUE
+\i (00:01:37) cvf layers_visible stack-up stack-up/soldermask_top FALSE
+\i (00:01:38) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:01:39) cvf apply
+\i (00:01:40) cvf okay
+\i (00:02:54) setwindow pcb
+\i (00:02:54) save 
+\i (00:02:55) fillin yes 
+\i (00:02:55) generaledit 
+\i (00:02:56) exit 
+\t (00:02:56)     Journal end - Thu Oct 08 21:25:37 2015
