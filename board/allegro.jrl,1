@@ -1,36 +1,134 @@
-\t (00:00:01) allegro 16.6 S026 (v16-6-112BY) Windows 32
-\t (00:00:01)     Journal start - Thu Oct 08 21:22:42 2015
-\t (00:00:01)         Host=NTB User=Pavel Pid=2980 CPUs=4
-\t (00:00:01) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe -mpssession Pavel D:\Dokumenty\buk\kati\board\Kati.brd
-\t (00:00:01) 
+\t (00:00:02) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:02)     Journal start - Thu Oct 08 21:25:49 2015
+\t (00:00:02)         Host=NTB User=Pavel Pid=5924 CPUs=4
+\t (00:00:02) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
+\t (00:00:02) 
 \t (00:00:04) Opening existing design...
 \d (00:00:04) Design opened: D:/DOKUMENTY/BUK/KATI/BOARD/Kati.brd
-\i (00:00:04) trapsize 3354
-\i (00:00:04) trapsize 3293
-\i (00:00:04) trapsize 3364
-\i (00:00:04) trapsize 3427
-\i (00:00:04) trapsize 3427
+\i (00:00:05) trapsize 3354
+\i (00:00:05) trapsize 3293
+\i (00:00:05) trapsize 3364
+\i (00:00:05) trapsize 3427
+\i (00:00:05) trapsize 3427
 \i (00:00:05) generaledit 
-\i (00:00:42) xhilite 
-\i (00:00:43) xname_flush 
-\i (00:00:43) done 
-\i (00:00:43) generaledit 
-\i (00:01:34) color192 
-\i (00:01:34) setwindow cvf.dialog
-\i (00:01:34) cvf layer_mode
-\i (00:01:34) setwindow pcb
-\i (00:01:34) generaledit 
-\i (00:01:36) setwindow cvf.dialog
-\i (00:01:36) cvf layers_visible stack-up stack-up/bottom TRUE
-\i (00:01:36) cvf layers_visible stack-up stack-up/bottom FALSE
-\i (00:01:36) cvf layers_visible stack-up stack-up/soldermask_top TRUE
-\i (00:01:37) cvf layers_visible stack-up stack-up/soldermask_top FALSE
-\i (00:01:38) cvf layers_visible stack-up stack-up/top TRUE
-\i (00:01:39) cvf apply
-\i (00:01:40) cvf okay
-\i (00:02:54) setwindow pcb
-\i (00:02:54) save 
-\i (00:02:55) fillin yes 
-\i (00:02:55) generaledit 
-\i (00:02:56) exit 
-\t (00:02:56)     Journal end - Thu Oct 08 21:25:37 2015
+\i (00:00:08) refresh symbol 
+\i (00:00:12) setwindow form.upd_element
+\i (00:00:12) FORM upd_element tree 'MULTISEL YES' KATI_TO92 'Package symbols' 
+\i (00:00:12) FORM upd_element tree  KATI_TO92 'Package symbols' 
+\i (00:00:14) FORM upd_element padstacks YES 
+\i (00:00:15) FORM upd_element reset_drill_data YES 
+\i (00:00:17) FORM upd_element refresh  
+\t (00:00:17) Starting Refresh Symbol...
+\t (00:00:18) Opening existing design...
+\i (00:00:18) setwindow pcb
+\i (00:00:18) trapsize 3427
+\t (00:00:19) Updating dynamic shape (1 of 2) Vcc, Boundary/Bottom @ (-29.8000 -28.0000) ...
+\t (00:00:19) Updating dynamic shape (2 of 2) Gnd, Boundary/Top @ (-29.5000 -28.0000) ...
+\i (00:00:30) setwindow form.upd_element
+\i (00:00:30) FORM upd_element close  
+\i (00:00:30) setwindow pcb
+\i (00:00:30) generaledit 
+\i (00:00:32) zoom in 1 
+\i (00:00:32) setwindow pcb
+\i (00:00:32) zoom in 2.8786 16.2775
+\i (00:00:32) trapsize 1713
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 2.2275 17.9909
+\i (00:00:39) trapsize 3427
+\i (00:00:49) add connect 
+\t (00:00:49) Pick first element.
+\i (00:00:50) pick grid 2.4331 20.5268
+\t (00:00:50) last pick:  2.5400 20.3200
+\t (00:00:50) last pick:  2.5400 20.3200
+\i (00:00:50) mouse_pos 2.5016 21.2808
+\i (00:00:51) mouse_pos -1.2679 21.1437
+\i (00:00:51) mouse_pos -2.2959 20.7325
+\i (00:00:51) mouse_pos -3.7352 20.0471
+\i (00:00:51) mouse_pos -4.0094 16.9629
+\i (00:00:51) mouse_pos 4.5578 18.1281
+\i (00:00:52) mouse_pos 4.0095 20.4583
+\i (00:00:52) mouse_pos 3.1870 21.2808
+\i (00:00:52) mouse_pos 2.3646 20.5268
+\i (00:00:52) mouse_pos 3.5982 19.4303
+\i (00:00:57) setwindow form.mini
+\i (00:00:57) FORM mini acon_line_width 0.635 
+\i (00:00:58) setwindow pcb
+\i (00:00:58) mouse_pos 7.9161 25.4615
+\i (00:00:58) mouse_pos 7.5048 24.2278
+\i (00:00:58) mouse_pos 5.7229 22.5144
+\i (00:00:58) mouse_pos 5.3802 22.3088
+\i (00:00:58) mouse_pos 4.3521 21.7605
+\i (00:01:00) pick grid 2.3646 21.6234
+\t (00:01:00) last pick:  2.5400 21.5900
+\t (00:01:00) No DRC errors detected.
+\t (00:01:00) Pick first element.
+\i (00:01:01) zoom fit 
+\i (00:01:01) trapsize 3427
+\i (00:01:03) done 
+\i (00:01:03) generaledit 
+\i (00:01:05) zoom points 
+\t (00:01:05) Pick 1st corner of the new window.
+\i (00:01:06) drag_start -9.5951 23.5424
+\i (00:01:08) drag_stop 8.3616 15.4551
+\i (00:01:08) trapsize 560
+\i (00:01:08) generaledit 
+\i (00:01:15) pick grid 2.5962 17.2845
+\t (00:01:15) last pick:  2.5400 17.1450
+\i (00:01:16) delete 
+\i (00:01:16) generaledit 
+\i (00:01:17) pick grid 0.9617 16.5568
+\t (00:01:17) last pick:  1.2700 16.5100
+\i (00:01:18) delete 
+\i (00:01:18) generaledit 
+\i (00:01:19) add connect 
+\t (00:01:19) Pick first element.
+\i (00:01:22) add connect 
+\t (00:01:22) Pick first element.
+\i (00:01:22) pick grid -1.2101 16.5008
+\t (00:01:22) last pick:  -1.2700 16.5100
+\t (00:01:22) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:01:22) last pick:  -1.2700 16.5100
+\i (00:01:23) mouse_pos 1.6110 16.4672
+\i (00:01:24) pick grid 2.2492 16.4672
+\t (00:01:24) last pick:  2.5400 16.5100
+\t (00:01:24) No DRC errors detected.
+\t (00:01:24) Pick first element.
+\i (00:01:26) save 
+\i (00:01:27) fillin yes 
+\i (00:01:27) generaledit 
+\i (00:01:31) color192 
+\i (00:01:31) setwindow cvf.dialog
+\i (00:01:31) cvf layer_mode
+\i (00:01:31) setwindow pcb
+\i (00:01:31) generaledit 
+\i (00:01:33) setwindow cvf.dialog
+\i (00:01:33) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:01:33) cvf layers_visible stack-up stack-up/top FALSE
+\i (00:01:34) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:01:35) cvf okay
+\i (00:01:41) setwindow pcb
+\i (00:01:41) color192 
+\i (00:01:41) setwindow cvf.dialog
+\i (00:01:41) cvf layer_mode
+\i (00:01:41) setwindow pcb
+\i (00:01:41) generaledit 
+\i (00:01:43) setwindow cvf.dialog
+\i (00:01:43) cvf global_visible
+\i (00:01:44) cvf okay
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 2.5738 18.9637
+\i (00:01:53) trapsize 1119
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 2.5738 18.9637
+\i (00:01:53) trapsize 2239
+\i (00:01:55) zoom fit 
+\i (00:01:55) trapsize 3427
+\i (00:02:02) save 
+\i (00:02:03) fillin yes 
+\i (00:02:03) generaledit 
+\i (00:06:58) exit 
+\t (00:06:58)     Journal end - Thu Oct 08 21:32:45 2015

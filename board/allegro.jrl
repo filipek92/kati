@@ -1,134 +1,1183 @@
-\t (00:00:02) allegro 16.6 S026 (v16-6-112BY) Windows 32
-\t (00:00:02)     Journal start - Thu Oct 08 21:25:49 2015
-\t (00:00:02)         Host=NTB User=Pavel Pid=5924 CPUs=4
-\t (00:00:02) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: D:/DOKUMENTY/BUK/KATI/BOARD/Kati.brd
-\i (00:00:05) trapsize 3354
-\i (00:00:05) trapsize 3293
-\i (00:00:05) trapsize 3364
-\i (00:00:05) trapsize 3427
-\i (00:00:05) trapsize 3427
-\i (00:00:05) generaledit 
-\i (00:00:08) refresh symbol 
-\i (00:00:12) setwindow form.upd_element
-\i (00:00:12) FORM upd_element tree 'MULTISEL YES' KATI_TO92 'Package symbols' 
-\i (00:00:12) FORM upd_element tree  KATI_TO92 'Package symbols' 
-\i (00:00:14) FORM upd_element padstacks YES 
-\i (00:00:15) FORM upd_element reset_drill_data YES 
-\i (00:00:17) FORM upd_element refresh  
-\t (00:00:17) Starting Refresh Symbol...
-\t (00:00:18) Opening existing design...
-\i (00:00:18) setwindow pcb
-\i (00:00:18) trapsize 3427
-\t (00:00:19) Updating dynamic shape (1 of 2) Vcc, Boundary/Bottom @ (-29.8000 -28.0000) ...
-\t (00:00:19) Updating dynamic shape (2 of 2) Gnd, Boundary/Top @ (-29.5000 -28.0000) ...
-\i (00:00:30) setwindow form.upd_element
-\i (00:00:30) FORM upd_element close  
-\i (00:00:30) setwindow pcb
-\i (00:00:30) generaledit 
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 2.8786 16.2775
-\i (00:00:32) trapsize 1713
-\i (00:00:39) zoom out 1 
-\i (00:00:39) setwindow pcb
-\i (00:00:39) zoom out 2.2275 17.9909
-\i (00:00:39) trapsize 3427
-\i (00:00:49) add connect 
-\t (00:00:49) Pick first element.
-\i (00:00:50) pick grid 2.4331 20.5268
-\t (00:00:50) last pick:  2.5400 20.3200
-\t (00:00:50) last pick:  2.5400 20.3200
-\i (00:00:50) mouse_pos 2.5016 21.2808
-\i (00:00:51) mouse_pos -1.2679 21.1437
-\i (00:00:51) mouse_pos -2.2959 20.7325
-\i (00:00:51) mouse_pos -3.7352 20.0471
-\i (00:00:51) mouse_pos -4.0094 16.9629
-\i (00:00:51) mouse_pos 4.5578 18.1281
-\i (00:00:52) mouse_pos 4.0095 20.4583
-\i (00:00:52) mouse_pos 3.1870 21.2808
-\i (00:00:52) mouse_pos 2.3646 20.5268
-\i (00:00:52) mouse_pos 3.5982 19.4303
-\i (00:00:57) setwindow form.mini
-\i (00:00:57) FORM mini acon_line_width 0.635 
-\i (00:00:58) setwindow pcb
-\i (00:00:58) mouse_pos 7.9161 25.4615
-\i (00:00:58) mouse_pos 7.5048 24.2278
-\i (00:00:58) mouse_pos 5.7229 22.5144
-\i (00:00:58) mouse_pos 5.3802 22.3088
-\i (00:00:58) mouse_pos 4.3521 21.7605
-\i (00:01:00) pick grid 2.3646 21.6234
-\t (00:01:00) last pick:  2.5400 21.5900
-\t (00:01:00) No DRC errors detected.
-\t (00:01:00) Pick first element.
-\i (00:01:01) zoom fit 
-\i (00:01:01) trapsize 3427
-\i (00:01:03) done 
-\i (00:01:03) generaledit 
-\i (00:01:05) zoom points 
-\t (00:01:05) Pick 1st corner of the new window.
-\i (00:01:06) drag_start -9.5951 23.5424
-\i (00:01:08) drag_stop 8.3616 15.4551
-\i (00:01:08) trapsize 560
-\i (00:01:08) generaledit 
-\i (00:01:15) pick grid 2.5962 17.2845
-\t (00:01:15) last pick:  2.5400 17.1450
-\i (00:01:16) delete 
-\i (00:01:16) generaledit 
-\i (00:01:17) pick grid 0.9617 16.5568
-\t (00:01:17) last pick:  1.2700 16.5100
-\i (00:01:18) delete 
-\i (00:01:18) generaledit 
-\i (00:01:19) add connect 
-\t (00:01:19) Pick first element.
-\i (00:01:22) add connect 
-\t (00:01:22) Pick first element.
-\i (00:01:22) pick grid -1.2101 16.5008
-\t (00:01:22) last pick:  -1.2700 16.5100
-\t (00:01:22) Target Symbol Pin is defined from TOP to BOTTOM.
-\t (00:01:22) last pick:  -1.2700 16.5100
-\i (00:01:23) mouse_pos 1.6110 16.4672
-\i (00:01:24) pick grid 2.2492 16.4672
-\t (00:01:24) last pick:  2.5400 16.5100
-\t (00:01:24) No DRC errors detected.
-\t (00:01:24) Pick first element.
-\i (00:01:26) save 
-\i (00:01:27) fillin yes 
-\i (00:01:27) generaledit 
-\i (00:01:31) color192 
-\i (00:01:31) setwindow cvf.dialog
-\i (00:01:31) cvf layer_mode
-\i (00:01:31) setwindow pcb
-\i (00:01:31) generaledit 
-\i (00:01:33) setwindow cvf.dialog
-\i (00:01:33) cvf layers_visible stack-up stack-up/top TRUE
-\i (00:01:33) cvf layers_visible stack-up stack-up/top FALSE
-\i (00:01:34) cvf layers_visible stack-up stack-up/bottom TRUE
-\i (00:01:35) cvf okay
-\i (00:01:41) setwindow pcb
-\i (00:01:41) color192 
-\i (00:01:41) setwindow cvf.dialog
-\i (00:01:41) cvf layer_mode
-\i (00:01:41) setwindow pcb
-\i (00:01:41) generaledit 
-\i (00:01:43) setwindow cvf.dialog
-\i (00:01:43) cvf global_visible
-\i (00:01:44) cvf okay
-\i (00:01:53) setwindow pcb
-\i (00:01:53) zoom out 1 
-\i (00:01:53) setwindow pcb
-\i (00:01:53) zoom out 2.5738 18.9637
-\i (00:01:53) trapsize 1119
-\i (00:01:53) zoom out 1 
-\i (00:01:53) setwindow pcb
-\i (00:01:53) zoom out 2.5738 18.9637
-\i (00:01:53) trapsize 2239
-\i (00:01:55) zoom fit 
-\i (00:01:55) trapsize 3427
-\i (00:02:02) save 
-\i (00:02:03) fillin yes 
-\i (00:02:03) generaledit 
-\i (00:06:58) exit 
-\t (00:06:58)     Journal end - Thu Oct 08 21:32:45 2015
+\t (00:00:26) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:26)     Journal start - Thu Oct 08 21:37:18 2015
+\t (00:00:26)         Host=NTB User=Pavel Pid=6476 CPUs=4
+\t (00:00:26) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
+\t (00:00:26) 
+\d (00:00:26) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:00:26) generaledit 
+\i (00:00:56) nctape_full 
+\w (00:00:56) WARNING(SPMHMF-272): NC Parameters file 'nc_param.txt' not found ... loading defaults.
+\i (00:00:58) setwindow form.nc_drill
+\i (00:00:58) FORM nc_drill browse  
+\i (00:01:01) fillin "D:\Dokumenty\buk\kati\board\export\Kati.drl"
+\i (00:01:05) FORM nc_drill execute  
+\t (00:01:05) Starting Generating NC Drill...
+\i (00:01:07) FORM nc_drill cancel  
+\i (00:01:07) setwindow pcb
+\i (00:01:07) generaledit 
+\i (00:01:51) artwork 
+\i (00:02:02) setwindow form.film_control
+\i (00:02:02) FORM film_control general_parameters  
+\i (00:02:29) FORM film_control film_max_x 70 
+\i (00:02:32) FORM film_control film_max_y 70 
+\i (00:02:34) FORM film_control film_control  
+\i (00:03:18) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (00:03:19) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (00:03:19) FORM film_control filmtree  TOP 
+\i (00:03:28) FORM film_control create  
+\t (00:03:28) Checking db records
+\t (00:03:28)     checking for orphans...
+\t (00:03:28)     Checked 100 percent
+\t (00:03:28) Done dbdoctor.
+\t (00:03:28) Starting Create artwork films...
+\w (00:03:28) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:03:29) Artwork generated with warnings.
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom out 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom out -11.5827 19.7044
+\i (00:03:33) trapsize 6854
+\i (00:03:33) zoom out 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom out -11.5827 19.7044
+\i (00:03:33) trapsize 13707
+\i (00:03:33) zoom out 1 
+\i (00:03:33) setwindow pcb
+\i (00:03:33) zoom out -11.5827 19.7043
+\i (00:03:33) trapsize 27415
+\i (00:03:34) zoom in 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom in -52.9288 183.8070
+\i (00:03:34) trapsize 13707
+\i (00:03:34) zoom in 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom in -52.9288 183.8070
+\i (00:03:34) trapsize 6854
+\i (00:03:34) zoom out 1 
+\i (00:03:34) setwindow pcb
+\i (00:03:34) zoom out -52.9288 183.8071
+\i (00:03:34) trapsize 13707
+\i (00:03:36) zoom fit 
+\i (00:03:36) trapsize 3427
+\i (00:03:49) setwindow text
+\i (00:03:49) close 
+\i (00:03:50) setwindow form.film_control
+\i (00:03:50) FORM film_control general_parameters  
+\i (00:03:52) FORM film_control film_max_x 80 
+\i (00:03:55) FORM film_control film_max_y 80 
+\i (00:03:55) FORM film_control film_control  
+\i (00:03:56) FORM film_control create  
+\t (00:03:56) Starting Create artwork films...
+\t (00:03:57) Plot generated.
+\i (00:04:00) FORM film_control viewlog  
+\i (00:04:08) setwindow text
+\i (00:04:08) close 
+\i (00:04:11) setwindow form.film_control
+\i (00:04:11) FORM film_control ok  
+\i (00:04:11) setwindow pcb
+\i (00:04:11) generaledit 
+\i (00:04:16) artwork 
+\i (00:05:13) setwindow form.film_control
+\i (00:05:13) FORM film_control cancel  
+\i (00:05:13) setwindow pcb
+\i (00:05:13) generaledit 
+\i (00:05:14) color192 
+\i (00:05:14) setwindow cvf.dialog
+\i (00:05:14) cvf layer_mode
+\i (00:05:14) setwindow pcb
+\i (00:05:14) generaledit 
+\i (00:05:16) setwindow cvf.dialog
+\i (00:05:16) cvf layer_tree_item 'My Favorites'
+\i (00:05:16) cvf layer_tree_item 'Display'
+\i (00:05:17) cvf layer_tree_item 'Stack-Up'
+\i (00:05:20) cvf global_invisible
+\i (00:05:25) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:05:25) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:05:25) cvf layer_tree_item 'Board Geometry'
+\i (00:05:26) cvf layer_tree_item 'Areas'
+\i (00:05:28) cvf layer_tree_item 'Board Geometry'
+\i (00:05:29) cvf layers_visible board_geometry/outline TRUE
+\i (00:05:30) cvf layer_tree_item 'Package Geometry'
+\i (00:05:33) cvf layers_visible package_geometry/silkscreen_top TRUE
+\i (00:05:34) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:05:35) cvf layer_tree_item 'Components'
+\i (00:05:36) cvf layers_visible components components/silkscreen_top TRUE
+\i (00:05:37) cvf layer_tree_item 'Manufacturing'
+\i (00:05:40) cvf layer_tree_item 'Drawing Format'
+\i (00:05:41) cvf layer_tree_item 'Analysis'
+\i (00:05:43) cvf apply
+\i (00:05:43) cvf okay
+\i (00:06:01) setwindow pcb
+\i (00:06:01) color192 
+\i (00:06:01) setwindow cvf.dialog
+\i (00:06:01) cvf layer_mode
+\i (00:06:01) setwindow pcb
+\i (00:06:01) generaledit 
+\i (00:06:03) setwindow cvf.dialog
+\i (00:06:03) cvf layers_visible stack-up pin/top TRUE
+\i (00:06:03) cvf layers_visible stack-up pin/bottom TRUE
+\i (00:06:06) cvf layers_visible stack-up via/top TRUE
+\i (00:06:06) cvf layers_visible stack-up via/bottom TRUE
+\i (00:06:07) cvf apply
+\i (00:06:14) cvf layers_visible stack-up stack-up/soldermask_bottom TRUE
+\i (00:06:15) cvf layers_visible stack-up stack-up/soldermask_top TRUE
+\i (00:06:16) cvf apply
+\i (00:06:17) cvf okay
+\i (00:06:22) setwindow form.find
+\i (00:06:22) FORM find all_off  
+\i (00:06:23) FORM find text YES 
+\i (00:06:25) setwindow pcb
+\i (00:06:25) pick grid 5.9628 19.2246
+\t (00:06:25) last pick:  5.7150 19.0500
+\i (00:06:27) move 
+\t (00:06:27) last pick:  5.0800 19.6850
+\t (00:06:27) Pick new location for the element(s).
+\i (00:06:28) prepopup 5.1403 20.9380
+\i (00:06:29) rotate 
+\t (00:06:29) Spin the element(s).
+\i (00:06:30) iangle 90.000
+\t (00:06:30) last angle:  0.000 Degrees
+\i (00:06:34) pick grid 4.1123 20.3897
+\t (00:06:34) last pick:  3.8100 20.3200
+\i (00:06:34) generaledit 
+\i (00:07:11) pick grid 26.2497 23.3368
+\t (00:07:11) last pick:  26.0350 23.4950
+\i (00:07:15) move 
+\t (00:07:15) last pick:  25.4000 22.8600
+\t (00:07:15) Pick new location for the element(s).
+\i (00:07:17) pick grid 24.9475 21.4863
+\t (00:07:17) last pick:  24.7650 21.5900
+\i (00:07:17) generaledit 
+\i (00:07:18) pick grid 26.1812 25.4615
+\t (00:07:18) last pick:  26.0350 25.4000
+\i (00:07:19) move 
+\t (00:07:19) last pick:  25.4000 25.4000
+\t (00:07:19) Pick new location for the element(s).
+\i (00:07:20) pick grid 24.9475 26.9008
+\t (00:07:20) last pick:  24.7650 26.6700
+\i (00:07:20) generaledit 
+\i (00:07:22) pick grid -25.6328 22.8571
+\t (00:07:22) last pick:  -25.4000 22.8600
+\i (00:07:22) move 
+\t (00:07:22) last pick:  -26.0350 22.8600
+\t (00:07:22) Pick new location for the element(s).
+\i (00:07:25) pick grid -25.9069 21.8976
+\t (00:07:25) last pick:  -26.0350 21.5900
+\i (00:07:25) generaledit 
+\i (00:07:26) pick grid -25.7699 25.7356
+\t (00:07:26) last pick:  -26.0350 26.0350
+\i (00:07:26) move 
+\t (00:07:26) last pick:  -26.0350 25.4000
+\t (00:07:26) Pick new location for the element(s).
+\i (00:07:28) pick grid -25.7699 26.6266
+\t (00:07:28) last pick:  -26.0350 26.6700
+\i (00:07:28) generaledit 
+\i (00:07:30) save 
+\i (00:07:31) fillin yes 
+\i (00:07:31) generaledit 
+\i (00:07:39) color192 
+\i (00:07:39) setwindow cvf.dialog
+\i (00:07:39) cvf layer_mode
+\i (00:07:39) setwindow pcb
+\i (00:07:39) generaledit 
+\i (00:07:41) setwindow cvf.dialog
+\i (00:07:41) cvf layers_visible stack-up stack-up/all_row TRUE
+\i (00:07:41) cvf layers_visible stack-up stack-up/all_row FALSE
+\i (00:07:42) cvf apply
+\i (00:07:44) cvf okay
+\i (00:07:59) setwindow pcb
+\i (00:07:59) artwork 
+\i (00:08:02) setwindow form.film_control
+\i (00:08:02) FORM film_control filmtree popup Add TOP 
+\i (00:08:20) fillin "Silkscreen_TOP"
+\i (00:09:06) FORM film_control undefined_line_width 0.5 
+\i (00:09:22) FORM film_control filmtree 'MULTISEL YES' Silkscreen_TOP 
+\i (00:09:22) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:09:26) FORM film_control create  
+\t (00:09:26) Checking db records
+\t (00:09:26)     checking for orphans...
+\t (00:09:26)     Checked 100 percent
+\t (00:09:26) Done dbdoctor.
+\t (00:09:26) Starting Create artwork films...
+\w (00:09:26) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:09:27) Artwork generated with warnings.
+\i (00:09:30) setwindow pcb
+\i (00:09:30) zoom out 1 
+\i (00:09:30) setwindow pcb
+\i (00:09:30) zoom out 0.0001 -0.0343
+\i (00:09:30) trapsize 6854
+\i (00:09:31) zoom out 1 
+\i (00:09:31) setwindow pcb
+\i (00:09:31) zoom out 0.0000 -0.0342
+\i (00:09:31) trapsize 13707
+\i (00:09:31) zoom in 1 
+\i (00:09:31) setwindow pcb
+\i (00:09:31) zoom in 0.0000 -0.0343
+\i (00:09:31) trapsize 6854
+\i (00:09:32) zoom fit 
+\i (00:09:32) trapsize 3427
+\i (00:09:56) setwindow text
+\i (00:09:56) close 
+\i (00:09:58) setwindow form.film_control
+\i (00:09:58) FORM film_control ok  
+\i (00:09:58) setwindow pcb
+\i (00:09:58) generaledit 
+\i (00:09:59) save 
+\i (00:09:59) fillin yes 
+\i (00:09:59) generaledit 
+\i (00:10:23) color192 
+\i (00:10:23) setwindow cvf.dialog
+\i (00:10:23) cvf layer_mode
+\i (00:10:23) setwindow pcb
+\i (00:10:23) generaledit 
+\i (00:10:27) setwindow cvf.dialog
+\i (00:10:27) cvf layer_tree_item 'Areas'
+\i (00:10:27) cvf layer_tree_item 'Board Geometry'
+\i (00:10:33) cvf layers_visible board_geometry/silkscreen_top TRUE
+\i (00:10:37) cvf apply
+\i (00:10:40) cvf layers_visible board_geometry/silkscreen_top FALSE
+\i (00:10:41) cvf layers_visible board_geometry/soldermask_bottom TRUE
+\i (00:10:42) cvf layer_tree_item 'Package Geometry'
+\i (00:10:43) cvf layers_visible package_geometry/silkscreen_top FALSE
+\i (00:10:43) cvf layers_visible package_geometry/silkscreen_bottom TRUE
+\i (00:10:44) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:10:45) cvf layer_tree_item 'Components'
+\i (00:10:47) cvf layers_visible components components/silkscreen_top TRUE
+\i (00:10:47) cvf layers_visible components components/silkscreen_top FALSE
+\i (00:10:48) cvf layers_visible components components/silkscreen_bottom TRUE
+\i (00:10:49) cvf layer_tree_item 'Manufacturing'
+\i (00:10:49) cvf layer_tree_item 'Drawing Format'
+\i (00:10:50) cvf layer_tree_item 'Analysis'
+\i (00:10:51) cvf apply
+\i (00:10:52) cvf okay
+\i (00:10:57) setwindow pcb
+\i (00:10:57) artwork 
+\i (00:11:01) setwindow form.film_control
+\i (00:11:01) FORM film_control filmtree popup Add TOP 
+\i (00:11:11) fillin "Silkscreen_BOTTOM"
+\i (00:11:16) FORM film_control undefined_line_width 0.5 
+\i (00:11:23) FORM film_control create  
+\w (00:11:23) No film records selected.
+\i (00:11:27) FORM film_control filmtree 'MULTISEL YES' Silkscreen_BOTTOM 
+\i (00:11:27) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:11:29) FORM film_control create  
+\t (00:11:29) Checking db records
+\t (00:11:29)     checking for orphans...
+\t (00:11:29)     Checked 100 percent
+\t (00:11:29) Done dbdoctor.
+\t (00:11:29) Starting Create artwork films...
+\w (00:11:29) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:11:30) Artwork generated with warnings.
+\i (00:11:37) setwindow text
+\i (00:11:37) close 
+\i (00:11:38) setwindow form.film_control
+\i (00:11:38) FORM film_control ok  
+\i (00:11:38) setwindow pcb
+\i (00:11:38) generaledit 
+\i (00:11:53) color192 
+\i (00:11:53) setwindow cvf.dialog
+\i (00:11:53) cvf layer_mode
+\i (00:11:54) setwindow pcb
+\i (00:11:54) generaledit 
+\i (00:11:58) setwindow cvf.dialog
+\i (00:11:58) cvf layers_visible stack-up stack-up/pastemask_top TRUE
+\i (00:12:16) cvf layer_tree_item 'Conductor' 'Stack-Up'
+\i (00:12:17) cvf layer_tree_item 'Non-Conductor' 'Stack-Up'
+\i (00:12:20) cvf layers_visible stack-up stack-up/pastemask_top FALSE
+\i (00:12:22) cvf layers_visible stack-up stack-up/soldermask_top TRUE
+\i (00:12:23) cvf layer_tree_item 'Areas'
+\i (00:12:25) cvf layer_tree_item 'Board Geometry'
+\i (00:12:26) cvf layer_tree_item 'Areas'
+\i (00:12:26) cvf layer_tree_item 'Board Geometry'
+\i (00:12:29) cvf layers_visible board_geometry/soldermask_bottom FALSE
+\i (00:12:34) cvf layers_visible board_geometry/soldermask_top TRUE
+\i (00:12:40) cvf layer_tree_item 'Package Geometry'
+\i (00:12:41) cvf layers_visible package_geometry/silkscreen_bottom FALSE
+\i (00:12:44) cvf layers_visible package_geometry/soldermask_top TRUE
+\i (00:12:45) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:12:46) cvf layer_tree_item 'Components'
+\i (00:12:48) cvf layers_visible components components/silkscreen_bottom TRUE
+\i (00:12:48) cvf layers_visible components components/silkscreen_bottom FALSE
+\i (00:12:50) cvf layer_tree_item 'Manufacturing'
+\i (00:12:53) cvf layer_tree_item 'Drawing Format'
+\i (00:12:54) cvf layer_tree_item 'Analysis'
+\i (00:12:55) cvf apply
+\i (00:12:56) cvf okay
+\i (00:13:04) setwindow pcb
+\i (00:13:04) artwork 
+\i (00:13:08) setwindow form.film_control
+\i (00:13:08) FORM film_control filmtree popup Add TOP 
+\i (00:13:18) fillin "Soldermask_TOP"
+\i (00:13:22) FORM film_control undefined_line_width 0.5 
+\i (00:13:23) FORM film_control filmtree 'MULTISEL YES' Soldermask_TOP 
+\i (00:13:23) FORM film_control filmtree  Soldermask_TOP 
+\i (00:13:25) FORM film_control create  
+\t (00:13:25) Checking db records
+\t (00:13:25)     checking for orphans...
+\t (00:13:25)     Checked 100 percent
+\t (00:13:25) Done dbdoctor.
+\t (00:13:25) Starting Create artwork films...
+\w (00:13:25) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:13:26) Artwork generated with warnings.
+\i (00:13:41) setwindow pcb
+\i (00:13:41) zoom center 
+\t (00:13:41) Pick center for the new display.
+\i (00:13:41) pick 32.5000 25.0000 
+\t (00:13:41) last pick:  32.5000 25.0000
+\i (00:13:41) trapsize 3427
+\i (00:13:50) setwindow text
+\i (00:13:50) close 
+\i (00:13:52) setwindow form.film_control
+\i (00:13:52) FORM film_control ok  
+\i (00:13:52) setwindow pcb
+\i (00:13:52) generaledit 
+\i (00:14:02) zoom fit 
+\i (00:14:02) trapsize 3427
+\i (00:14:06) color192 
+\i (00:14:06) setwindow cvf.dialog
+\i (00:14:06) cvf layer_mode
+\i (00:14:06) setwindow pcb
+\i (00:14:06) generaledit 
+\i (00:14:08) setwindow cvf.dialog
+\i (00:14:08) cvf layers_visible stack-up stack-up/soldermask_top TRUE
+\i (00:14:09) cvf layers_visible stack-up stack-up/soldermask_top FALSE
+\i (00:14:09) cvf layers_visible stack-up stack-up/soldermask_bottom TRUE
+\i (00:14:10) cvf layer_tree_item 'Areas'
+\i (00:14:11) cvf layer_tree_item 'Board Geometry'
+\i (00:14:13) cvf layers_visible board_geometry/soldermask_top FALSE
+\i (00:14:13) cvf layers_visible board_geometry/soldermask_bottom TRUE
+\i (00:14:14) cvf layer_tree_item 'Package Geometry'
+\i (00:14:17) cvf layers_visible package_geometry/soldermask_top FALSE
+\i (00:14:17) cvf layers_visible package_geometry/soldermask_bottom TRUE
+\i (00:14:18) cvf layer_tree_item 'Embedded Geomerty'
+\i (00:14:19) cvf layer_tree_item 'Components'
+\i (00:14:20) cvf layer_tree_item 'Manufacturing'
+\i (00:14:21) cvf layer_tree_item 'Drawing Format'
+\i (00:14:21) cvf layer_tree_item 'Analysis'
+\i (00:14:22) cvf apply
+\i (00:14:23) cvf okay
+\i (00:14:30) setwindow pcb
+\i (00:14:30) artwork 
+\i (00:14:33) setwindow form.film_control
+\i (00:14:33) FORM film_control filmtree popup Add TOP 
+\i (00:14:43) fillin "Soldermask_BOTTOM"
+\i (00:14:45) FORM film_control filmtree 'MULTISEL YES' Soldermask_BOTTOM 
+\i (00:14:45) FORM film_control filmtree  Soldermask_BOTTOM 
+\i (00:14:53) FORM film_control undefined_line_width 0.5 
+\i (00:14:53) FORM film_control create  
+\t (00:14:53) Checking db records
+\t (00:14:53)     checking for orphans...
+\t (00:14:53)     Checked 100 percent
+\t (00:14:54) Done dbdoctor.
+\t (00:14:54) Starting Create artwork films...
+\w (00:14:54) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:14:55) Artwork generated with warnings.
+\i (00:14:56) setwindow pcb
+\i (00:14:56) zoom out 1 
+\i (00:14:56) setwindow pcb
+\i (00:14:56) zoom out 34.2000 -0.4455
+\i (00:14:56) trapsize 6854
+\i (00:14:56) zoom out 1 
+\i (00:14:56) setwindow pcb
+\i (00:14:56) zoom out 34.2000 -0.4455
+\i (00:14:56) trapsize 13707
+\i (00:14:56) zoom out 1 
+\i (00:14:56) setwindow pcb
+\i (00:14:56) zoom out 34.2000 -0.4455
+\i (00:14:56) trapsize 27415
+\i (00:14:56) zoom out 1 
+\i (00:14:56) setwindow pcb
+\i (00:14:56) zoom out 313.3328 22.6081
+\i (00:14:56) trapsize 33867
+\i (00:14:56) zoom in 1 
+\i (00:14:56) setwindow pcb
+\i (00:14:56) zoom in 481.2107 74.9973
+\i (00:14:56) trapsize 16933
+\i (00:14:56) zoom in 1 
+\i (00:14:56) setwindow pcb
+\i (00:14:56) zoom in 360.9840 74.9974
+\i (00:14:56) trapsize 8467
+\i (00:14:57) zoom fit 
+\i (00:14:57) trapsize 3427
+\i (00:15:04) setwindow text
+\i (00:15:04) close 
+\i (00:15:10) setwindow form.film_control
+\i (00:15:10) FORM film_control ok  
+\i (00:15:11) setwindow pcb
+\i (00:15:11) generaledit 
+\i (00:15:48) color192 
+\i (00:15:48) setwindow cvf.dialog
+\i (00:15:48) cvf layer_mode
+\i (00:15:48) setwindow pcb
+\i (00:15:48) generaledit 
+\i (00:15:51) setwindow cvf.dialog
+\i (00:15:51) cvf global_visible
+\i (00:15:53) cvf okay
+\i (00:15:54) setwindow pcb
+\i (00:15:54) save 
+\i (00:15:56) fillin yes 
+\i (00:15:56) generaledit 
+\i (00:15:58) zoom fit 
+\i (00:15:58) trapsize 3427
+\i (00:15:58) zoom out 1 
+\i (00:15:58) setwindow pcb
+\i (00:15:58) zoom out 0.1371 13.2619
+\i (00:15:58) trapsize 6854
+\i (00:15:58) zoom out 1 
+\i (00:15:58) setwindow pcb
+\i (00:15:58) zoom out 0.1371 13.2619
+\i (00:15:58) trapsize 13707
+\i (00:16:02) new 
+\i (00:16:14) newdrawfillin "tmp.brd" "Board"
+\t (00:16:14) Starting new design...
+\i (00:16:14) trapsize 33867
+\i (00:16:15) trapsize 33867
+\i (00:16:15) generaledit 
+\i (00:16:21) load photoplot 
+\i (00:16:23) setwindow form.load_photoplot
+\i (00:16:23) FORM load_photoplot browse  
+\i (00:16:26) fillin "D:\Dokumenty\buk\kati\board\export\BOTTOM.art"
+   (00:16:26) Loading signal.cxt 
+   (00:16:26) Loading mfg.cxt 
+\i (00:16:30) FORM load_photoplot loadfile  
+\t (00:16:30) Processing photoplot file D:/Dokumenty/buk/kati/board/export/BOTTOM.art ...
+   (00:16:30) Loading axlcore.cxt 
+\i (00:16:33) setwindow pcb
+\i (00:16:33) pick grid -34.9173 28.2613
+\t (00:16:33) last pick:  -34.9250 28.5750
+\t (00:16:33) Adding the film data on ETCH/TOP.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) DRC errors detected.
+\t (00:16:33) Load Photoplot complete.
+\i (00:16:35) setwindow form.load_photoplot
+\i (00:16:35) FORM load_photoplot browse  
+\i (00:16:38) fillin "D:\Dokumenty\buk\kati\board\export\TOP.art"
+\i (00:16:41) FORM load_photoplot loadfile  
+\t (00:16:41) Processing photoplot file D:/Dokumenty/buk/kati/board/export/TOP.art ...
+\i (00:16:47) setwindow pcb
+\i (00:16:47) pick grid 35.5253 28.2613
+\t (00:16:47) last pick:  35.5600 28.5750
+\t (00:16:47) Adding the film data on ETCH/TOP.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) DRC errors detected.
+\t (00:16:47) Load Photoplot complete.
+\i (00:16:51) setwindow form.load_photoplot
+\i (00:16:51) FORM load_photoplot done  
+\i (00:16:51) setwindow pcb
+\i (00:16:51) generaledit 
+\i (00:16:52) zoom fit 
+\i (00:16:52) trapsize 33867
+\i (00:16:53) zoom points 
+\t (00:16:53) Pick 1st corner of the new window.
+\i (00:16:55) drag_start -78.2667 64.8373
+\i (00:16:56) drag_stop 82.2613 13.3600
+\i (00:16:56) trapsize 5004
+\i (00:16:56) generaledit 
+\i (00:17:38) load photoplot 
+\i (00:17:40) setwindow form.load_photoplot
+\i (00:17:40) FORM load_photoplot browse  
+\i (00:17:44) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_TOP.art"
+\i (00:17:46) FORM load_photoplot loadfile  
+\t (00:17:46) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_TOP.art ...
+\i (00:17:46) setwindow pcb
+\i (00:17:46) zoom out 1 
+\i (00:17:46) setwindow pcb
+\i (00:17:46) zoom out -14.6159 17.2994
+\i (00:17:46) trapsize 10008
+\i (00:17:46) zoom out 1 
+\i (00:17:46) setwindow pcb
+\i (00:17:46) zoom out -14.6161 17.2995
+\i (00:17:46) trapsize 20016
+\i (00:17:49) pick grid -33.8313 -34.3417
+\t (00:17:49) last pick:  -33.6550 -34.2900
+\t (00:17:49) Adding the film data on ETCH/TOP.
+\w (00:17:49) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:17:49) Load Photoplot complete.
+\i (00:17:50) setwindow form.load_photoplot
+\i (00:17:50) FORM load_photoplot browse  
+\i (00:17:54) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_BOTTOM.art"
+\i (00:17:56) FORM load_photoplot loadfile  
+\t (00:17:56) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_BOTTOM.art ...
+\i (00:17:58) setwindow pcb
+\i (00:17:58) pick grid 35.0236 -35.5427
+\t (00:17:58) last pick:  34.9250 -35.5600
+\t (00:17:58) Adding the film data on ETCH/TOP.
+\t (00:17:58) Load Photoplot complete.
+\i (00:18:00) setwindow form.load_photoplot
+\i (00:18:00) FORM load_photoplot done  
+\i (00:18:00) setwindow pcb
+\i (00:18:00) generaledit 
+\i (00:18:01) zoom points 
+\t (00:18:01) Pick 1st corner of the new window.
+\i (00:18:02) drag_start -75.8649 -0.7149
+\i (00:18:04) drag_stop 73.8546 -55.1583
+\i (00:18:04) trapsize 4667
+\i (00:18:04) generaledit 
+\i (00:18:07) drag_start grid -67.8375 -3.7018
+\i (00:18:09) drag_stop 69.9343 -66.7072
+\i (00:18:11) pick grid -47.3958 -2.6751
+\t (00:18:11) last pick:  -47.6250 -2.5400
+\i (00:18:13) zoom points 
+\t (00:18:13) Pick 1st corner of the new window.
+\i (00:18:13) drag_start -69.8911 -5.1953
+\i (00:18:14) drag_stop 1.8884 -34.5045
+\i (00:18:14) trapsize 2238
+\i (00:18:14) generaledit 
+\i (00:18:46) zoom fit 
+\i (00:18:46) trapsize 33867
+\i (00:18:48) zoom points 
+\t (00:18:48) Pick 1st corner of the new window.
+\i (00:18:49) drag_start -76.9120 -69.2747
+\i (00:18:50) drag_stop 70.7467 -6.2827
+\i (00:18:50) trapsize 4603
+\i (00:18:50) generaledit 
+\i (00:18:51) drag_start grid -26.9253 -43.4988
+\i (00:18:51) slide 
+\t (00:18:51) Selected item not valid for current operation, ignored: Odd-angle Line Segment "Etch/Top"
+\t (00:18:51) No valid items selected for the current operation, exiting.
+\i (00:18:51) generaledit 
+\i (00:18:52) drag_stop grid -4.2793 -49.7587
+\i (00:18:54) zoom points 
+\t (00:18:54) Pick 1st corner of the new window.
+\i (00:18:55) drag_start -24.9921 -43.3147
+\i (00:18:56) drag_stop 0.3235 -55.6503
+\i (00:18:56) trapsize 789
+\i (00:18:56) generaledit 
+\i (00:19:03) zoom fit 
+\i (00:19:03) trapsize 33867
+\i (00:19:08) load photoplot 
+\i (00:19:09) setwindow form.load_photoplot
+\i (00:19:09) FORM load_photoplot browse  
+\i (00:19:15) fillin "D:\Dokumenty\buk\kati\board\export\Soldermask_TOP.art"
+\i (00:19:16) FORM load_photoplot loadfile  
+\t (00:19:16) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Soldermask_TOP.art ...
+\i (00:19:18) setwindow pcb
+\i (00:19:18) pick grid -34.2400 -99.0773
+\t (00:19:18) last pick:  -34.2900 -99.0600
+\t (00:19:18) Adding the film data on ETCH/TOP.
+\t (00:19:18) DRC errors detected.
+\t (00:19:18) Load Photoplot complete.
+\i (00:19:19) setwindow form.load_photoplot
+\i (00:19:19) FORM load_photoplot browse  
+\i (00:19:23) fillin "D:\Dokumenty\buk\kati\board\export\Soldermask_BOTTOM.art"
+\i (00:19:23) FORM load_photoplot loadfile  
+\t (00:19:24) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Soldermask_BOTTOM.art ...
+\i (00:19:25) setwindow pcb
+\i (00:19:25) pick grid 36.8800 -101.7867
+\t (00:19:25) last pick:  36.8300 -101.6000
+\t (00:19:25) Adding the film data on ETCH/TOP.
+\t (00:19:25) DRC errors detected.
+\t (00:19:25) Load Photoplot complete.
+\i (00:19:26) setwindow form.load_photoplot
+\i (00:19:26) FORM load_photoplot done  
+\i (00:19:26) setwindow pcb
+\i (00:19:26) generaledit 
+\i (00:19:29) zoom points 
+\t (00:19:29) Pick 1st corner of the new window.
+\i (00:19:30) drag_start -76.9120 -134.2987
+\i (00:19:32) drag_stop 82.9387 -67.9200
+\i (00:19:32) trapsize 4983
+\i (00:19:32) generaledit 
+\i (00:20:25) open 
+\e (00:20:25) Do you want to save the changes you made to tmp.brd?
+\i (00:20:26) fillin no 
+\i (00:20:28) fillin "Kati.brd"
+\t (00:20:28) Opening existing design...
+\i (00:20:28) trapsize 3427
+\d (00:20:28) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:20:28) generaledit 
+\i (00:20:33) artwork 
+\i (00:20:35) setwindow form.film_control
+\i (00:20:35) FORM film_control filmtree 'MULTISEL YES' Silkscreen_TOP 
+\i (00:20:35) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:20:36) FORM film_control filmtree 'MULTISEL YES' Silkscreen_BOTTOM 
+\i (00:20:36) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:20:48) FORM film_control undefined_line_width 0.35000 
+\i (00:20:48) FORM film_control create  
+\t (00:20:48) Checking db records
+\t (00:20:48)     checking for orphans...
+\t (00:20:48)     Checked 100 percent
+\t (00:20:48) Done dbdoctor.
+\t (00:20:48) Starting Create artwork films...
+\w (00:20:49) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:20:50) Artwork generated with warnings.
+\i (00:20:55) setwindow text
+\i (00:20:55) close 
+\i (00:20:56) setwindow form.film_control
+\i (00:20:56) FORM film_control ok  
+\i (00:20:56) setwindow pcb
+\i (00:20:56) generaledit 
+\i (00:21:16) new 
+\e (00:21:16) Do you want to save the changes you made to Kati.brd?
+\i (00:21:17) fillin no 
+\i (00:21:29) newdrawfillin "tmp.brd" "Board"
+\t (00:21:29) Starting new design...
+\i (00:21:29) trapsize 33867
+\i (00:21:29) trapsize 33867
+\i (00:21:29) generaledit 
+\i (00:21:34) load plot 
+\i (00:21:35) fillin "menu_cancel"
+\i (00:21:35) generaledit 
+\i (00:21:38) load photoplot 
+\i (00:21:39) setwindow form.load_photoplot
+\i (00:21:39) FORM load_photoplot browse  
+\i (00:21:45) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_TOP.art"
+\i (00:21:46) FORM load_photoplot loadfile  
+\t (00:21:46) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_TOP.art ...
+\i (00:21:47) setwindow pcb
+\i (00:21:47) pick grid -38.3040 41.1307
+\t (00:21:47) last pick:  -38.1000 41.2750
+\t (00:21:47) Adding the film data on ETCH/TOP.
+\w (00:21:47) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:21:47) Load Photoplot complete.
+\i (00:21:49) setwindow form.load_photoplot
+\i (00:21:49) FORM load_photoplot browse  
+\i (00:21:51) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_BOTTOM.art"
+\i (00:21:52) FORM load_photoplot loadfile  
+\t (00:21:52) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_BOTTOM.art ...
+\i (00:21:54) setwindow pcb
+\i (00:21:54) pick grid 32.1387 39.7760
+\t (00:21:54) last pick:  32.3850 40.0050
+\t (00:21:54) Adding the film data on ETCH/TOP.
+\t (00:21:54) Load Photoplot complete.
+\i (00:21:55) setwindow form.load_photoplot
+\i (00:21:55) FORM load_photoplot done  
+\i (00:21:55) setwindow pcb
+\i (00:21:55) generaledit 
+\i (00:21:56) zoom fit 
+\i (00:21:56) trapsize 33867
+\i (00:21:58) zoom points 
+\t (00:21:58) Pick 1st corner of the new window.
+\i (00:21:59) drag_start -80.9760 77.0293
+\i (00:22:01) drag_stop 74.8107 10.6507
+\i (00:22:01) trapsize 4856
+\i (00:22:01) generaledit 
+\i (00:22:02) drag_start grid -41.9322 63.1407
+\i (00:22:02) drag_stop -24.3528 57.8960
+\i (00:22:05) zoom points 
+\t (00:22:05) Pick 1st corner of the new window.
+\i (00:22:05) drag_start -49.3136 65.9573
+\i (00:22:07) drag_stop -3.4711 46.8239
+\i (00:22:07) trapsize 1429
+\i (00:22:07) generaledit 
+\i (00:22:12) roam y 96 
+\i (00:22:12) roam y 96
+\i (00:22:12) roam y 96 
+\i (00:22:12) roam y 96
+\i (00:22:12) roam y 96 
+\i (00:22:12) roam y 96
+\i (00:22:12) roam y 96 
+\i (00:22:12) roam y 96
+\i (00:22:12) roam y 96 
+\i (00:22:12) roam y 96
+\i (00:22:13) roam y 96 
+\i (00:22:13) roam y 96
+\i (00:22:13) roam y 96 
+\i (00:22:13) roam y 96
+\i (00:22:13) roam y 96 
+\i (00:22:13) roam y 96
+\i (00:22:13) roam x 96 
+\i (00:22:13) roam x 96
+\i (00:22:14) roam x 96 
+\i (00:22:14) roam x 96
+\i (00:22:14) roam y 96 
+\i (00:22:14) roam y 96
+\i (00:22:14) roam x 96 
+\i (00:22:14) roam x 96
+\i (00:22:15) roam y 96 
+\i (00:22:15) roam y 96
+\i (00:22:15) roam x 96 
+\i (00:22:15) roam x 96
+\i (00:22:17) drag_start grid -28.0870 32.0419
+\i (00:22:17) drag_stop -11.9964 26.5259
+\i (00:22:18) pick grid -20.3990 33.3280
+\t (00:22:18) last pick:  -20.3200 33.0200
+\i (00:22:20) zoom points 
+\t (00:22:20) Pick 1st corner of the new window.
+\i (00:22:20) drag_start -27.9156 32.3563
+\i (00:22:21) drag_stop -12.5680 26.2687
+\i (00:22:21) trapsize 478
+\i (00:22:21) generaledit 
+\i (00:22:29) open 
+\e (00:22:29) Do you want to save the changes you made to tmp.brd?
+\i (00:22:30) fillin no 
+\i (00:22:32) fillin "Kati.brd"
+\t (00:22:32) Opening existing design...
+\i (00:22:32) trapsize 3427
+\d (00:22:32) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:22:32) generaledit 
+\i (00:22:34) artwork 
+\i (00:22:39) setwindow form.film_control
+\i (00:22:39) FORM film_control undefined_line_width 0.35 
+\i (00:22:43) FORM film_control filmtree 'MULTISEL YES' Silkscreen_BOTTOM 
+\i (00:22:43) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:22:43) FORM film_control filmtree 'MULTISEL YES' Silkscreen_TOP 
+\i (00:22:43) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:22:46) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:22:47) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:22:53) FORM film_control undefined_line_width 0.35 
+\i (00:22:55) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:23:00) FORM film_control undefined_line_width 0.35 
+\i (00:23:00) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:23:01) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:23:01) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:23:02) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:23:03) FORM film_control create  
+\t (00:23:03) Checking db records
+\t (00:23:03)     checking for orphans...
+\t (00:23:03)     Checked 100 percent
+\t (00:23:03) Done dbdoctor.
+\t (00:23:03) Starting Create artwork films...
+\w (00:23:03) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:23:04) Artwork generated with warnings.
+\i (00:23:08) setwindow text
+\i (00:23:08) close 
+\i (00:23:09) setwindow form.film_control
+\i (00:23:09) FORM film_control ok  
+\i (00:23:09) setwindow pcb
+\i (00:23:09) generaledit 
+\i (00:23:23) new 
+\e (00:23:23) Do you want to save the changes you made to Kati.brd?
+\i (00:23:24) fillin no 
+\i (00:23:30) newdrawfillin "tmp.brd" "Board"
+\t (00:23:30) Starting new design...
+\i (00:23:30) trapsize 33867
+\i (00:23:30) trapsize 33867
+\i (00:23:30) generaledit 
+\i (00:23:35) load photoplot 
+\i (00:23:36) setwindow form.load_photoplot
+\i (00:23:36) FORM load_photoplot browse  
+\i (00:23:44) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_TOP.art"
+\i (00:23:45) FORM load_photoplot loadfile  
+\t (00:23:45) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_TOP.art ...
+\i (00:23:47) setwindow pcb
+\i (00:23:47) pick grid -38.3040 30.2933
+\t (00:23:47) last pick:  -38.1000 30.4800
+\t (00:23:47) Adding the film data on ETCH/TOP.
+\w (00:23:47) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:23:47) Load Photoplot complete.
+\i (00:23:49) setwindow form.load_photoplot
+\i (00:23:49) FORM load_photoplot browse  
+\i (00:23:51) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_BOTTOM.art"
+\i (00:23:52) FORM load_photoplot loadfile  
+\t (00:23:52) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_BOTTOM.art ...
+\i (00:23:54) setwindow pcb
+\i (00:23:54) pick grid 40.2667 28.9387
+\t (00:23:54) last pick:  40.0050 29.2100
+\t (00:23:54) Adding the film data on ETCH/TOP.
+\t (00:23:54) Load Photoplot complete.
+\i (00:23:56) setwindow form.load_photoplot
+\i (00:23:56) FORM load_photoplot done  
+\i (00:23:56) setwindow pcb
+\i (00:23:56) generaledit 
+\i (00:23:58) zoom points 
+\t (00:23:58) Pick 1st corner of the new window.
+\i (00:23:59) drag_start -80.2987 72.2880
+\i (00:24:00) drag_stop 84.2933 3.8773
+\i (00:24:00) trapsize 5131
+\i (00:24:00) generaledit 
+\i (00:24:01) drag_start grid -31.8651 21.8022
+\i (00:24:01) slide 
+\t (00:24:01) Selected item not valid for current operation, ignored: Odd-angle Line Segment "Etch/Top"
+\t (00:24:01) No valid items selected for the current operation, exiting.
+\i (00:24:01) generaledit 
+\i (00:24:01) drag_stop grid -8.4693 15.5428
+\i (00:24:05) zoom points 
+\t (00:24:05) Pick 1st corner of the new window.
+\i (00:24:06) drag_start -32.1730 23.7518
+\i (00:24:07) drag_stop -2.6203 12.7722
+\i (00:24:07) trapsize 921
+\i (00:24:07) generaledit 
+\i (00:24:12) pick grid -19.9576 17.4138
+\t (00:24:12) last pick:  -19.6850 17.1450
+\i (00:24:25) open 
+\e (00:24:25) Do you want to save the changes you made to tmp.brd?
+\i (00:24:26) fillin no 
+\i (00:24:27) fillin "Kati.brd"
+\t (00:24:27) Opening existing design...
+\i (00:24:27) trapsize 3427
+\d (00:24:28) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:24:28) generaledit 
+\i (00:24:30) artwork 
+\i (00:24:31) setwindow form.film_control
+\i (00:24:31) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:24:36) FORM film_control undefined_line_width 0.3 
+\i (00:24:36) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:24:39) FORM film_control undefined_line_width 0.3 
+\i (00:24:39) FORM film_control filmtree  Soldermask_BOTTOM 
+\i (00:24:39) FORM film_control filmtree  Soldermask_TOP 
+\i (00:24:40) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:24:41) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:24:45) FORM film_control filmtree 'MULTISEL YES' Silkscreen_BOTTOM 
+\i (00:24:45) FORM film_control filmtree 'MULTISEL YES' Silkscreen_TOP 
+\i (00:24:45) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:24:46) FORM film_control create  
+\t (00:24:46) Checking db records
+\t (00:24:46)     checking for orphans...
+\t (00:24:46)     Checked 100 percent
+\t (00:24:46) Done dbdoctor.
+\t (00:24:46) Starting Create artwork films...
+\w (00:24:46) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:24:47) Artwork generated with warnings.
+\i (00:24:49) setwindow pcb
+\i (00:24:49) zoom out 1 
+\i (00:24:49) setwindow pcb
+\i (00:24:49) zoom out 46.0569 5.4487
+\i (00:24:49) trapsize 6854
+\i (00:24:49) zoom out 1 
+\i (00:24:49) setwindow pcb
+\i (00:24:49) zoom out 46.0569 5.4487
+\i (00:24:49) trapsize 13707
+\i (00:24:49) zoom out 1 
+\i (00:24:49) setwindow pcb
+\i (00:24:49) zoom out 46.0569 5.4487
+\i (00:24:49) trapsize 27415
+\i (00:24:49) zoom out 1 
+\i (00:24:49) setwindow pcb
+\i (00:24:49) zoom out 408.1880 69.7615
+\i (00:24:49) trapsize 33867
+\i (00:24:52) setwindow text
+\i (00:24:52) close 
+\i (00:24:53) setwindow form.film_control
+\i (00:24:53) FORM film_control ok  
+\i (00:24:53) setwindow pcb
+\i (00:24:53) generaledit 
+\i (00:24:54) zoom fit 
+\i (00:24:54) trapsize 3427
+\i (00:24:56) save 
+\i (00:24:57) fillin yes 
+\i (00:24:57) generaledit 
+\i (00:25:00) new 
+\i (00:25:04) newdrawfillin "tmp.brd" "Board"
+\t (00:25:04) Starting new design...
+\i (00:25:04) trapsize 33867
+\i (00:25:04) trapsize 33867
+\i (00:25:04) generaledit 
+\i (00:25:08) load photoplot 
+\i (00:25:09) setwindow form.load_photoplot
+\i (00:25:09) FORM load_photoplot browse  
+\i (00:25:27) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_TOP.art"
+\i (00:25:28) FORM load_photoplot loadfile  
+\t (00:25:28) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_TOP.art ...
+\i (00:25:31) setwindow pcb
+\i (00:25:31) pick grid -34.2400 28.9387
+\t (00:25:31) last pick:  -34.2900 29.2100
+\t (00:25:31) Adding the film data on ETCH/TOP.
+\w (00:25:31) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:25:31) Load Photoplot complete.
+\i (00:25:33) setwindow form.load_photoplot
+\i (00:25:33) FORM load_photoplot browse  
+\i (00:25:37) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_BOTTOM.art"
+\i (00:25:38) FORM load_photoplot loadfile  
+\t (00:25:38) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_BOTTOM.art ...
+\i (00:25:42) setwindow pcb
+\i (00:25:42) pick grid 36.8800 27.5840
+\t (00:25:42) last pick:  36.8300 27.3050
+\t (00:25:42) Adding the film data on ETCH/TOP.
+\t (00:25:42) Load Photoplot complete.
+\i (00:25:43) setwindow form.load_photoplot
+\i (00:25:43) FORM load_photoplot done  
+\i (00:25:43) setwindow pcb
+\i (00:25:43) generaledit 
+\i (00:25:45) zoom points 
+\t (00:25:45) Pick 1st corner of the new window.
+\i (00:25:46) drag_start -73.5253 62.1280
+\i (00:25:47) drag_stop 77.5200 8.6187
+\i (00:25:47) trapsize 4708
+\i (00:25:47) generaledit 
+\i (00:25:48) drag_start grid -29.7372 22.2008
+\i (00:25:48) drag_stop -7.4194 12.5015
+\i (00:25:50) zoom points 
+\t (00:25:50) Pick 1st corner of the new window.
+\i (00:25:51) drag_start -27.1005 20.6941
+\i (00:25:51) drag_stop -6.5719 12.5015
+\i (00:25:51) trapsize 640
+\i (00:25:51) generaledit 
+\i (00:26:00) zoom fit 
+\i (00:26:00) trapsize 33867
+\i (00:26:01) zoom points 
+\t (00:26:01) Pick 1st corner of the new window.
+\i (00:26:04) drag_start -78.9440 61.4507
+\i (00:26:05) drag_stop 0.9813 32.3253
+\i (00:26:05) trapsize 2491
+\i (00:26:05) generaledit 
+\i (00:26:09) roam x 96 
+\i (00:26:09) roam x 96
+\i (00:26:11) roam y 96 
+\i (00:26:11) roam y 96
+\i (00:26:11) roam y 96 
+\i (00:26:11) roam y 96
+\i (00:26:11) roam y 96 
+\i (00:26:11) roam y 96
+\i (00:26:12) roam y 96 
+\i (00:26:12) roam y 96
+\i (00:26:13) roam y 96 
+\i (00:26:13) roam y 96
+\i (00:26:19) roam x 96 
+\i (00:26:19) roam x 96
+\i (00:26:19) roam x 96 
+\i (00:26:19) roam x 96
+\i (00:26:19) roam x 96 
+\i (00:26:19) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam x 96 
+\i (00:26:20) roam x 96
+\i (00:26:20) roam y -96 
+\i (00:26:20) roam y -96
+\i (00:26:20) roam y -96 
+\i (00:26:20) roam y -96
+\i (00:26:20) roam y -96 
+\i (00:26:20) roam y -96
+\i (00:26:21) roam y -96 
+\i (00:26:21) roam y -96
+\i (00:26:21) roam y -96 
+\i (00:26:21) roam y -96
+\i (00:26:21) roam y -96 
+\i (00:26:21) roam y -96
+\i (00:26:21) roam x -96 
+\i (00:26:21) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:22) roam x -96 
+\i (00:26:22) roam x -96
+\i (00:26:23) roam y 96 
+\i (00:26:23) roam y 96
+\i (00:26:23) roam x -96 
+\i (00:26:23) roam x -96
+\i (00:26:24) roam x -96 
+\i (00:26:24) roam x -96
+\i (00:26:24) roam x -96 
+\i (00:26:24) roam x -96
+\i (00:26:24) roam x -96 
+\i (00:26:24) roam x -96
+\i (00:26:24) roam x -96 
+\i (00:26:24) roam x -96
+\i (00:26:27) roam y 96 
+\i (00:26:27) roam y 96
+\i (00:26:28) roam y 96 
+\i (00:26:28) roam y 96
+\i (00:26:28) roam y 96 
+\i (00:26:28) roam y 96
+\i (00:26:28) roam y 96 
+\i (00:26:28) roam y 96
+\i (00:26:29) roam y 96 
+\i (00:26:29) roam y 96
+\i (00:26:29) roam y 96 
+\i (00:26:29) roam y 96
+\i (00:26:31) exit 
+\e (00:26:31) Do you want to save the changes you made to tmp.brd?
+\i (00:26:32) fillin no 
+\t (00:26:32)     Journal end - Thu Oct 08 22:03:24 2015

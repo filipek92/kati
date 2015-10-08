@@ -1,35 +1,60 @@
-\t (00:03:45) allegro 16.6 S026 (v16-6-112BY) Windows 32
-\t (00:03:45)     Journal start - Thu Oct 08 20:55:54 2015
-\t (00:03:45)         Host=NTB User=Pavel Pid=3576 CPUs=4
-\t (00:03:45) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
-\t (00:03:45) 
-\d (00:03:45) Design opened: D:/Dokumenty/buk/kati/board/footprints/kati_hole_RPi.dra
-\i (00:03:45) generaledit 
-\i (00:03:47) prepopup 0.0652 0.1689
-\i (00:03:49) pick grid 0.1245 0.8385
-\t (00:03:49) last pick:  0.0000 0.0000
-\i (00:03:49) prepopup 0.1245 0.8385
-\i (00:03:53) pop dyn_option_select '@:@Show element' 
-\i (00:03:53) show element 
-\i (00:03:54) generaledit 
-\i (00:03:55) setwindow text
-\i (00:03:55) close 
-\i (00:03:59) setwindow pcb
-\i (00:03:59) replace padstack 
-\i (00:04:06) setwindow form.mini
-\i (00:04:06) FORM mini oldname ka 
-\i (00:04:07) FORM mini oldname_browse  
-\i (00:04:09) fillin "Kati_Hole_Rpi"
-\i (00:04:10) FORM mini newname_browse  
-\i (00:04:22) fillin "menu_cancel"
-\i (00:04:24) FORM mini newname KATI_HOLE_RPI 
-\i (00:04:24) FORM mini replace  
-\i (00:04:29) setwindow pcb
-\i (00:04:29) save 
-\t (00:04:29) Performing DRC...
-\t (00:04:29) No DRC errors detected.
-\i (00:04:35) fillin yes 
-\t (00:04:35) Symbol 'kati_hole_rpi.bsm' created.
-\i (00:04:35) generaledit 
-\i (00:18:37) exit 
-\t (00:18:38)     Journal end - Thu Oct 08 21:10:46 2015
+\t (00:00:22) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:22)     Journal start - Thu Oct 08 21:23:23 2015
+\t (00:00:22)         Host=NTB User=Pavel Pid=1072 CPUs=4
+\t (00:00:22) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
+\t (00:00:22) 
+\d (00:00:22) Design opened: D:/Dokumenty/buk/kati/board/footprints/kati_to92.dra
+\i (00:00:22) generaledit 
+\i (00:00:30) pick grid 16 7
+\t (00:00:30) last pick:  25 0
+\i (00:00:33) replace padstack 
+\i (00:00:36) setwindow form.mini
+\i (00:00:36) FORM mini oldname_browse  
+\i (00:00:38) fillin "Pad35cir25d"
+\i (00:00:39) FORM mini newname_browse  
+\e (00:00:53) ERROR(SPMHUT-1): Illegal character(s) present in the name or value.
+\i (00:00:55) fillin "Kati_24"
+\w (00:00:55) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\i (00:00:58) FORM mini replace  
+\i (00:01:33) setwindow pcb
+\i (00:01:33) prmed 
+\t (00:01:33) Performing DRC...
+\t (00:01:33) DRC done; 4 errors detected.
+\i (00:01:34) setwindow form.prmedit
+\i (00:01:34) FORM prmedit display_grid YES 
+\i (00:01:35) FORM prmedit view_grids_button  
+\t (00:01:35) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:01:37) setwindow form.grid
+\i (00:01:37) FORM grid done  
+\i (00:01:39) setwindow form.prmedit
+\i (00:01:39) FORM prmedit cancel  
+\i (00:01:39) setwindow pcb
+\i (00:01:39) generaledit 
+\i (00:01:42) prmed 
+\i (00:01:44) setwindow form.prmedit
+\i (00:01:44) FORM prmedit display_grid YES 
+\i (00:01:44) FORM prmedit done  
+\i (00:01:45) setwindow pcb
+\i (00:01:45) generaledit 
+\i (00:01:47) move 
+\t (00:01:47) last pick:  0 0
+\t (00:01:47) Pick new location for the element(s).
+\i (00:01:51) pick grid 5 13
+\t (00:01:51) last pick:  0 25
+\i (00:01:51) generaledit 
+\i (00:01:53) pick grid 30 -107
+\t (00:01:53) last pick:  25 -100
+\i (00:01:54) pick grid 26 -116
+\t (00:01:54) last pick:  25 -125
+\i (00:01:58) move 
+\t (00:01:58) last pick:  0 -100
+\t (00:01:58) Pick new location for the element(s).
+\i (00:02:00) pick grid -5 -113
+\t (00:02:00) last pick:  0 -125
+\i (00:02:00) generaledit 
+\i (00:02:07) save 
+\i (00:02:08) fillin yes 
+\t (00:02:09) Symbol 'kati_to92.psm' created.
+\i (00:02:09) generaledit 
+\i (00:09:46) exit 
+\t (00:09:46)     Journal end - Thu Oct 08 21:32:48 2015
