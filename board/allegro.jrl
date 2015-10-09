@@ -1,50 +1,909 @@
-\t (00:00:02) allegro 16.6 S026 (v16-6-112BY) Windows 32
-\t (00:00:02)     Journal start - Fri Oct 09 12:13:37 2015
-\t (00:00:02)         Host=NTB User=Pavel Pid=7148 CPUs=4
-\t (00:00:02) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
-\t (00:00:05) Opening existing design...
-\d (00:00:05) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
-\i (00:00:05) trapsize 3354
-\i (00:00:05) trapsize 3293
-\i (00:00:05) trapsize 3364
-\i (00:00:05) trapsize 3427
-\i (00:00:05) trapsize 3427
-\i (00:00:06) etchedit 
-\i (00:00:15) ncdrill customization 
-\i (00:00:15) etchedit 
-\i (00:00:21) setwindow form.nc_drillcustomization
-\i (00:00:21) FORM nc_drillcustomization cancel  
-\i (00:00:25) setwindow pcb
-\i (00:00:25) ncdrill legend 
-\i (00:00:29) setwindow form.nc_drilllegend
-\i (00:00:29) FORM nc_drilllegend cancel  
-   (00:00:29) Loading mfg.cxt 
-\i (00:00:29) setwindow pcb
-\i (00:00:29) etchedit 
-\i (00:00:32) ncdrill param 
-\i (00:00:32) etchedit 
-\i (00:00:37) setwindow form.nc_parameters
-\i (00:00:37) FORM nc_parameters cancel  
-\i (00:00:42) setwindow pcb
-\i (00:00:42) nctape_full 
-\i (00:00:55) setwindow form.nc_drill
-\i (00:00:55) FORM nc_drill separate_tapes YES 
-\i (00:01:21) FORM nc_drill parameters  
-\i (00:01:24) setwindow form.nc_parameters
-\i (00:01:24) FORM nc_parameters cancel  
-\i (00:02:36) setwindow form.nc_drill
-\i (00:02:36) FORM nc_drill parameters  
-\i (00:03:07) setwindow form.nc_parameters
-\i (00:03:07) FORM nc_parameters enhanced_format YES 
-\i (00:03:50) FORM nc_parameters done  
-\i (00:03:55) setwindow form.nc_drill
-\i (00:03:55) FORM nc_drill execute  
-\t (00:03:55) Starting Generating NC Drill...
-\i (00:05:24) FORM nc_drill cancel  
-\i (00:05:24) setwindow pcb
-\i (00:05:24) etchedit 
-\i (00:05:26) exit 
-\e (00:05:26) Do you want to save the changes you made to Kati.brd?
-\i (00:05:27) fillin no 
-\t (00:05:28)     Journal end - Fri Oct 09 12:19:02 2015
+\t (00:00:06) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:06)     Journal start - Fri Oct 09 18:21:05 2015
+\t (00:00:06)         Host=NTB User=Pavel Pid=4604 CPUs=4
+\t (00:00:06) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
+\t (00:00:06) 
+\t (00:00:08) Opening existing design...
+\d (00:00:08) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:00:08) trapsize 3354
+\i (00:00:08) trapsize 3293
+\i (00:00:08) trapsize 3364
+\i (00:00:08) trapsize 3427
+\i (00:00:08) trapsize 3427
+\i (00:00:08) etchedit 
+\i (00:00:12) new 
+\i (00:00:21) newdrawfillin "tmp.brd" "Board"
+\t (00:00:21) Starting new design...
+\i (00:00:21) trapsize 33867
+\i (00:00:21) trapsize 33867
+\i (00:00:21) etchedit 
+\i (00:00:25) load photoplot 
+\i (00:00:27) setwindow form.load_photoplot
+\i (00:00:27) FORM load_photoplot browse  
+\i (00:00:32) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_TOP.art"
+   (00:00:32) Loading mfg.cxt 
+\i (00:00:33) FORM load_photoplot loadfile  
+\t (00:00:34) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_TOP.art ...
+   (00:00:34) Loading axlcore.cxt 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) pick grid -42.3680 43.1627
+\t (00:00:34) last pick:  -42.5450 43.1800
+\t (00:00:35) Adding the film data on ETCH/TOP.
+\w (00:00:35) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:00:35) Load Photoplot complete.
+\i (00:00:36) setwindow form.load_photoplot
+\i (00:00:36) FORM load_photoplot browse  
+\i (00:00:40) fillin "D:\Dokumenty\buk\kati\board\export\Soldermask_TOP.art"
+\i (00:00:41) FORM load_photoplot loadfile  
+\t (00:00:41) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Soldermask_TOP.art ...
+\i (00:00:41) setwindow pcb
+\i (00:00:41) pick grid 27.3973 -27.2800
+\t (00:00:41) last pick:  27.3050 -27.3050
+\t (00:00:41) Adding the film data on ETCH/TOP.
+\t (00:00:41) DRC errors detected.
+\t (00:00:41) Load Photoplot complete.
+\i (00:00:43) setwindow form.load_photoplot
+\i (00:00:43) FORM load_photoplot done  
+\i (00:00:43) setwindow pcb
+\i (00:00:43) etchedit 
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 13.1733 -17.1200
+\i (00:00:46) trapsize 16933
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 13.1734 -17.1200
+\i (00:00:46) trapsize 8467
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 13.1734 -17.1200
+\i (00:00:46) trapsize 4233
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 13.1735 -17.1200
+\i (00:00:46) trapsize 2117
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 13.1735 -17.1200
+\i (00:00:46) trapsize 1058
+\i (00:00:46) zoom in 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom in 13.1736 -17.1200
+\i (00:00:46) trapsize 529
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 13.1736 -17.1200
+\i (00:00:46) trapsize 1058
+\i (00:00:46) zoom out 1 
+\i (00:00:46) setwindow pcb
+\i (00:00:46) zoom out 13.1736 -17.1200
+\i (00:00:46) trapsize 2117
+\i (00:00:54) open 
+\e (00:00:54) Do you want to save the changes you made to tmp.brd?
+\i (00:00:56) fillin no 
+\i (00:00:58) fillin "Kati.brd"
+\t (00:00:58) Opening existing design...
+\i (00:00:58) trapsize 3427
+\d (00:00:58) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:00:58) etchedit 
+\i (00:01:05) artwork 
+\i (00:01:09) setwindow form.film_control
+\i (00:01:09) FORM film_control filmtree  'USER PART NUMBER/SILKSCREEN_BOTTOM' Silkscreen_BOTTOM 
+\i (00:01:22) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' Silkscreen_BOTTOM 
+\i (00:01:26) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/OUTLINE' Silkscreen_BOTTOM 
+\i (00:01:32) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' Silkscreen_TOP 
+\i (00:01:34) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/OUTLINE' Silkscreen_TOP 
+\i (00:01:40) FORM film_control filmtree  'BOARD GEOMETRY/SOLDERMASK_BOTTOM' Silkscreen_BOTTOM 
+\i (00:01:41) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/SOLDERMASK_BOTTOM' Silkscreen_BOTTOM 
+\i (00:01:53) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/OUTLINE' Soldermask_BOTTOM 
+\i (00:01:57) FORM film_control filmtree  'BOARD GEOMETRY/OUTLINE' Soldermask_TOP 
+\i (00:01:58) FORM film_control filmtree popup Cut 'BOARD GEOMETRY/OUTLINE' Soldermask_TOP 
+\i (00:02:04) FORM film_control ok  
+\i (00:02:04) setwindow pcb
+\i (00:02:04) etchedit 
+\i (00:02:06) color192 
+\i (00:02:06) setwindow cvf.dialog
+\i (00:02:06) cvf layer_mode
+\i (00:02:06) setwindow pcb
+\i (00:02:06) etchedit 
+\i (00:02:09) setwindow cvf.dialog
+\i (00:02:09) cvf global_invisible
+\i (00:02:11) cvf layer_tree_item 'Package Geometry'
+\i (00:02:16) cvf layer_tree_item 'Board Geometry'
+\i (00:02:17) cvf layers_visible board_geometry/outline TRUE
+\i (00:02:18) cvf apply
+\i (00:02:19) cvf okay
+\i (00:02:22) setwindow pcb
+\i (00:02:22) artwork 
+\i (00:02:27) setwindow form.film_control
+\i (00:02:27) FORM film_control filmtree popup Add TOP 
+\i (00:02:33) fillin "Outline"
+\i (00:02:46) FORM film_control undefined_line_width 0.1 
+\i (00:02:46) FORM film_control filmtree  Outline 
+\i (00:02:47) FORM film_control filmtree  TOP 
+\i (00:02:48) FORM film_control filmtree  Soldermask_TOP 
+\i (00:02:49) FORM film_control filmtree  Soldermask_BOTTOM 
+\i (00:02:50) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:02:50) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:02:51) FORM film_control filmtree  BOTTOM 
+\i (00:02:54) FORM film_control filmtree 'MULTISEL YES' Silkscreen_BOTTOM 
+\i (00:02:54) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (00:02:55) FORM film_control filmtree 'MULTISEL YES' Silkscreen_TOP 
+\i (00:02:55) FORM film_control filmtree  Silkscreen_TOP 
+\i (00:02:55) FORM film_control filmtree 'MULTISEL YES' Soldermask_BOTTOM 
+\i (00:02:55) FORM film_control filmtree  Soldermask_BOTTOM 
+\i (00:02:55) FORM film_control filmtree 'MULTISEL YES' Soldermask_TOP 
+\i (00:02:55) FORM film_control filmtree  Soldermask_TOP 
+\i (00:02:56) FORM film_control filmtree 'MULTISEL YES' Outline 
+\i (00:02:56) FORM film_control filmtree  Outline 
+\i (00:02:59) FORM film_control domain_setting  
+\i (00:03:04) setwindow form.film_domain
+\i (00:03:04) FORM film_domain cancel  
+\i (00:03:28) setwindow form.film_control
+\i (00:03:28) FORM film_control create  
+\t (00:03:28) Checking db records
+\t (00:03:28)     checking for orphans...
+\t (00:03:28)     Checked 100 percent
+\t (00:03:28) Done dbdoctor.
+\t (00:03:28) Starting Create artwork films...
+\w (00:03:29) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (00:03:30) Artwork generated with warnings.
+\i (00:03:44) setwindow text
+\i (00:03:44) close 
+\i (00:03:45) setwindow form.film_control
+\i (00:03:45) FORM film_control cancel  
+\i (00:03:45) setwindow pcb
+\i (00:03:45) etchedit 
+\i (00:05:11) pick grid 39.5459 10.0407
+\t (00:05:11) last pick:  39.6875 10.1600
+\i (00:05:16) color192 
+\i (00:05:16) setwindow cvf.dialog
+\i (00:05:16) cvf layer_mode
+\i (00:05:16) setwindow pcb
+\i (00:05:16) etchedit 
+\i (00:05:19) setwindow cvf.dialog
+\i (00:05:19) cvf global_visible
+\i (00:05:21) cvf apply
+\i (00:05:22) cvf okay
+\i (00:05:23) setwindow pcb
+\i (00:05:23) zoom fit 
+\i (00:05:23) trapsize 3427
+\i (00:05:26) save 
+\i (00:05:29) fillin yes 
+\i (00:05:29) etchedit 
+\i (00:05:31) new 
+\i (00:05:36) newdrawfillin "tmp.brd" "Board"
+\t (00:05:36) Starting new design...
+\i (00:05:36) trapsize 33867
+\i (00:05:36) trapsize 33867
+\i (00:05:36) etchedit 
+\i (00:05:40) load photoplot 
+\i (00:05:42) setwindow form.load_photoplot
+\i (00:05:42) FORM load_photoplot browse  
+\i (00:05:50) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_BOTTOM.art"
+   (00:05:50) Loading signal.cxt 
+\i (00:05:51) FORM load_photoplot loadfile  
+\t (00:05:51) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_BOTTOM.art ...
+\i (00:05:54) setwindow pcb
+\i (00:05:54) pick grid -28.1440 0.4907
+\t (00:05:54) last pick:  -27.9400 0.6350
+\t (00:05:54) Adding the film data on ETCH/TOP.
+\t (00:05:54) Load Photoplot complete.
+\i (00:05:55) setwindow form.load_photoplot
+\i (00:05:55) FORM load_photoplot browse  
+\i (00:06:00) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_TOP.art"
+\i (00:06:01) FORM load_photoplot loadfile  
+\t (00:06:01) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_TOP.art ...
+\i (00:06:02) setwindow pcb
+\i (00:06:02) pick grid 51.1040 30.9707
+\t (00:06:02) last pick:  50.8000 31.1150
+\t (00:06:02) Adding the film data on ETCH/TOP.
+\w (00:06:02) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (00:06:02) Load Photoplot complete.
+\i (00:06:04) setwindow form.load_photoplot
+\i (00:06:04) FORM load_photoplot browse  
+\i (00:06:07) fillin "D:\Dokumenty\buk\kati\board\export\Soldermask_BOTTOM.art"
+\i (00:06:08) FORM load_photoplot loadfile  
+\t (00:06:08) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Soldermask_BOTTOM.art ...
+\i (00:06:09) setwindow pcb
+\i (00:06:09) pick grid -36.9493 -35.4080
+\t (00:06:09) last pick:  -36.8300 -35.5600
+\t (00:06:09) Adding the film data on ETCH/TOP.
+\t (00:06:09) DRC errors detected.
+\t (00:06:09) Load Photoplot complete.
+\i (00:06:11) setwindow form.load_photoplot
+\i (00:06:11) FORM load_photoplot browse  
+\i (00:06:12) fillin "D:\Dokumenty\buk\kati\board\export\Soldermask_TOP.art"
+\i (00:06:13) FORM load_photoplot loadfile  
+\t (00:06:13) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Soldermask_TOP.art ...
+\i (00:06:15) setwindow pcb
+\i (00:06:15) pick grid 52.4587 -36.0853
+\t (00:06:15) last pick:  52.7050 -36.1950
+\t (00:06:15) Adding the film data on ETCH/TOP.
+\t (00:06:15) DRC errors detected.
+\t (00:06:15) Load Photoplot complete.
+\i (00:06:18) setwindow form.load_photoplot
+\i (00:06:18) FORM load_photoplot browse  
+\i (00:06:22) fillin "D:\Dokumenty\buk\kati\board\export\Outline.art"
+\i (00:06:22) FORM load_photoplot loadfile  
+\t (00:06:22) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Outline.art ...
+\i (00:06:24) setwindow pcb
+\i (00:06:24) pick grid 8.4320 -99.0773
+\t (00:06:24) last pick:  8.2550 -99.0600
+\t (00:06:24) Adding the film data on ETCH/TOP.
+\t (00:06:24) Load Photoplot complete.
+\i (00:06:25) setwindow form.load_photoplot
+\i (00:06:25) FORM load_photoplot done  
+\i (00:06:25) setwindow pcb
+\i (00:06:25) etchedit 
+\i (00:06:27) zoom points 
+\t (00:06:27) Pick 1st corner of the new window.
+\i (00:06:28) drag_start -67.4293 37.7440
+\i (00:06:29) drag_stop 4.3680 -2.8960
+\i (00:06:29) trapsize 2463
+\i (00:06:29) etchedit 
+\i (00:06:31) roam y -96 
+\i (00:06:31) roam y -96
+\i (00:06:31) roam y 96 
+\i (00:06:31) roam y 96
+\i (00:06:31) roam x 96 
+\i (00:06:31) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:32) roam x 96 
+\i (00:06:32) roam x 96
+\i (00:06:33) roam y -96 
+\i (00:06:33) roam y -96
+\i (00:06:33) roam y -96 
+\i (00:06:33) roam y -96
+\i (00:06:33) roam y -96 
+\i (00:06:33) roam y -96
+\i (00:06:33) roam y -96 
+\i (00:06:33) roam y -96
+\i (00:06:33) roam y -96 
+\i (00:06:33) roam y -96
+\i (00:06:33) roam y -96 
+\i (00:06:33) roam y -96
+\i (00:06:33) roam x 96 
+\i (00:06:33) roam x 96
+\i (00:06:34) roam x 96 
+\i (00:06:34) roam x 96
+\i (00:06:34) roam x 96 
+\i (00:06:34) roam x 96
+\i (00:06:34) roam x 96 
+\i (00:06:34) roam x 96
+\i (00:06:34) roam x 96 
+\i (00:06:34) roam x 96
+\i (00:06:34) roam x 96 
+\i (00:06:34) roam x 96
+\i (00:06:34) roam x 96 
+\i (00:06:34) roam x 96
+\i (00:06:34) roam y 96 
+\i (00:06:34) roam y 96
+\i (00:06:35) roam y 96 
+\i (00:06:35) roam y 96
+\i (00:06:35) roam y 96 
+\i (00:06:35) roam y 96
+\i (00:06:35) roam y 96 
+\i (00:06:35) roam y 96
+\i (00:06:35) roam x -96 
+\i (00:06:35) roam x -96
+\i (00:06:36) roam y -96 
+\i (00:06:36) roam y -96
+\i (00:06:36) roam y -96 
+\i (00:06:36) roam y -96
+\i (00:06:37) roam x -96 
+\i (00:06:37) roam x -96
+\i (00:06:38) roam y 96 
+\i (00:06:38) roam y 96
+\i (00:06:38) roam y 96 
+\i (00:06:38) roam y 96
+\i (00:06:38) roam y 96 
+\i (00:06:38) roam y 96
+\i (00:06:38) roam y 96 
+\i (00:06:38) roam y 96
+\i (00:06:38) roam y 96 
+\i (00:06:38) roam y 96
+\i (00:06:38) roam y 96 
+\i (00:06:38) roam y 96
+\i (00:06:39) roam y 96 
+\i (00:06:39) roam y 96
+\i (00:06:40) roam y 96 
+\i (00:06:40) roam y 96
+\i (00:06:40) roam y 96 
+\i (00:06:40) roam y 96
+\i (00:06:40) roam y 96 
+\i (00:06:40) roam y 96
+\i (00:06:40) roam y 96 
+\i (00:06:40) roam y 96
+\i (00:06:40) roam y 96 
+\i (00:06:40) roam y 96
+\i (00:06:40) roam y 96 
+\i (00:06:40) roam y 96
+\i (00:06:41) roam y 96 
+\i (00:06:41) roam y 96
+\i (00:06:41) roam y 96 
+\i (00:06:41) roam y 96
+\i (00:06:42) roam y 96 
+\i (00:06:42) roam y 96
+\i (00:06:42) roam y 96 
+\i (00:06:42) roam y 96
+\i (00:06:43) roam y 96 
+\i (00:06:43) roam y 96
+\i (00:06:43) roam y -96 
+\i (00:06:43) roam y -96
+\i (00:06:44) roam y -96 
+\i (00:06:44) roam y -96
+\i (00:06:44) roam y -96 
+\i (00:06:44) roam y -96
+\i (00:06:44) roam y -96 
+\i (00:06:44) roam y -96
+\i (00:06:44) roam y -96 
+\i (00:06:44) roam y -96
+\i (00:06:45) roam x -96 
+\i (00:06:45) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:46) roam x -96 
+\i (00:06:46) roam x -96
+\i (00:06:47) roam x -96 
+\i (00:06:47) roam x -96
+\i (00:06:47) roam x -96 
+\i (00:06:47) roam x -96
+\i (00:06:47) roam x -96 
+\i (00:06:47) roam x -96
+\i (00:06:47) roam x -96 
+\i (00:06:47) roam x -96
+\i (00:06:47) roam x -96 
+\i (00:06:47) roam x -96
+\i (00:06:47) roam x -96 
+\i (00:06:47) roam x -96
+\i (00:06:48) roam x -96 
+\i (00:06:48) roam x -96
+\i (00:06:48) roam x 96 
+\i (00:06:48) roam x 96
+\i (00:06:48) roam y 96 
+\i (00:06:48) roam y 96
+\i (00:06:49) roam y 96 
+\i (00:06:49) roam y 96
+\i (00:06:49) roam y 96 
+\i (00:06:49) roam y 96
+\i (00:06:49) roam y 96 
+\i (00:06:49) roam y 96
+\i (00:06:49) roam y 96 
+\i (00:06:49) roam y 96
+\i (00:06:49) roam y 96 
+\i (00:06:49) roam y 96
+\i (00:06:49) roam y 96 
+\i (00:06:49) roam y 96
+\i (00:06:49) roam y 96 
+\i (00:06:49) roam y 96
+\i (00:06:49) roam y 96 
+\i (00:06:49) roam y 96
+\i (00:06:50) roam y 96 
+\i (00:06:50) roam y 96
+\i (00:06:50) roam y 96 
+\i (00:06:50) roam y 96
+\i (00:06:50) roam y 96 
+\i (00:06:50) roam y 96
+\i (00:06:50) roam y 96 
+\i (00:06:50) roam y 96
+\i (00:06:50) roam y 96 
+\i (00:06:50) roam y 96
+\i (00:06:50) roam x 96 
+\i (00:06:50) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam x 96 
+\i (00:06:51) roam x 96
+\i (00:06:51) roam y 96 
+\i (00:06:51) roam y 96
+\i (00:06:52) roam y 96 
+\i (00:06:52) roam y 96
+\i (00:06:52) roam y 96 
+\i (00:06:52) roam y 96
+\i (00:06:52) roam y 96 
+\i (00:06:52) roam y 96
+\i (00:06:52) roam y 96 
+\i (00:06:52) roam y 96
+\i (00:06:52) roam y 96 
+\i (00:06:52) roam y 96
+\i (00:06:52) roam y 96 
+\i (00:06:52) roam y 96
+\i (00:06:52) roam y 96 
+\i (00:06:52) roam y 96
+\i (00:06:59) zoom fit 
+\i (00:06:59) trapsize 33867
+\i (00:07:01) load photoplot 
+\i (00:07:03) setwindow form.load_photoplot
+\i (00:07:03) FORM load_photoplot browse  
+\i (00:07:05) fillin "D:\Dokumenty\buk\kati\board\export\BOTTOM.art"
+\i (00:07:06) FORM load_photoplot loadfile  
+\t (00:07:06) Processing photoplot file D:/Dokumenty/buk/kati/board/export/BOTTOM.art ...
+\i (00:07:07) setwindow pcb
+\i (00:07:07) pick grid -29.4987 92.6080
+\t (00:07:07) last pick:  -29.2100 92.7100
+\t (00:07:07) Adding the film data on ETCH/TOP.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) DRC errors detected.
+\t (00:07:07) Load Photoplot complete.
+\i (00:07:09) setwindow form.load_photoplot
+\i (00:07:09) FORM load_photoplot browse  
+\i (00:07:10) fillin "D:\Dokumenty\buk\kati\board\export\TOP.art"
+\i (00:07:11) FORM load_photoplot loadfile  
+\t (00:07:11) Processing photoplot file D:/Dokumenty/buk/kati/board/export/TOP.art ...
+\i (00:07:13) setwindow pcb
+\i (00:07:13) pick grid 51.1040 91.9307
+\t (00:07:13) last pick:  50.8000 92.0750
+\t (00:07:13) Adding the film data on ETCH/TOP.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) DRC errors detected.
+\t (00:07:13) Load Photoplot complete.
+\i (00:07:15) setwindow form.load_photoplot
+\i (00:07:15) FORM load_photoplot done  
+\i (00:07:16) setwindow pcb
+\i (00:07:16) etchedit 
+\i (00:07:17) zoom points 
+\t (00:07:17) Pick 1st corner of the new window.
+\i (00:07:18) drag_start -74.2027 127.8293
+\i (00:07:19) drag_stop -34.9173 91.9307
+\i (00:07:19) trapsize 2176
+\i (00:07:19) etchedit 
+\i (00:07:21) roam y 96 
+\i (00:07:21) roam y 96
+\i (00:07:21) roam y 96 
+\i (00:07:21) roam y 96
+\i (00:07:21) roam y 96 
+\i (00:07:21) roam y 96
+\i (00:07:22) roam y 96 
+\i (00:07:22) roam y 96
+\i (00:07:22) roam y 96 
+\i (00:07:22) roam y 96
+\i (00:07:22) roam y 96 
+\i (00:07:22) roam y 96
+\i (00:07:22) roam x 96 
+\i (00:07:22) roam x 96
+\i (00:07:23) roam x 96 
+\i (00:07:23) roam x 96
+\i (00:07:23) roam x 96 
+\i (00:07:23) roam x 96
+\i (00:07:23) roam x 96 
+\i (00:07:23) roam x 96
+\i (00:07:23) roam x 96 
+\i (00:07:23) roam x 96
+\i (00:07:23) roam y -96 
+\i (00:07:23) roam y -96
+\i (00:07:24) roam y -96 
+\i (00:07:24) roam y -96
+\i (00:07:25) roam y -96 
+\i (00:07:25) roam y -96
+\i (00:07:25) roam y -96 
+\i (00:07:25) roam y -96
+\i (00:07:25) roam y -96 
+\i (00:07:25) roam y -96
+\i (00:07:26) roam y -96 
+\i (00:07:26) roam y -96
+\i (00:07:26) roam x 96 
+\i (00:07:26) roam x 96
+\i (00:07:27) roam x 96 
+\i (00:07:27) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:28) roam x 96 
+\i (00:07:28) roam x 96
+\i (00:07:29) roam x 96 
+\i (00:07:29) roam x 96
+\i (00:07:30) roam x 96 
+\i (00:07:30) roam x 96
+\i (00:07:30) roam x 96 
+\i (00:07:30) roam x 96
+\i (00:07:30) roam x 96 
+\i (00:07:30) roam x 96
+\i (00:07:30) roam x 96 
+\i (00:07:30) roam x 96
+\i (00:07:30) roam x 96 
+\i (00:07:30) roam x 96
+\i (00:07:30) roam x 96 
+\i (00:07:30) roam x 96
+\i (00:07:31) roam y 96 
+\i (00:07:31) roam y 96
+\i (00:07:31) roam y 96 
+\i (00:07:31) roam y 96
+\i (00:07:31) roam y 96 
+\i (00:07:31) roam y 96
+\i (00:07:31) roam y 96 
+\i (00:07:31) roam y 96
+\i (00:07:31) roam y 96 
+\i (00:07:31) roam y 96
+\i (00:07:31) roam y 96 
+\i (00:07:31) roam y 96
+\i (00:07:32) roam y 96 
+\i (00:07:32) roam y 96
+\i (00:07:32) roam y 96 
+\i (00:07:32) roam y 96
+\i (00:07:32) roam x -96 
+\i (00:07:32) roam x -96
+\i (00:07:32) roam y -96 
+\i (00:07:32) roam y -96
+\i (00:07:32) roam x -96 
+\i (00:07:32) roam x -96
+\i (00:07:33) roam y -96 
+\i (00:07:33) roam y -96
+\i (00:07:33) roam x -96 
+\i (00:07:33) roam x -96
+\i (00:07:33) roam y -96 
+\i (00:07:33) roam y -96
+\i (00:07:33) roam x -96 
+\i (00:07:33) roam x -96
+\i (00:07:33) roam y -96 
+\i (00:07:33) roam y -96
+\i (00:07:33) roam x -96 
+\i (00:07:33) roam x -96
+\i (00:07:33) roam y -96 
+\i (00:07:33) roam y -96
+\i (00:07:33) roam x -96 
+\i (00:07:33) roam x -96
+\i (00:07:34) roam y -96 
+\i (00:07:34) roam y -96
+\i (00:07:34) roam x 96 
+\i (00:07:34) roam x 96
+\i (00:07:35) roam x 96 
+\i (00:07:35) roam x 96
+\i (00:07:35) roam x 96 
+\i (00:07:35) roam x 96
+\i (00:07:35) roam x 96 
+\i (00:07:35) roam x 96
+\i (00:07:35) roam x 96 
+\i (00:07:35) roam x 96
+\i (00:07:35) roam x 96 
+\i (00:07:35) roam x 96
+\i (00:07:36) roam y -96 
+\i (00:07:36) roam y -96
+\i (00:07:36) roam y -96 
+\i (00:07:36) roam y -96
+\i (00:07:40) roam x -96 
+\i (00:07:40) roam x -96
+\i (00:07:42) roam x -96 
+\i (00:07:42) roam x -96
+\i (00:07:43) roam x -96 
+\i (00:07:43) roam x -96
+\i (00:07:43) roam x -96 
+\i (00:07:43) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:46) roam x -96 
+\i (00:07:46) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:47) roam x -96 
+\i (00:07:47) roam x -96
+\i (00:07:49) roam x 96 
+\i (00:07:49) roam x 96
+\i (00:07:49) roam x 96 
+\i (00:07:49) roam x 96
+\i (00:07:49) roam x 96 
+\i (00:07:49) roam x 96
+\i (00:07:49) roam x 96 
+\i (00:07:49) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:50) roam x 96 
+\i (00:07:50) roam x 96
+\i (00:07:53) exit 
+\e (00:07:53) Do you want to save the changes you made to tmp.brd?
+\i (00:07:54) fillin no 
+\t (00:07:54)     Journal end - Fri Oct 09 18:28:53 2015
