@@ -12,12 +12,12 @@ SUPPRESS-TRAIL-ZEROES  NO
 SUPPRESS-EQUAL         NO
 TOOL-SELECT            NO
 OPTIMIZE_DRILLING      NO
-ENHANCED_EXCELLON      NO
+ENHANCED_EXCELLON      YES
 TAPE-FILE              D:/Dokumenty/buk/kati/board/export/Kati.drl
 HEADER                 none
 LEADER                 12
 CODE                   ASCII
-SEPARATE               NO
+SEPARATE               YES
 SEPARATE-ROUTING       NO
 DRILLING               LAYER-PAIR
 BACKDRILL              NO

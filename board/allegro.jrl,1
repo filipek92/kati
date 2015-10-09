@@ -1,134 +1,5281 @@
-\t (00:00:02) allegro 16.6 S026 (v16-6-112BY) Windows 32
-\t (00:00:02)     Journal start - Thu Oct 08 21:25:49 2015
-\t (00:00:02)         Host=NTB User=Pavel Pid=5924 CPUs=4
-\t (00:00:02) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
-\t (00:00:02) 
-\t (00:00:04) Opening existing design...
-\d (00:00:04) Design opened: D:/DOKUMENTY/BUK/KATI/BOARD/Kati.brd
-\i (00:00:05) trapsize 3354
-\i (00:00:05) trapsize 3293
-\i (00:00:05) trapsize 3364
-\i (00:00:05) trapsize 3427
-\i (00:00:05) trapsize 3427
-\i (00:00:05) generaledit 
-\i (00:00:08) refresh symbol 
-\i (00:00:12) setwindow form.upd_element
-\i (00:00:12) FORM upd_element tree 'MULTISEL YES' KATI_TO92 'Package symbols' 
-\i (00:00:12) FORM upd_element tree  KATI_TO92 'Package symbols' 
-\i (00:00:14) FORM upd_element padstacks YES 
-\i (00:00:15) FORM upd_element reset_drill_data YES 
-\i (00:00:17) FORM upd_element refresh  
-\t (00:00:17) Starting Refresh Symbol...
-\t (00:00:18) Opening existing design...
-\i (00:00:18) setwindow pcb
-\i (00:00:18) trapsize 3427
-\t (00:00:19) Updating dynamic shape (1 of 2) Vcc, Boundary/Bottom @ (-29.8000 -28.0000) ...
-\t (00:00:19) Updating dynamic shape (2 of 2) Gnd, Boundary/Top @ (-29.5000 -28.0000) ...
-\i (00:00:30) setwindow form.upd_element
-\i (00:00:30) FORM upd_element close  
-\i (00:00:30) setwindow pcb
-\i (00:00:30) generaledit 
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 2.8786 16.2775
-\i (00:00:32) trapsize 1713
-\i (00:00:39) zoom out 1 
-\i (00:00:39) setwindow pcb
-\i (00:00:39) zoom out 2.2275 17.9909
-\i (00:00:39) trapsize 3427
-\i (00:00:49) add connect 
-\t (00:00:49) Pick first element.
-\i (00:00:50) pick grid 2.4331 20.5268
-\t (00:00:50) last pick:  2.5400 20.3200
-\t (00:00:50) last pick:  2.5400 20.3200
-\i (00:00:50) mouse_pos 2.5016 21.2808
-\i (00:00:51) mouse_pos -1.2679 21.1437
-\i (00:00:51) mouse_pos -2.2959 20.7325
-\i (00:00:51) mouse_pos -3.7352 20.0471
-\i (00:00:51) mouse_pos -4.0094 16.9629
-\i (00:00:51) mouse_pos 4.5578 18.1281
-\i (00:00:52) mouse_pos 4.0095 20.4583
-\i (00:00:52) mouse_pos 3.1870 21.2808
-\i (00:00:52) mouse_pos 2.3646 20.5268
-\i (00:00:52) mouse_pos 3.5982 19.4303
-\i (00:00:57) setwindow form.mini
-\i (00:00:57) FORM mini acon_line_width 0.635 
-\i (00:00:58) setwindow pcb
-\i (00:00:58) mouse_pos 7.9161 25.4615
-\i (00:00:58) mouse_pos 7.5048 24.2278
-\i (00:00:58) mouse_pos 5.7229 22.5144
-\i (00:00:58) mouse_pos 5.3802 22.3088
-\i (00:00:58) mouse_pos 4.3521 21.7605
-\i (00:01:00) pick grid 2.3646 21.6234
-\t (00:01:00) last pick:  2.5400 21.5900
-\t (00:01:00) No DRC errors detected.
-\t (00:01:00) Pick first element.
-\i (00:01:01) zoom fit 
-\i (00:01:01) trapsize 3427
-\i (00:01:03) done 
-\i (00:01:03) generaledit 
-\i (00:01:05) zoom points 
-\t (00:01:05) Pick 1st corner of the new window.
-\i (00:01:06) drag_start -9.5951 23.5424
-\i (00:01:08) drag_stop 8.3616 15.4551
-\i (00:01:08) trapsize 560
-\i (00:01:08) generaledit 
-\i (00:01:15) pick grid 2.5962 17.2845
-\t (00:01:15) last pick:  2.5400 17.1450
-\i (00:01:16) delete 
-\i (00:01:16) generaledit 
-\i (00:01:17) pick grid 0.9617 16.5568
-\t (00:01:17) last pick:  1.2700 16.5100
-\i (00:01:18) delete 
-\i (00:01:18) generaledit 
-\i (00:01:19) add connect 
-\t (00:01:19) Pick first element.
-\i (00:01:22) add connect 
-\t (00:01:22) Pick first element.
-\i (00:01:22) pick grid -1.2101 16.5008
-\t (00:01:22) last pick:  -1.2700 16.5100
-\t (00:01:22) Target Symbol Pin is defined from TOP to BOTTOM.
-\t (00:01:22) last pick:  -1.2700 16.5100
-\i (00:01:23) mouse_pos 1.6110 16.4672
-\i (00:01:24) pick grid 2.2492 16.4672
-\t (00:01:24) last pick:  2.5400 16.5100
-\t (00:01:24) No DRC errors detected.
-\t (00:01:24) Pick first element.
-\i (00:01:26) save 
-\i (00:01:27) fillin yes 
-\i (00:01:27) generaledit 
-\i (00:01:31) color192 
-\i (00:01:31) setwindow cvf.dialog
-\i (00:01:31) cvf layer_mode
-\i (00:01:31) setwindow pcb
-\i (00:01:31) generaledit 
-\i (00:01:33) setwindow cvf.dialog
-\i (00:01:33) cvf layers_visible stack-up stack-up/top TRUE
-\i (00:01:33) cvf layers_visible stack-up stack-up/top FALSE
-\i (00:01:34) cvf layers_visible stack-up stack-up/bottom TRUE
-\i (00:01:35) cvf okay
-\i (00:01:41) setwindow pcb
-\i (00:01:41) color192 
-\i (00:01:41) setwindow cvf.dialog
-\i (00:01:41) cvf layer_mode
-\i (00:01:41) setwindow pcb
-\i (00:01:41) generaledit 
-\i (00:01:43) setwindow cvf.dialog
-\i (00:01:43) cvf global_visible
-\i (00:01:44) cvf okay
-\i (00:01:53) setwindow pcb
-\i (00:01:53) zoom out 1 
-\i (00:01:53) setwindow pcb
-\i (00:01:53) zoom out 2.5738 18.9637
-\i (00:01:53) trapsize 1119
-\i (00:01:53) zoom out 1 
-\i (00:01:53) setwindow pcb
-\i (00:01:53) zoom out 2.5738 18.9637
-\i (00:01:53) trapsize 2239
-\i (00:01:55) zoom fit 
-\i (00:01:55) trapsize 3427
-\i (00:02:02) save 
-\i (00:02:03) fillin yes 
-\i (00:02:03) generaledit 
-\i (00:06:58) exit 
-\t (00:06:58)     Journal end - Thu Oct 08 21:32:45 2015
+\t (00:00:04) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:04)     Journal start - Fri Oct 09 10:10:57 2015
+\t (00:00:04)         Host=NTB User=Pavel Pid=1560 CPUs=4
+\t (00:00:04) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
+\t (00:00:04) 
+\t (00:00:06) Opening existing design...
+\d (00:00:06) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:00:06) trapsize 3354
+\i (00:00:06) trapsize 3293
+\i (00:00:06) trapsize 3364
+\i (00:00:07) trapsize 3427
+\i (00:00:07) trapsize 3427
+\i (00:00:07) generaledit 
+\i (00:01:03) prmed 
+\i (00:01:05) setwindow form.prmedit
+\i (00:01:05) FORM prmedit design  
+\i (00:01:09) FORM prmedit route  
+\i (00:01:15) FORM prmedit mfg_applications  
+\i (00:01:16) FORM prmedit display  
+\i (00:01:24) FORM prmedit display_padless_holes YES 
+\i (00:01:24) FORM prmedit display_padless_holes NO 
+\i (00:01:39) FORM prmedit cancel  
+\i (00:01:39) setwindow pcb
+\i (00:01:39) generaledit 
+\i (00:03:05) signal setup 
+\i (00:03:06) setwindow form.sigSetup
+\i (00:03:06) FORM sigSetup cancel  
+   (00:03:06) Loading signal.cxt 
+   (00:03:06) Loading axlcore.cxt 
+\i (00:03:06) setwindow pcb
+\i (00:03:06) generaledit 
+\i (00:03:24) property edit 
+\t (00:03:24) Adjust find filter then select an element or group of elements.
+\i (00:03:30) prmed 
+\i (00:03:57) setwindow form.prmedit
+\i (00:03:57) FORM prmedit display_plated_holes YES 
+\i (00:03:57) FORM prmedit display_non_plated_holes YES 
+\i (00:04:00) FORM prmedit apply  
+\i (00:04:23) FORM prmedit route  
+\i (00:04:24) FORM prmedit shapes  
+\i (00:04:24) FORM prmedit text  
+\i (00:04:25) FORM prmedit design  
+\i (00:04:34) FORM prmedit text  
+\i (00:04:36) FORM prmedit shapes  
+\i (00:04:37) FORM prmedit design  
+\i (00:04:37) FORM prmedit text  
+\i (00:04:40) FORM prmedit shapes  
+\i (00:04:44) FORM prmedit dynshp_button  
+\i (00:04:51) setwindow form.dyn_xshape
+\i (00:04:51) FORM dyn_xshape void_controls  
+\i (00:04:51) FORM dyn_xshape clearances  
+\i (00:04:52) FORM dyn_xshape void_controls  
+\i (00:05:04) FORM dyn_xshape pinvoid_pattern In-line 
+\i (00:05:06) FORM dyn_xshape pinvoid_pattern Individually 
+\i (00:05:08) FORM dyn_xshape pinvoid_pattern In-line 
+\i (00:05:10) FORM dyn_xshape pinvoid_pattern Individually 
+\i (00:05:13) FORM dyn_xshape corner_style Chamfered 
+\i (00:05:15) FORM dyn_xshape corner_style Full Round 
+\i (00:05:16) FORM dyn_xshape corner_style Round 
+\i (00:05:18) FORM dyn_xshape snap_grid YES 
+\i (00:05:18) FORM dyn_xshape snap_grid NO 
+\i (00:05:24) FORM dyn_xshape clearances  
+\i (00:05:32) FORM dyn_xshape cancel  
+\i (00:05:43) setwindow pcb
+\i (00:05:43) drc window 
+\t (00:05:43) Select items to DRC.
+\i (00:05:48) drc window 
+\t (00:05:48) Select items to DRC.
+\i (00:05:50) drc update 
+\t (00:05:50) Performing DRC...
+\t (00:05:50) Multithreaded DRC update (4 threads).
+\t (00:05:50) No DRC errors detected.
+\i (00:05:50) generaledit 
+\i (00:05:52) dbdoctor 
+\i (00:05:59) setwindow form.dbdoctor_allegro
+\i (00:05:59) FORM dbdoctor_allegro close  
+\i (00:05:59) setwindow pcb
+\i (00:05:59) generaledit 
+\i (00:06:03) signal prefs 
+   (00:06:03) Loading sigallegro.cxt 
+   (00:06:03) Loading skillExt.cxt 
+\i (00:06:03) generaledit 
+\i (00:06:05) setwindow form.sigprefs
+\i (00:06:05) FORM sigprefs interconnectmodels  
+\i (00:06:06) FORM sigprefs simulation  
+\i (00:06:06) FORM sigprefs power_integrity_(legacy)  
+\i (00:06:08) FORM sigprefs cancel  
+\i (00:06:17) setwindow pcb
+\i (00:06:17) etchedit 
+\i (00:06:30) enved 
+\i (00:06:30) etchedit 
+\i (00:06:32) setwindow form.prfedit
+\i (00:06:32) FORM prfedit treelist  Display 
+\i (00:06:33) FORM prfedit treelist  Drawing 
+\i (00:06:38) FORM prfedit cancel  
+\i (00:09:46) setwindow pcb
+\i (00:09:46) drc update 
+\t (00:09:46) Performing DRC...
+\t (00:09:46) Multithreaded DRC update (4 threads).
+\t (00:09:47) No DRC errors detected.
+\i (00:09:47) etchedit 
+\i (00:09:48) drc window 
+\t (00:09:48) Select items to DRC.
+\i (00:10:13) pick grid -41.1221 -1.5421
+\t (00:10:13) last pick:  -41.2750 -1.2700
+\i (00:10:19) drc window 
+\t (00:10:19) Select items to DRC.
+\i (00:10:23) pick grid 27.4834 -10.7946
+\t (00:10:23) last pick:  27.3050 -10.7950
+\i (00:10:26) pick grid 32.4180 -11.4799
+\t (00:10:26) last pick:  32.3850 -11.4300
+\i (00:10:31) design compare 
+\i (00:10:39) derive connectivity 
+\i (00:10:41) setwindow form.derive
+\i (00:10:41) FORM derive close  
+\i (00:10:41) setwindow pcb
+\i (00:10:41) etchedit 
+\i (00:11:00) techfile compare 
+\i (00:11:02) setwindow form.tech_comp
+\i (00:11:02) FORM tech_comp viewlog  
+\i (00:11:05) fillin confirm
+\i (00:11:06) FORM tech_comp libbrowse  
+\i (00:11:08) fillin "menu_cancel"
+\i (00:11:10) FORM tech_comp cancel  
+\i (00:11:10) setwindow pcb
+\i (00:11:10) etchedit 
+\i (00:11:16) signal library 
+\i (00:11:16) etchedit 
+\i (00:11:19) setwindow form.sigModelBrowser
+\i (00:11:19) FORM sigModelBrowser iml_models  
+\i (00:11:20) FORM sigModelBrowser close  
+\i (00:11:33) setwindow pcb
+\i (00:11:33) cmgr_spac 
+\i (00:11:34) setwindow cmgr
+\i (00:11:34) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:11:34) setwindow pcb
+\i (00:11:34) etchedit 
+\i (00:11:50) setwindow cmgr
+\i (00:11:50) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:11:50) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:11:50) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:11:51) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:11:55) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:11:55) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:11:55) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:11:55) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:11:55) cm select ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:11:56) cm select ( frame ( workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:11:56) cm select tab 167:All
+\i (00:11:56) cm select tab "86:BB Via Gap"
+\i (00:11:58) cm select tab 167:All
+\i (00:11:59) cm select tab "86:BB Via Gap"
+\i (00:12:00) cm select tab 221:Hole
+\i (00:12:01) cm select tab 167:All
+\i (00:12:06) cm select tab "86:BB Via Gap"
+\i (00:12:07) cm select tab 221:Hole
+\i (00:12:07) cm select tab "85:Bond Finger"
+\i (00:12:09) cm select tab 84:Shape
+\i (00:12:10) cm select tab 83:Vias
+\i (00:12:10) cm select tab 82:Pins
+\i (00:12:11) cm select tab 81:Line
+\i (00:12:57) cm scope Design "Kati"
+\i (00:12:57) cm expand ( row ( "Spacing CSet" "DEFAULT" ) )
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_LINE_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUPIN_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SMDPIN_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTPIN_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUVIA_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_LINE_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTVIA_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SHAPE_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_LINE_SPACING 0.635 7
+\i (00:13:05) cm putValue ( "Spacing CSet" "DEFAULT" ) HOLE_TO_LINE_SPACING 0.635 7
+\i (00:13:05) cm endUndoBlock
+\i (00:13:20) setwindow pcb
+\i (00:13:20) drc update 
+\t (00:13:20) Performing DRC...
+\t (00:13:20) Multithreaded DRC update (4 threads).
+\t (00:13:20) DRC done; 466 errors detected.
+\i (00:13:20) etchedit 
+\i (00:13:31) color192 
+\i (00:13:31) setwindow cvf.dialog
+\i (00:13:31) cvf layer_mode
+\i (00:13:31) setwindow pcb
+\i (00:13:31) etchedit 
+\i (00:13:35) setwindow cvf.dialog
+\i (00:13:35) cvf global_invisible
+\i (00:13:36) cvf layers_visible stack-up pin/top TRUE
+\i (00:13:38) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:13:39) cvf apply
+\i (00:13:41) cvf okay
+\i (00:13:51) setwindow pcb
+\i (00:13:51) zoom in 1 
+\i (00:13:51) setwindow pcb
+\i (00:13:51) zoom in -11.5142 -13.3990
+\i (00:13:51) trapsize 1713
+\i (00:13:51) zoom in 1 
+\i (00:13:51) setwindow pcb
+\i (00:13:51) zoom in -11.5142 -13.3989
+\i (00:13:51) trapsize 857
+\i (00:13:51) zoom in 1 
+\i (00:13:51) setwindow pcb
+\i (00:13:51) zoom in -11.5142 -13.3989
+\i (00:13:51) trapsize 428
+\i (00:13:52) zoom out 1 
+\i (00:13:52) setwindow pcb
+\i (00:13:52) zoom out -9.8008 -13.4074
+\i (00:13:52) trapsize 857
+\i (00:13:53) zoom out 1 
+\i (00:13:53) setwindow pcb
+\i (00:13:53) zoom out -9.8007 -13.4074
+\i (00:13:53) trapsize 1713
+\i (00:14:29) setwindow cmgr
+\i (00:14:29) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_LINE_SPACING 0.150 7
+\i (00:14:29) cm endUndoBlock
+\i (00:14:48) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUPIN_SPACING 0.150 7
+\i (00:14:48) cm endUndoBlock
+\i (00:14:51) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SMDPIN_SPACING 0.150 7
+\i (00:14:51) cm endUndoBlock
+\i (00:14:54) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTPIN_SPACING 0.150 7
+\i (00:14:54) cm endUndoBlock
+\i (00:14:56) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUVIA_SPACING 0.150 7
+\i (00:14:56) cm endUndoBlock
+\i (00:14:58) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_LINE_SPACING 0.150 7
+\i (00:14:58) cm endUndoBlock
+\i (00:15:01) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTVIA_SPACING 0.150 7
+\i (00:15:01) cm endUndoBlock
+\i (00:15:03) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SHAPE_SPACING 0.15 7
+\i (00:15:03) cm endUndoBlock
+\i (00:15:04) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_LINE_SPACING 0.15 7
+\i (00:15:04) cm endUndoBlock
+\i (00:15:06) cm putValue ( "Spacing CSet" "DEFAULT" ) HOLE_TO_LINE_SPACING .15 7
+\i (00:15:06) cm endUndoBlock
+\i (00:15:14) setwindow pcb
+\i (00:15:14) zoom fit 
+\i (00:15:14) trapsize 3427
+\i (00:15:17) drc update 
+\t (00:15:17) Performing DRC...
+\t (00:15:17) Multithreaded DRC update (4 threads).
+\t (00:15:17) DRC done; 96 errors detected.
+\i (00:15:18) etchedit 
+\i (00:15:36) pick grid 3.2898 -0.3770
+\t (00:15:36) last pick:  3.1750 -0.6350
+\i (00:15:37) pick grid 3.6325 -0.3770
+\t (00:15:37) last pick:  3.8100 -0.6350
+\i (00:15:39) add connect 
+\t (00:15:40) Pick first element.
+\i (00:15:41) pick grid -37.5582 8.7385
+\t (00:15:41) last pick:  -37.4650 8.8900
+\t (00:15:41) last pick:  -37.4650 8.8900
+\i (00:15:42) add connect 
+\t (00:15:42) Pick first element.
+\i (00:15:43) redraw 
+\i (00:15:44) redraw 
+\i (00:15:44) redraw 
+\i (00:15:44) redraw 
+\i (00:15:44) redraw 
+\i (00:15:45) redraw 
+\i (00:15:45) redraw 
+\i (00:15:48) open 
+\e (00:15:48) Do you want to save the changes you made to Kati.brd?
+\i (00:15:49) fillin no 
+\i (00:15:50) fillin "Kati.brd"
+\t (00:15:50) Opening existing design...
+\i (00:15:50) trapsize 3427
+\d (00:15:51) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:15:51) etchedit 
+\i (00:15:55) color192 
+\i (00:15:55) setwindow cvf.dialog
+\i (00:15:55) cvf layer_mode
+\i (00:15:55) setwindow pcb
+\i (00:15:55) etchedit 
+\i (00:15:58) setwindow cvf.dialog
+\i (00:15:58) cvf global_invisible
+\i (00:16:00) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:16:03) cvf apply
+\i (00:16:04) cvf okay
+\i (00:16:14) setwindow pcb
+\i (00:16:14) cmgr_spac 
+\i (00:16:15) setwindow cmgr
+\i (00:16:15) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:16:15) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:16:15) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:16:15) setwindow pcb
+\i (00:16:15) etchedit 
+\i (00:16:24) setwindow cmgr
+\i (00:16:24) cm select tab 82:Pins
+\i (00:16:27) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 82:Pins )
+\i (00:16:29) cm select ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 82:Pins )
+\i (00:16:30) cm select tab 81:Line
+\i (00:16:31) cm select tab 82:Pins
+\i (00:16:32) cm select tab 83:Vias
+\i (00:16:32) cm select tab 84:Shape
+\i (00:16:32) cm select tab "85:Bond Finger"
+\i (00:16:33) cm select tab 221:Hole
+\i (00:16:34) cm select tab "86:BB Via Gap"
+\i (00:16:35) cm select tab 167:All
+\i (00:16:44) cm scope Design "Kati"
+\i (00:16:44) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_LINE_SPACING 0.15 7
+\i (00:16:44) cm endUndoBlock
+\i (00:16:46) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUPIN_SPACING .15 7
+\i (00:16:46) cm endUndoBlock
+\i (00:16:47) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SMDPIN_SPACING .15 7
+\i (00:16:47) cm endUndoBlock
+\i (00:16:48) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTPIN_SPACING .15 7
+\i (00:16:48) cm endUndoBlock
+\i (00:16:49) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUVIA_SPACING .15 7
+\i (00:16:49) cm endUndoBlock
+\i (00:16:50) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_LINE_SPACING .15 7
+\i (00:16:50) cm endUndoBlock
+\i (00:16:51) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTVIA_SPACING .15 7
+\i (00:16:51) cm endUndoBlock
+\i (00:16:51) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SHAPE_SPACING .15 7
+\i (00:16:52) cm endUndoBlock
+\i (00:16:52) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_LINE_SPACING .15 7
+\i (00:16:52) cm endUndoBlock
+\i (00:16:53) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUPIN_SPACING .15 7
+\i (00:16:53) cm endUndoBlock
+\i (00:16:54) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_THRUPIN_SPACING .15 7
+\i (00:16:54) cm endUndoBlock
+\i (00:16:55) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_SMDPIN_SPACING .15 7
+\i (00:16:55) cm endUndoBlock
+\i (00:16:56) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_THRUPIN_SPACING .15 7
+\i (00:16:56) cm endUndoBlock
+\i (00:16:57) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_THRUVIA_SPACING .15 7
+\i (00:16:57) cm endUndoBlock
+\i (00:16:58) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_THRUPIN_SPACING .15 7
+\i (00:16:58) cm endUndoBlock
+\i (00:16:59) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTVIA_TO_THRUPIN_SPACING .15 7
+\i (00:16:59) cm endUndoBlock
+\i (00:17:00) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_SHAPE_SPACING .15 7
+\i (00:17:00) cm endUndoBlock
+\i (00:17:00) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_BONDPAD_SPACING .15 7
+\i (00:17:00) cm endUndoBlock
+\i (00:17:01) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SMDPIN_SPACING .15 7
+\i (00:17:01) cm endUndoBlock
+\i (00:17:02) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_SMDPIN_SPACING .15 7
+\i (00:17:02) cm endUndoBlock
+\i (00:17:02) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_SMDPIN_SPACING .15 7
+\i (00:17:02) cm endUndoBlock
+\i (00:17:03) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_TESTPIN_SPACING .15 7
+\i (00:17:03) cm endUndoBlock
+\i (00:17:04) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_THRUVIA_SPACING .15 7
+\i (00:17:04) cm endUndoBlock
+\i (00:17:04) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_SMDPIN_SPACING .15 7
+\i (00:17:04) cm endUndoBlock
+\i (00:17:05) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_TESTVIA_SPACING .15 7
+\i (00:17:05) cm endUndoBlock
+\i (00:17:05) cm putValue ( "Spacing CSet" "DEFAULT" ) SHAPE_TO_SMDPIN_SPACING .15 7
+\i (00:17:05) cm endUndoBlock
+\i (00:17:06) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_BONDPAD_SPACING .15 7
+\i (00:17:06) cm endUndoBlock
+\i (00:17:07) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTPIN_SPACING .15 7
+\i (00:17:07) cm endUndoBlock
+\i (00:17:07) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_THRUPIN_SPACING .15 7
+\i (00:17:07) cm endUndoBlock
+\i (00:17:08) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_TESTPIN_SPACING .15 7
+\i (00:17:08) cm endUndoBlock
+\i (00:17:08) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_TESTPIN_SPACING .15 7
+\i (00:17:09) cm endUndoBlock
+\i (00:17:09) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_THRUVIA_SPACING .15 7
+\i (00:17:09) cm endUndoBlock
+\i (00:17:10) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_TESTPIN_SPACING .15 7
+\i (00:17:10) cm endUndoBlock
+\i (00:17:10) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_TESTVIA_SPACING .15 7
+\i (00:17:10) cm endUndoBlock
+\i (00:17:11) cm putValue ( "Spacing CSet" "DEFAULT" ) SHAPE_TO_TESTPIN_SPACING .15 7
+\i (00:17:11) cm endUndoBlock
+\i (00:17:12) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_TESTPIN_SPACING .15 7
+\i (00:17:12) cm endUndoBlock
+\i (00:17:12) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUVIA_SPACING .15 7
+\i (00:17:12) cm endUndoBlock
+\i (00:17:13) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_THRUVIA_SPACING .15 7
+\i (00:17:13) cm endUndoBlock
+\i (00:17:16) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUVIA_TO_THRUVIA_SPACING .15 7
+\i (00:17:17) cm endUndoBlock
+\i (00:17:17) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_THRUVIA_SPACING .15 7
+\i (00:17:17) cm endUndoBlock
+\i (00:17:18) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTVIA_TO_THRUVIA_SPACING .15 7
+\i (00:17:18) cm endUndoBlock
+\i (00:17:19) cm putValue ( "Spacing CSet" "DEFAULT" ) SHAPE_TO_THRUVIA_SPACING .15 7
+\i (00:17:19) cm endUndoBlock
+\i (00:17:20) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_THRUVIA_SPACING .15 7
+\i (00:17:20) cm endUndoBlock
+\i (00:17:23) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_BBV_SPACING .15 7
+\i (00:17:23) cm endUndoBlock
+\i (00:17:24) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_TESTVIA_SPACING .15 7
+\i (00:17:24) cm endUndoBlock
+\i (00:17:25) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_SHAPE_SPACING .15 7
+\i (00:17:25) cm endUndoBlock
+\i (00:17:26) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_BBV_SPACING .15 7
+\i (00:17:26) cm endUndoBlock
+\i (00:17:32) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTVIA_TO_TESTVIA_SPACING .15 7
+\i (00:17:32) cm endUndoBlock
+\i (00:17:32) cm putValue ( "Spacing CSet" "DEFAULT" ) SHAPE_TO_TESTVIA_SPACING .15 7
+\i (00:17:32) cm endUndoBlock
+\i (00:17:33) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_TESTVIA_SPACING .15 7
+\i (00:17:33) cm endUndoBlock
+\i (00:17:34) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SHAPE_SPACING .15 7
+\i (00:17:34) cm endUndoBlock
+\i (00:17:37) cm putValue ( "Spacing CSet" "DEFAULT" ) SHAPE_TO_SHAPE_SPACING .15 7
+\i (00:17:37) cm endUndoBlock
+\i (00:17:39) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_SHAPE_SPACING .15 7
+\i (00:17:39) cm endUndoBlock
+\i (00:17:43) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_BONDPAD_SPACING .15 7
+\i (00:17:43) cm endUndoBlock
+\i (00:17:57) cm putValue ( "Spacing CSet" "DEFAULT" ) MIN_BVIA_GAP .15 0
+\i (00:17:57) cm endUndoBlock
+\i (00:17:58) cm exit
+\i (00:18:05) setwindow pcb
+\i (00:18:05) drc update 
+\t (00:18:05) Performing DRC...
+\t (00:18:05) Multithreaded DRC update (4 threads).
+\t (00:18:05) DRC done; 96 errors detected.
+\i (00:18:05) etchedit 
+\i (00:18:08) zoom in 1 
+\i (00:18:08) setwindow pcb
+\i (00:18:08) zoom in -5.4829 4.8319
+\i (00:18:08) trapsize 1713
+\i (00:18:09) zoom in 1 
+\i (00:18:09) setwindow pcb
+\i (00:18:09) zoom in -5.4829 4.8319
+\i (00:18:09) trapsize 857
+\i (00:18:09) zoom in 1 
+\i (00:18:09) setwindow pcb
+\i (00:18:09) zoom in -5.4829 4.8319
+\i (00:18:09) trapsize 428
+\i (00:18:09) zoom in 1 
+\i (00:18:09) setwindow pcb
+\i (00:18:09) zoom in -5.4829 4.8319
+\i (00:18:09) trapsize 214
+\i (00:18:10) zoom out 1 
+\i (00:18:10) setwindow pcb
+\i (00:18:10) zoom out -5.3929 5.0247
+\i (00:18:10) trapsize 428
+\i (00:18:10) zoom out 1 
+\i (00:18:10) setwindow pcb
+\i (00:18:10) zoom out -5.3930 5.0247
+\i (00:18:10) trapsize 857
+\i (00:18:10) zoom out 1 
+\i (00:18:10) setwindow pcb
+\i (00:18:10) zoom out -5.3929 5.0247
+\i (00:18:10) trapsize 1713
+\i (00:18:10) zoom out 1 
+\i (00:18:10) setwindow pcb
+\i (00:18:10) zoom out -5.3929 5.0248
+\i (00:18:10) trapsize 3427
+\i (00:18:11) zoom out 1 
+\i (00:18:11) setwindow pcb
+\i (00:18:11) zoom out -5.3929 5.0248
+\i (00:18:11) trapsize 6854
+\i (00:18:11) zoom in 1 
+\i (00:18:11) setwindow pcb
+\i (00:18:11) zoom in -5.3928 5.0248
+\i (00:18:11) trapsize 3427
+\i (00:18:12) pick grid -13.8913 -3.1311
+\t (00:18:12) last pick:  -13.9700 -3.1750
+\i (00:18:14) redraw 
+\i (00:18:14) redraw 
+\i (00:18:14) redraw 
+\i (00:18:15) redraw 
+\i (00:18:15) redraw 
+\i (00:18:15) redraw 
+\i (00:18:15) redraw 
+\i (00:18:15) redraw 
+\i (00:18:16) redraw 
+\i (00:18:17) color192 
+\i (00:18:17) setwindow cvf.dialog
+\i (00:18:17) cvf layer_mode
+\i (00:18:18) setwindow pcb
+\i (00:18:18) etchedit 
+\i (00:18:20) setwindow cvf.dialog
+\i (00:18:20) cvf layers_visible stack-up cavity/top FALSE
+\i (00:18:21) cvf apply
+\i (00:18:22) cvf layers_visible stack-up boundary/top FALSE
+\i (00:18:23) cvf apply
+\i (00:18:26) cvf layers_visible stack-up anti_etch/top FALSE
+\i (00:18:27) cvf apply
+\i (00:18:29) cvf layers_visible stack-up drc/top FALSE
+\i (00:18:30) cvf layers_visible stack-up drc/top TRUE
+\i (00:18:31) cvf layers_visible stack-up etch/top FALSE
+\i (00:18:32) cvf apply
+\i (00:18:34) cvf layers_visible stack-up etch/top TRUE
+\i (00:18:35) cvf apply
+\i (00:18:38) cvf cancel
+\i (00:18:47) setwindow pcb
+\i (00:18:47) open 
+\e (00:18:47) Do you want to save the changes you made to Kati.brd?
+\i (00:18:49) fillin no 
+\i (00:18:50) fillin "Kati.brd"
+\t (00:18:50) Opening existing design...
+\i (00:18:50) trapsize 3427
+\d (00:18:50) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:18:50) etchedit 
+\i (00:18:56) color192 
+\i (00:18:56) setwindow cvf.dialog
+\i (00:18:56) cvf layer_mode
+\i (00:18:56) setwindow pcb
+\i (00:18:56) etchedit 
+\i (00:18:59) setwindow cvf.dialog
+\i (00:18:59) cvf global_invisible
+\i (00:19:00) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:19:01) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:19:02) cvf apply
+\i (00:19:04) cvf okay
+\i (00:19:21) setwindow pcb
+\i (00:19:21) cmgr_spac 
+\i (00:19:21) setwindow cmgr
+\i (00:19:21) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:19:21) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 167:All )
+\i (00:19:21) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:19:21) setwindow pcb
+\i (00:19:21) etchedit 
+\i (00:19:24) setwindow cmgr
+\i (00:19:24) cm select tab "85:Bond Finger"
+\i (00:19:24) cm select tab 221:Hole
+\i (00:19:24) cm select tab "86:BB Via Gap"
+\i (00:19:25) cm select tab 167:All
+\i (00:19:37) cm scope Design "Kati"
+\i (00:19:37) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_LINE_SPACING 0.15 7
+\i (00:19:37) cm endUndoBlock
+\i (00:19:39) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUPIN_SPACING .15 7
+\i (00:19:39) cm endUndoBlock
+\i (00:19:41) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SMDPIN_SPACING .15 7
+\i (00:19:41) cm endUndoBlock
+\i (00:19:42) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTPIN_SPACING .15 7
+\i (00:19:42) cm endUndoBlock
+\i (00:19:43) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUVIA_SPACING .15 7
+\i (00:19:43) cm endUndoBlock
+\i (00:19:44) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_LINE_SPACING .15 7
+\i (00:19:44) cm endUndoBlock
+\i (00:19:45) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTVIA_SPACING .15 7
+\i (00:19:45) cm endUndoBlock
+\i (00:19:45) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SHAPE_SPACING .15 7
+\i (00:19:45) cm endUndoBlock
+\i (00:20:05) cm undo
+\i (00:20:06) cm undo
+\i (00:20:07) cm undo
+\i (00:20:09) cm exit
+\i (00:20:22) setwindow pcb
+\i (00:20:22) pick grid 8.8413 0.3770
+\t (00:20:22) last pick:  8.8900 0.6350
+\i (00:20:23) pick grid 6.3055 0.9252
+\t (00:20:23) last pick:  6.3500 0.6350
+\i (00:20:23) zoom in 1 
+\i (00:20:23) setwindow pcb
+\i (00:20:23) zoom in 6.8537 0.6511
+\i (00:20:23) trapsize 1713
+\i (00:20:24) zoom in 1 
+\i (00:20:24) setwindow pcb
+\i (00:20:24) zoom in 6.8537 0.6511
+\i (00:20:24) trapsize 857
+\i (00:20:24) zoom in 1 
+\i (00:20:24) setwindow pcb
+\i (00:20:24) zoom in 6.8538 0.6511
+\i (00:20:24) trapsize 428
+\i (00:20:24) zoom in 1 
+\i (00:20:24) setwindow pcb
+\i (00:20:24) zoom in 6.8538 0.6511
+\i (00:20:24) trapsize 214
+\i (00:20:25) pick grid 6.4512 1.0153
+\t (00:20:25) last pick:  6.3500 1.2700
+\i (00:20:26) prepopup 6.4512 1.0195
+\i (00:20:26) pick grid 6.3098 0.9724
+\t (00:20:26) last pick:  6.3500 1.2700
+\i (00:20:28) pick grid 5.7530 1.1438
+\t (00:20:28) last pick:  5.7150 1.2700
+\i (00:20:30) open 
+\e (00:20:30) Do you want to save the changes you made to Kati.brd?
+\i (00:20:32) fillin no 
+\i (00:20:33) fillin "Kati.brd"
+\t (00:20:33) Opening existing design...
+\i (00:20:33) trapsize 3427
+\d (00:20:33) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:20:33) etchedit 
+\i (00:20:34) zoom in 1 
+\i (00:20:34) setwindow pcb
+\i (00:20:34) zoom in -3.0841 -1.8848
+\i (00:20:34) trapsize 1713
+\i (00:20:34) zoom in 1 
+\i (00:20:34) setwindow pcb
+\i (00:20:34) zoom in -2.6729 -1.8847
+\i (00:20:34) trapsize 857
+\i (00:20:36) color192 
+\i (00:20:36) setwindow cvf.dialog
+\i (00:20:36) cvf layer_mode
+\i (00:20:36) setwindow pcb
+\i (00:20:36) etchedit 
+\i (00:20:40) setwindow cvf.dialog
+\i (00:20:40) cvf global_invisible
+\i (00:20:41) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:20:42) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:20:43) cvf apply
+\i (00:20:44) cvf okay
+\i (00:20:45) setwindow pcb
+\i (00:20:45) pick grid 0.5998 -3.4268
+\t (00:20:45) last pick:  0.6350 -3.1750
+\i (00:20:46) pick grid 0.6854 -3.5296
+\t (00:20:46) last pick:  0.6350 -3.8100
+\i (00:20:47) pick grid 0.5484 -3.7010
+\t (00:20:47) last pick:  0.6350 -3.8100
+\i (00:20:48) add connect 
+\t (00:20:48) Pick first element.
+\i (00:20:53) zoom out 1 
+\i (00:20:53) setwindow pcb
+\i (00:20:53) zoom out -3.1526 -2.7072
+\i (00:20:53) trapsize 1713
+\i (00:20:54) zoom out 1 
+\i (00:20:54) setwindow pcb
+\i (00:20:54) zoom out -3.0156 -2.7071
+\i (00:20:54) trapsize 3427
+\i (00:21:02) cmgr_spac 
+\i (00:21:02) setwindow cmgr
+\i (00:21:02) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:21:59) cm select tab "85:Bond Finger"
+\i (00:21:59) cm select tab 221:Hole
+\i (00:21:59) cm select tab "86:BB Via Gap"
+\i (00:22:01) cm select tab 167:All
+\i (00:22:05) cm exit
+\i (00:22:10) setwindow pcb
+\i (00:22:10) cmgr_spac 
+\i (00:22:10) setwindow cmgr
+\i (00:22:10) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 167:All )
+\i (00:22:10) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:22:14) cm exit
+\i (00:22:15) setwindow pcb
+\i (00:22:15) help
+\i (00:22:15) Esc 
+\i (00:22:18) Esc 
+\i (00:22:19) Esc 
+\i (00:22:19) Esc 
+\i (00:22:19) Esc 
+\i (00:22:19) Esc 
+\i (00:22:20) Esc 
+\i (00:22:20) cancel 
+\i (00:22:20) etchedit 
+\i (00:22:20) cancel 
+\i (00:22:21) etchedit 
+\i (00:22:21) pick grid -37.7638 6.0656
+\t (00:22:21) last pick:  -37.4650 6.3500
+\i (00:22:31) cns cmmodes 
+\i (00:23:00) setwindow cmgr
+\i (00:23:00) cm startTransaction ( Design "Kati" ) ( Design "Kati" ) TS_VMODE_APPLY
+\i (00:23:00) cm putValue ( System "System" ) HOLE_TO_LINE_SPACING_VMODE ON 0
+\i (00:23:00) cm putValue ( System "System" ) HOLE_TO_PIN_SPACING_VMODE ON 0
+\i (00:23:00) cm putValue ( System "System" ) HOLE_TO_VIA_SPACING_VMODE ON 0
+\i (00:23:00) cm putValue ( System "System" ) HOLE_TO_SHAPE_SPACING_VMODE ON 0
+\i (00:23:00) cm putValue ( System "System" ) HOLE_TO_HOLE_SPACING_VMODE ON 0
+\i (00:23:00) cm commitTransaction ( Design "Kati" ) ( Design "Kati" ) TS_VMODE_APPLY
+\t (00:23:00) Performing DRC...
+\t (00:23:00) Multithreaded DRC update (4 threads).
+\t (00:23:01) No DRC errors detected.
+\i (00:23:03) setwindow pcb
+\i (00:23:03) etchedit 
+\i (00:23:06) drc update 
+\t (00:23:06) Performing DRC...
+\t (00:23:06) Multithreaded DRC update (4 threads).
+\t (00:23:06) No DRC errors detected.
+\i (00:23:06) etchedit 
+\i (00:23:12) setwindow form.vf_vis
+\i (00:23:12) FORM vf_vis all_drc_visible YES 
+\i (00:23:23) setwindow pcb
+\i (00:23:23) cmgr_spac 
+\i (00:23:23) setwindow cmgr
+\i (00:23:23) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:23:23) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 81:Line )
+\i (00:23:24) setwindow pcb
+\i (00:23:24) etchedit 
+\i (00:23:34) setwindow cmgr
+\i (00:23:34) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (00:23:38) cm newView ( worksheet 78:Spacing "111:Net Class-Class" "112:All Layers" 113:Line )
+\i (00:23:42) cm newView ( worksheet 78:Spacing 126:Region "127:All Layers" 128:Line )
+\i (00:23:45) cm select ( frame ( workbook 78:Spacing "79:Spacing Constraint Set" "80:All Layers" ) )
+\i (00:23:47) cm select tab "85:Bond Finger"
+\i (00:23:48) cm select tab 221:Hole
+\i (00:23:48) cm select tab "86:BB Via Gap"
+\i (00:23:49) cm select tab 167:All
+\i (00:23:57) cm scope Design "Kati"
+\i (00:23:57) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_LINE_SPACING 0.15 7
+\i (00:23:57) cm endUndoBlock
+\i (00:24:08) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUPIN_SPACING .15 7
+\i (00:24:08) cm endUndoBlock
+\i (00:24:09) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SMDPIN_SPACING .15 7
+\i (00:24:09) cm endUndoBlock
+\i (00:24:13) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTPIN_SPACING .15 7
+\i (00:24:13) cm endUndoBlock
+\i (00:24:14) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_THRUVIA_SPACING .15 7
+\i (00:24:14) cm endUndoBlock
+\i (00:24:15) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_LINE_SPACING .15 7
+\i (00:24:15) cm endUndoBlock
+\i (00:24:16) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_TESTVIA_SPACING .15 7
+\i (00:24:16) cm endUndoBlock
+\i (00:24:20) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_LINE_SPACING .15 7
+\i (00:24:20) cm endUndoBlock
+\i (00:24:23) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_THRUPIN_SPACING .15 7
+\i (00:24:23) cm endUndoBlock
+\i (00:24:24) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_SMDPIN_SPACING .15 7
+\i (00:24:24) cm endUndoBlock
+\i (00:24:25) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_THRUPIN_SPACING .15 7
+\i (00:24:25) cm endUndoBlock
+\i (00:24:26) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_THRUVIA_SPACING .15 7
+\i (00:24:26) cm endUndoBlock
+\i (00:24:27) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_THRUPIN_SPACING .15 7
+\i (00:24:27) cm endUndoBlock
+\i (00:24:28) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTVIA_TO_THRUPIN_SPACING .15 7
+\i (00:24:28) cm endUndoBlock
+\i (00:24:31) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUPIN_TO_BONDPAD_SPACING .15 7
+\i (00:24:31) cm endUndoBlock
+\i (00:24:32) cm putValue ( "Spacing CSet" "DEFAULT" ) LINE_TO_SMDPIN_SPACING .15 7
+\i (00:24:32) cm endUndoBlock
+\i (00:24:34) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_SMDPIN_SPACING .15 7
+\i (00:24:34) cm endUndoBlock
+\i (00:24:35) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_TESTPIN_SPACING .15 7
+\i (00:24:35) cm endUndoBlock
+\i (00:24:36) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_THRUVIA_SPACING .15 7
+\i (00:24:36) cm endUndoBlock
+\i (00:24:36) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_SMDPIN_SPACING .15 7
+\i (00:24:37) cm endUndoBlock
+\i (00:24:37) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_TESTVIA_SPACING .15 7
+\i (00:24:37) cm endUndoBlock
+\i (00:24:40) cm putValue ( "Spacing CSet" "DEFAULT" ) SMDPIN_TO_BONDPAD_SPACING .15 7
+\i (00:24:40) cm endUndoBlock
+\i (00:24:44) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_TESTPIN_SPACING .15 7
+\i (00:24:44) cm endUndoBlock
+\i (00:24:45) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_THRUVIA_SPACING .15 7
+\i (00:24:45) cm endUndoBlock
+\i (00:24:46) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_TESTPIN_SPACING .15 7
+\i (00:24:46) cm endUndoBlock
+\i (00:24:48) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTPIN_TO_TESTVIA_SPACING .15 7
+\i (00:24:48) cm endUndoBlock
+\i (00:24:49) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_TESTPIN_SPACING .15 7
+\i (00:24:49) cm endUndoBlock
+\i (00:24:53) cm putValue ( "Spacing CSet" "DEFAULT" ) THRUVIA_TO_THRUVIA_SPACING .15 7
+\i (00:24:53) cm endUndoBlock
+\i (00:24:54) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_THRUVIA_SPACING .15 7
+\i (00:24:54) cm endUndoBlock
+\i (00:24:58) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTVIA_TO_THRUVIA_SPACING .15 7
+\i (00:24:58) cm endUndoBlock
+\i (00:25:02) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_THRUVIA_SPACING .15 7
+\i (00:25:02) cm endUndoBlock
+\i (00:25:06) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_BBV_SPACING .15 7
+\i (00:25:06) cm endUndoBlock
+\i (00:25:08) cm putValue ( "Spacing CSet" "DEFAULT" ) BBV_TO_TESTVIA_SPACING .15 7
+\i (00:25:08) cm endUndoBlock
+\i (00:25:10) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_BBV_SPACING .15 7
+\i (00:25:10) cm endUndoBlock
+\i (00:25:18) cm putValue ( "Spacing CSet" "DEFAULT" ) TESTVIA_TO_TESTVIA_SPACING .15 7
+\i (00:25:18) cm endUndoBlock
+\i (00:25:20) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_TESTVIA_SPACING .15 7
+\i (00:25:20) cm endUndoBlock
+\i (00:25:29) cm putValue ( "Spacing CSet" "DEFAULT" ) BONDPAD_TO_BONDPAD_SPACING .15 7
+\i (00:25:29) cm endUndoBlock
+\i (00:25:38) cm putValue ( "Spacing CSet" "DEFAULT" ) MIN_BVIA_GAP .15 0
+\i (00:25:38) cm endUndoBlock
+\i (00:25:41) cm exit
+\i (00:25:44) setwindow pcb
+\i (00:25:44) drc update 
+\t (00:25:44) Performing DRC...
+\t (00:25:44) Multithreaded DRC update (4 threads).
+\t (00:25:44) DRC done; 96 errors detected.
+\i (00:25:44) etchedit 
+\i (00:25:54) color192 
+\i (00:25:54) setwindow cvf.dialog
+\i (00:25:54) cvf layer_mode
+\i (00:25:54) setwindow pcb
+\i (00:25:54) etchedit 
+\i (00:25:56) setwindow cvf.dialog
+\i (00:25:56) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:25:56) cvf layers_visible stack-up stack-up/bottom FALSE
+\i (00:25:57) cvf apply
+\i (00:25:59) cvf cancel
+\i (00:26:04) setwindow pcb
+\i (00:26:04) zoom in 1 
+\i (00:26:04) setwindow pcb
+\i (00:26:04) zoom in -6.9907 4.6949
+\i (00:26:04) trapsize 1713
+\i (00:26:05) zoom in 1 
+\i (00:26:05) setwindow pcb
+\i (00:26:05) zoom in -6.9907 4.6949
+\i (00:26:05) trapsize 857
+\i (00:26:08) pick grid -12.3194 4.5407
+\t (00:26:08) last pick:  -12.0650 4.4450
+\i (00:26:11) setwindow form.find
+\i (00:26:11) FORM find groups YES 
+\i (00:26:11) FORM find groups NO 
+\i (00:26:12) FORM find all_on  
+\i (00:26:13) FORM find groups NO 
+\i (00:26:15) setwindow pcb
+\i (00:26:15) drag_start grid -9.8350 5.3289
+\i (00:26:15) slide 
+\t (00:26:15) Waiting for the destination pick.
+\t (00:26:16) Start slide location has pre-existing DRC errors.
+\i (00:26:17) drag_stop grid -9.0297 5.2261
+\t (00:26:17) No DRC errors detected.
+\i (00:26:17) etchedit 
+\i (00:26:19) pick grid -3.9922 5.2604
+\t (00:26:19) last pick:  -3.8100 5.0800
+\i (00:26:19) slide 
+\t (00:26:19) Waiting for the destination pick.
+\i (00:26:21) pick grid -4.1121 5.3803
+\t (00:26:21) last pick:  -3.8100 5.0800
+\t (00:26:21) No DRC errors detected.
+\i (00:26:21) etchedit 
+\i (00:26:25) drag_start grid -9.7664 6.0657
+\i (00:26:25) slide 
+\t (00:26:25) Waiting for the destination pick.
+\i (00:26:25) drag_stop grid -9.2867 5.8943
+\t (00:26:25) No DRC errors detected.
+\i (00:26:25) etchedit 
+\i (00:26:34) drc update 
+\t (00:26:34) Performing DRC...
+\t (00:26:34) Multithreaded DRC update (4 threads).
+\t (00:26:34) DRC done; 81 errors detected.
+\i (00:26:34) etchedit 
+\i (00:26:35) zoom out 1 
+\i (00:26:35) setwindow pcb
+\i (00:26:35) zoom out -1.5763 5.4317
+\i (00:26:35) trapsize 1713
+\i (00:26:37) zoom in 1 
+\i (00:26:37) setwindow pcb
+\i (00:26:37) zoom in -1.7819 5.2946
+\i (00:26:37) trapsize 857
+\i (00:26:37) zoom in 1 
+\i (00:26:37) setwindow pcb
+\i (00:26:37) zoom in -2.5358 5.3289
+\i (00:26:37) trapsize 428
+\i (00:26:38) zoom in 1 
+\i (00:26:38) setwindow pcb
+\i (00:26:38) zoom in -3.7352 5.3460
+\i (00:26:38) trapsize 214
+\i (00:26:39) zoom out 1 
+\i (00:26:39) setwindow pcb
+\i (00:26:39) zoom out -3.8037 5.3932
+\i (00:26:39) trapsize 428
+\i (00:26:39) zoom out 1 
+\i (00:26:39) setwindow pcb
+\i (00:26:39) zoom out -3.8037 5.3932
+\i (00:26:39) trapsize 857
+\i (00:26:42) roam y 96 
+\i (00:26:42) roam y 96
+\i (00:26:42) roam y 96 
+\i (00:26:42) roam y 96
+\i (00:26:42) roam y 96 
+\i (00:26:42) roam y 96
+\i (00:26:42) roam y 96 
+\i (00:26:42) roam y 96
+\i (00:26:43) roam y 96 
+\i (00:26:43) roam y 96
+\i (00:26:43) roam y 96 
+\i (00:26:43) roam y 96
+\i (00:26:43) roam y 96 
+\i (00:26:43) roam y 96
+\i (00:26:43) roam y 96 
+\i (00:26:43) roam y 96
+\i (00:26:44) zoom out 1 
+\i (00:26:44) setwindow pcb
+\i (00:26:44) zoom out 1.5421 -10.8046
+\i (00:26:44) trapsize 1713
+\i (00:26:46) drag_start grid -0.3769 -5.8699
+\i (00:26:46) slide 
+\t (00:26:46) Waiting for the destination pick.
+\i (00:26:47) drag_stop grid -0.4112 -6.0755
+\t (00:26:47) No DRC errors detected.
+\i (00:26:47) etchedit 
+\i (00:26:51) drag_start grid -3.1869 -9.0912
+\i (00:26:51) slide 
+\t (00:26:51) Waiting for the destination pick.
+\i (00:26:52) drag_stop grid -2.5358 -9.3996
+\t (00:26:52) No DRC errors detected.
+\i (00:26:52) etchedit 
+\i (00:26:53) drag_start grid -4.2149 -9.1597
+\i (00:26:53) slide 
+\t (00:26:53) Waiting for the destination pick.
+\i (00:26:54) drag_stop grid -3.3582 -9.3996
+\t (00:26:54) No DRC errors detected.
+\i (00:26:54) etchedit 
+\i (00:26:56) drag_start grid -5.0031 -8.9198
+\i (00:26:56) slide 
+\t (00:26:56) Waiting for the destination pick.
+\i (00:26:57) drag_stop grid -4.0779 -9.4338
+\t (00:26:57) No DRC errors detected.
+\i (00:26:57) etchedit 
+\i (00:26:59) drag_start grid -6.5452 -9.9136
+\i (00:26:59) slide 
+\t (00:26:59) Waiting for the destination pick.
+\i (00:26:59) drag_stop grid -5.9969 -10.1877
+\t (00:26:59) No DRC errors detected.
+\i (00:26:59) etchedit 
+\i (00:27:03) drag_start grid -8.3272 -11.0787
+\i (00:27:03) slide 
+\t (00:27:03) Waiting for the destination pick.
+\i (00:27:04) drag_stop grid -7.8817 -11.2843
+\t (00:27:04) No DRC errors detected.
+\i (00:27:04) etchedit 
+\i (00:27:05) drag_start grid -9.1839 -11.4214
+\i (00:27:05) slide 
+\t (00:27:05) Waiting for the destination pick.
+\i (00:27:06) drag_stop grid -8.7384 -11.4557
+\t (00:27:06) No DRC errors detected.
+\i (00:27:06) etchedit 
+\i (00:27:09) drag_start grid -8.3614 -10.9417
+\i (00:27:09) slide 
+\t (00:27:09) Waiting for the destination pick.
+\i (00:27:12) drag_stop grid -8.7041 -11.1130
+\t (00:27:12) No DRC errors detected.
+\i (00:27:12) etchedit 
+\i (00:27:14) pick grid -12.0624 -13.6831
+\t (00:27:14) last pick:  -12.0650 -13.9700
+\i (00:27:14) slide 
+\t (00:27:14) Waiting for the destination pick.
+\i (00:27:16) pick grid -12.4394 -13.9573
+\t (00:27:16) last pick:  -12.7000 -13.9700
+\t (00:27:16) No DRC errors detected.
+\i (00:27:16) etchedit 
+\i (00:27:24) drag_start grid -8.1215 -12.4837
+\i (00:27:24) slide 
+\t (00:27:24) Waiting for the destination pick.
+\i (00:27:25) drag_stop grid -8.6356 -12.4152
+\t (00:27:25) No DRC errors detected.
+\i (00:27:25) etchedit 
+\i (00:27:29) drag_start grid -5.4143 -10.9759
+\i (00:27:29) slide 
+\t (00:27:29) Waiting for the destination pick.
+\i (00:27:34) drag_stop grid -7.7789 -12.7921
+\t (00:27:34) No DRC errors detected.
+\i (00:27:34) etchedit 
+\i (00:27:38) pick grid 5.9628 -1.1066
+\t (00:27:38) last pick:  5.7150 -1.2700
+\i (00:27:38) slide 
+\t (00:27:38) Waiting for the destination pick.
+\i (00:27:41) pick grid 6.7852 -0.2499
+\t (00:27:41) last pick:  6.9850 0.0000
+\t (00:27:41) No DRC errors detected.
+\i (00:27:41) etchedit 
+\i (00:27:48) zoom in 1 
+\i (00:27:48) setwindow pcb
+\i (00:27:48) zoom in -8.2243 -13.5118
+\i (00:27:48) trapsize 857
+\i (00:27:49) zoom out 1 
+\i (00:27:49) setwindow pcb
+\i (00:27:49) zoom out -6.2025 -13.3747
+\i (00:27:49) trapsize 1713
+\i (00:27:52) pick grid 5.4830 -1.2095
+\t (00:27:52) last pick:  5.7150 -1.2700
+\i (00:27:52) slide 
+\t (00:27:52) Waiting for the destination pick.
+\i (00:27:54) pick grid 5.1061 -1.0381
+\t (00:27:54) last pick:  5.0800 -1.2700
+\t (00:27:54) No DRC errors detected.
+\i (00:27:54) etchedit 
+\i (00:27:56) drag_start grid 6.5454 -0.4556
+\i (00:27:56) slide 
+\t (00:27:56) Waiting for the destination pick.
+\i (00:27:56) drag_stop grid 6.8881 -0.7297
+\t (00:27:56) No DRC errors detected.
+\i (00:27:56) etchedit 
+\i (00:28:00) drag_start grid 2.3304 -3.9167
+\i (00:28:00) slide 
+\t (00:28:00) Waiting for the destination pick.
+\t (00:28:00) New cline would result in DRC error(s); retaining old cline.
+\i (00:28:03) drag_stop grid 1.8849 -4.2251
+\t (00:28:03) No DRC errors detected.
+\i (00:28:03) etchedit 
+\i (00:28:05) drag_start grid 5.0376 -2.3746
+\i (00:28:05) slide 
+\t (00:28:05) Waiting for the destination pick.
+\t (00:28:05) New cline would result in DRC error(s); retaining old cline.
+\i (00:28:08) drag_stop grid 4.4207 -2.3060
+\t (00:28:08) No DRC errors detected.
+\i (00:28:08) etchedit 
+\i (00:28:09) drag_start grid -6.0311 -12.5866
+\i (00:28:09) slide 
+\t (00:28:09) Waiting for the destination pick.
+\t (00:28:09) New cline would result in DRC error(s); retaining old cline.
+\i (00:28:11) drag_stop grid -6.1339 -12.5523
+\t (00:28:11) No DRC errors detected.
+\i (00:28:11) etchedit 
+\i (00:28:13) drag_start grid -8.7383 -14.4028
+\i (00:28:13) slide 
+\t (00:28:13) Waiting for the destination pick.
+\i (00:28:15) drag_stop grid -8.7383 -14.2657
+\t (00:28:15) No DRC errors detected.
+\i (00:28:15) etchedit 
+\i (00:28:18) zoom in 1 
+\i (00:28:18) setwindow pcb
+\i (00:28:18) zoom in -9.5950 -15.8078
+\i (00:28:18) trapsize 857
+\i (00:28:18) zoom in 1 
+\i (00:28:18) setwindow pcb
+\i (00:28:18) zoom in -9.4408 -15.1738
+\i (00:28:18) trapsize 428
+\i (00:28:25) setwindow form.find
+\i (00:28:25) FORM find pins NO 
+\i (00:28:27) setwindow pcb
+\i (00:28:27) drag_start grid -9.3379 -15.2594
+\i (00:28:27) slide 
+\t (00:28:28) Waiting for the destination pick.
+\i (00:28:29) drag_stop grid -9.2865 -14.9339
+\t (00:28:30) No DRC errors detected.
+\i (00:28:30) etchedit 
+\i (00:28:30) zoom out 1 
+\i (00:28:30) setwindow pcb
+\i (00:28:30) zoom out -8.3527 -14.3941
+\i (00:28:30) trapsize 857
+\i (00:28:31) zoom out 1 
+\i (00:28:31) setwindow pcb
+\i (00:28:31) zoom out -8.3528 -14.3942
+\i (00:28:31) trapsize 1713
+\i (00:28:37) zoom in 1 
+\i (00:28:37) setwindow pcb
+\i (00:28:37) zoom in -1.4990 -10.8302
+\i (00:28:37) trapsize 857
+\i (00:28:37) zoom in 1 
+\i (00:28:37) setwindow pcb
+\i (00:28:37) zoom in -1.4990 -10.8302
+\i (00:28:37) trapsize 428
+\i (00:28:37) zoom out 1 
+\i (00:28:37) setwindow pcb
+\i (00:28:37) zoom out -1.4562 -10.8302
+\i (00:28:37) trapsize 857
+\i (00:28:38) zoom out 1 
+\i (00:28:38) setwindow pcb
+\i (00:28:38) zoom out -1.4561 -10.8301
+\i (00:28:38) trapsize 1713
+\i (00:28:42) drc update 
+\t (00:28:42) Performing DRC...
+\t (00:28:42) Multithreaded DRC update (4 threads).
+\t (00:28:42) DRC done; 45 errors detected.
+\i (00:28:42) etchedit 
+\i (00:28:43) zoom out 1 
+\i (00:28:43) setwindow pcb
+\i (00:28:43) zoom out -5.8767 -4.4219
+\i (00:28:43) trapsize 3427
+\i (00:28:44) roam x 96 
+\i (00:28:44) roam x 96
+\i (00:28:44) roam y -96 
+\i (00:28:44) roam y -96
+\i (00:28:44) roam y -96 
+\i (00:28:44) roam y -96
+\i (00:28:45) roam y -96 
+\i (00:28:45) roam y -96
+\i (00:28:45) roam y -96 
+\i (00:28:45) roam y -96
+\i (00:28:45) roam x 96 
+\i (00:28:45) roam x 96
+\i (00:28:46) roam y 96 
+\i (00:28:46) roam y 96
+\i (00:28:46) roam y 96 
+\i (00:28:46) roam y 96
+\i (00:28:46) roam x 96 
+\i (00:28:46) roam x 96
+\i (00:28:46) roam x 96 
+\i (00:28:46) roam x 96
+\i (00:28:47) roam x 96 
+\i (00:28:47) roam x 96
+\i (00:28:47) roam y -96 
+\i (00:28:47) roam y -96
+\i (00:28:47) roam y 96 
+\i (00:28:47) roam y 96
+\i (00:28:48) roam x 96 
+\i (00:28:48) roam x 96
+\i (00:28:49) zoom in 1 
+\i (00:28:49) setwindow pcb
+\i (00:28:49) zoom in 22.3237 -0.3523
+\i (00:28:49) trapsize 1713
+\i (00:28:50) zoom in 1 
+\i (00:28:50) setwindow pcb
+\i (00:28:50) zoom in 22.3237 -0.3523
+\i (00:28:50) trapsize 857
+\i (00:28:54) zoom out 1 
+\i (00:28:54) setwindow pcb
+\i (00:28:54) zoom out 21.8954 -1.7058
+\i (00:28:54) trapsize 1713
+\i (00:28:55) zoom out 1 
+\i (00:28:55) setwindow pcb
+\i (00:28:55) zoom out 18.9826 5.6276
+\i (00:28:55) trapsize 3427
+\i (00:28:56) roam y -96 
+\i (00:28:56) roam y -96
+\i (00:28:59) drag_start grid 17.6804 7.2552
+\i (00:28:59) slide 
+\t (00:28:59) Waiting for the destination pick.
+\i (00:29:03) drag_stop grid 17.4063 7.3923
+\t (00:29:03) No DRC errors detected.
+\i (00:29:03) etchedit 
+\i (00:29:05) drag_start grid 16.9951 7.5979
+\i (00:29:05) slide 
+\t (00:29:05) Waiting for the destination pick.
+\i (00:29:06) drag_stop grid 17.2692 7.5293
+\t (00:29:06) No DRC errors detected.
+\i (00:29:06) etchedit 
+\i (00:29:08) drag_start grid 18.5029 5.2676
+\i (00:29:08) slide 
+\t (00:29:08) Waiting for the destination pick.
+\i (00:29:08) drag_stop grid 17.6804 5.2676
+\t (00:29:08) No DRC errors detected.
+\i (00:29:08) etchedit 
+\i (00:29:09) drag_start grid 18.9826 5.4047
+\i (00:29:09) slide 
+\t (00:29:09) Waiting for the destination pick.
+\i (00:29:10) drag_stop grid 18.3658 5.4047
+\t (00:29:11) No DRC errors detected.
+\i (00:29:11) etchedit 
+\i (00:29:12) drag_start grid 19.6680 5.8845
+\i (00:29:12) slide 
+\t (00:29:12) Waiting for the destination pick.
+\i (00:29:12) drag_stop grid 18.9141 5.8845
+\t (00:29:12) No DRC errors detected.
+\i (00:29:12) etchedit 
+\i (00:29:14) drag_start grid 20.1478 4.7879
+\i (00:29:14) slide 
+\t (00:29:14) Waiting for the destination pick.
+\i (00:29:15) drag_stop grid 19.6680 4.7879
+\t (00:29:15) No DRC errors detected.
+\i (00:29:15) etchedit 
+\i (00:29:15) drag_start grid 20.7646 4.8564
+\i (00:29:15) slide 
+\t (00:29:16) Waiting for the destination pick.
+\i (00:29:16) drag_stop grid 20.0792 4.8564
+\t (00:29:16) No DRC errors detected.
+\i (00:29:16) etchedit 
+\i (00:29:17) drag_start grid 21.5185 3.0745
+\i (00:29:17) slide 
+\t (00:29:18) Waiting for the destination pick.
+\i (00:29:19) drag_stop grid 21.6556 2.8688
+\t (00:29:19) No DRC errors detected.
+\i (00:29:19) etchedit 
+\i (00:29:20) drag_start grid 20.4219 2.9374
+\i (00:29:20) slide 
+\t (00:29:20) Waiting for the destination pick.
+\i (00:29:21) drag_stop grid 21.2443 2.9374
+\t (00:29:21) No DRC errors detected.
+\i (00:29:21) etchedit 
+\i (00:29:22) drag_start grid 19.8736 2.9374
+\i (00:29:22) slide 
+\t (00:29:22) Waiting for the destination pick.
+\i (00:29:24) drag_stop grid 20.3534 2.8688
+\t (00:29:24) No DRC errors detected.
+\i (00:29:24) etchedit 
+\i (00:29:26) drag_start grid 19.1882 2.7318
+\i (00:29:26) slide 
+\t (00:29:26) Waiting for the destination pick.
+\i (00:29:27) drag_stop grid 19.8051 2.5947
+\t (00:29:27) No DRC errors detected.
+\i (00:29:27) etchedit 
+\i (00:29:28) drag_start grid 19.0512 2.5262
+\i (00:29:28) slide 
+\t (00:29:29) Waiting for the destination pick.
+\i (00:29:30) drag_stop grid 19.5995 2.5262
+\t (00:29:30) No DRC errors detected.
+\i (00:29:30) etchedit 
+\i (00:29:35) zoom in 1 
+\i (00:29:35) setwindow pcb
+\i (00:29:35) zoom in 17.9546 9.1057
+\i (00:29:35) trapsize 1713
+\i (00:29:35) zoom in 1 
+\i (00:29:35) setwindow pcb
+\i (00:29:35) zoom in 17.9546 9.1057
+\i (00:29:35) trapsize 857
+\i (00:29:36) zoom in 1 
+\i (00:29:36) setwindow pcb
+\i (00:29:36) zoom in 17.9717 8.4546
+\i (00:29:36) trapsize 428
+\i (00:29:37) zoom out 1 
+\i (00:29:37) setwindow pcb
+\i (00:29:37) zoom out 18.3658 8.6174
+\i (00:29:37) trapsize 857
+\i (00:29:37) zoom out 1 
+\i (00:29:37) setwindow pcb
+\i (00:29:37) zoom out 18.3659 8.6174
+\i (00:29:37) trapsize 1713
+\i (00:29:37) zoom out 1 
+\i (00:29:37) setwindow pcb
+\i (00:29:37) zoom out 19.0855 8.2747
+\i (00:29:37) trapsize 3427
+\i (00:29:42) drc update 
+\t (00:29:42) Performing DRC...
+\t (00:29:42) Multithreaded DRC update (4 threads).
+\t (00:29:42) DRC done; 39 errors detected.
+\i (00:29:42) etchedit 
+\i (00:29:50) zoom in 1 
+\i (00:29:50) setwindow pcb
+\i (00:29:50) zoom in -16.7592 20.8855
+\i (00:29:50) trapsize 1713
+\i (00:29:50) zoom out 1 
+\i (00:29:50) setwindow pcb
+\i (00:29:50) zoom out -16.7591 20.8855
+\i (00:29:50) trapsize 3427
+\i (00:29:53) save 
+\i (00:29:53) fillin yes 
+\i (00:29:53) etchedit 
+\i (00:29:56) color192 
+\i (00:29:56) setwindow cvf.dialog
+\i (00:29:56) cvf layer_mode
+\i (00:29:56) setwindow pcb
+\i (00:29:56) etchedit 
+\i (00:29:58) setwindow cvf.dialog
+\i (00:29:58) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:29:58) cvf layers_visible stack-up stack-up/top FALSE
+\i (00:29:58) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:29:59) cvf apply
+\i (00:30:00) cvf okay
+\i (00:30:02) setwindow pcb
+\i (00:30:02) zoom in 1 
+\i (00:30:02) setwindow pcb
+\i (00:30:02) zoom in -3.3945 24.7921
+\i (00:30:02) trapsize 1713
+\i (00:30:03) roam y -96 
+\i (00:30:03) roam y -96
+\i (00:30:03) roam y -96 
+\i (00:30:03) roam y -96
+\i (00:30:04) roam x -96 
+\i (00:30:04) roam x -96
+\i (00:30:04) roam x -96 
+\i (00:30:04) roam x -96
+\i (00:30:04) roam x -96 
+\i (00:30:04) roam x -96
+\i (00:30:04) roam x -96 
+\i (00:30:04) roam x -96
+\i (00:30:06) drag_start grid -3.2749 26.9595
+\i (00:30:06) slide 
+\t (00:30:06) Waiting for the destination pick.
+\i (00:30:08) drag_stop grid -3.0692 27.0966
+\t (00:30:08) No DRC errors detected.
+\i (00:30:08) etchedit 
+\i (00:30:10) drag_start grid -3.7203 26.9595
+\i (00:30:10) slide 
+\t (00:30:10) Waiting for the destination pick.
+\i (00:30:14) drag_stop grid -3.4462 27.3022
+\t (00:30:14) No DRC errors detected.
+\i (00:30:14) etchedit 
+\i (00:30:16) drag_start grid -19.9978 27.1309
+\i (00:30:17) slide 
+\t (00:30:17) Waiting for the destination pick.
+\i (00:30:17) drag_stop grid -19.9636 27.5421
+\t (00:30:17) No DRC errors detected.
+\i (00:30:17) etchedit 
+\i (00:30:19) drag_start grid -20.4091 27.0623
+\i (00:30:19) slide 
+\t (00:30:19) Waiting for the destination pick.
+\i (00:30:19) drag_stop grid -20.8888 26.5826
+\t (00:30:19) No DRC errors detected.
+\i (00:30:19) etchedit 
+\i (00:30:20) drag_start grid -20.2034 27.2680
+\i (00:30:20) slide 
+\t (00:30:20) Waiting for the destination pick.
+\i (00:30:21) drag_stop grid -19.3125 27.3365
+\t (00:30:21) No DRC errors detected.
+\i (00:30:21) etchedit 
+\i (00:30:24) delete 
+\i (00:30:26) pick grid -20.1692 27.1994
+\t (00:30:26) last pick:  -20.3200 27.3050
+\t (00:30:26) Connect Line "Vcc, Etch/Bottom"
+\i (00:30:26) delete 
+\i (00:30:27) pick grid -20.5119 26.7539
+\t (00:30:27) last pick:  -20.3200 26.6700
+\t (00:30:27) Connect Line "Vcc, Etch/Bottom"
+\i (00:30:29) add connect 
+\t (00:30:29) Pick first element.
+\i (00:30:31) pick grid -21.6770 25.6573
+\t (00:30:31) last pick:  -21.5900 25.4000
+\t (00:30:31) last pick:  -21.5900 25.7700
+\t (00:30:31) last pick:  -21.5900 25.7700
+\i (00:30:31) mouse_pos -20.1349 26.3770
+\i (00:30:31) mouse_pos -19.9978 26.5140
+\i (00:30:31) mouse_pos -19.9293 26.9938
+\i (00:30:32) mouse_pos -12.9728 26.8567
+\i (00:30:32) mouse_pos -11.2594 26.9938
+\i (00:30:32) mouse_pos -7.5241 26.9938
+\i (00:30:32) mouse_pos -5.2282 26.7882
+\i (00:30:32) mouse_pos -4.6456 26.7197
+\i (00:30:33) mouse_pos -19.2782 26.8567
+\i (00:30:33) mouse_pos -17.8732 27.0281
+\i (00:30:34) mouse_pos -18.9698 27.3708
+\i (00:30:34) mouse_pos -20.3405 26.9595
+\i (00:30:34) mouse_pos -19.6551 26.8910
+\i (00:30:34) mouse_pos -15.5429 26.7197
+\i (00:30:34) mouse_pos -12.6644 26.5826
+\i (00:30:34) mouse_pos -11.5335 26.5826
+\i (00:30:34) mouse_pos -10.1628 26.5826
+\i (00:30:34) mouse_pos -9.0319 26.5826
+\i (00:30:34) mouse_pos -7.8668 26.5826
+\i (00:30:34) mouse_pos -6.7017 26.5826
+\i (00:30:44) setwindow form.mini
+\i (00:30:44) FORM mini acon_line_width 1.27 
+\i (00:30:45) setwindow pcb
+\i (00:30:45) mouse_pos -14.0351 27.8848
+\i (00:30:45) mouse_pos -16.0570 27.5421
+\i (00:30:45) mouse_pos -17.5990 27.1309
+\i (00:30:45) mouse_pos -22.8764 26.7539
+\i (00:30:45) mouse_pos -23.5275 26.7539
+\i (00:30:45) mouse_pos -24.0072 26.7539
+\i (00:30:45) mouse_pos -24.6926 26.7539
+\i (00:30:45) mouse_pos -25.1381 26.7539
+\i (00:30:45) mouse_pos -24.7611 26.8225
+\i (00:30:45) mouse_pos -24.2471 26.7197
+\i (00:30:46) mouse_pos -23.6988 26.6169
+\i (00:30:46) mouse_pos -22.7050 26.4112
+\i (00:30:46) mouse_pos -20.5461 26.6169
+\i (00:30:46) mouse_pos -20.1349 27.0281
+\i (00:30:46) mouse_pos -19.9636 27.2337
+\i (00:30:46) mouse_pos -18.5243 27.2337
+\i (00:30:46) mouse_pos -17.4962 27.2337
+\i (00:30:46) mouse_pos -13.7953 27.2337
+\i (00:30:46) mouse_pos -11.1223 27.2337
+\i (00:30:46) mouse_pos -8.0724 27.2337
+\i (00:30:50) setwindow form.mini
+\i (00:30:50) FORM mini acon_line_width 0.635 
+\i (00:30:51) setwindow pcb
+\i (00:30:51) mouse_pos -1.6300 28.1247
+\i (00:30:51) mouse_pos -4.4057 27.6106
+\i (00:30:51) mouse_pos -12.9385 26.8225
+\i (00:30:51) mouse_pos -13.3498 26.6854
+\i (00:30:51) mouse_pos -15.7143 26.8225
+\i (00:30:51) mouse_pos -17.8389 26.9595
+\i (00:30:51) mouse_pos -18.2844 26.9595
+\i (00:30:52) mouse_pos -20.3405 26.9253
+\i (00:30:52) mouse_pos -20.6832 26.6169
+\i (00:30:52) mouse_pos -20.7175 26.9938
+\i (00:30:53) mouse_pos -19.9978 27.3022
+\i (00:30:54) pick grid -19.9978 27.3022
+\t (00:30:54) last pick:  -19.6850 27.3050
+\t (00:30:54) No DRC errors detected.
+\t (00:30:54) Pick first element.
+\i (00:31:01) pick grid -13.9666 29.8038
+\t (00:31:01) last pick:  -13.9700 29.8450
+\t (00:31:01) Pick first element.
+\t (00:31:01) last pick:  -13.9700 29.8450
+\i (00:31:05) mouse_pos -10.9167 28.2275
+\i (00:31:05) mouse_pos -12.6644 27.6106
+\i (00:31:05) mouse_pos -13.8981 27.8505
+\i (00:31:05) mouse_pos -13.2127 28.5359
+\i (00:31:08) mouse_pos -13.6239 27.6792
+\i (00:31:08) mouse_pos -13.9323 26.9253
+\i (00:31:11) mouse_pos -28.1194 5.1991
+\i (00:31:16) mouse_pos -16.5710 27.0623
+\i (00:31:16) mouse_pos -16.2283 27.7820
+\i (00:31:16) mouse_pos -15.6800 28.3645
+\i (00:31:16) cancel 
+\i (00:31:16) etchedit 
+\i (00:31:21) roam y 96 
+\i (00:31:21) roam y 96
+\i (00:31:22) roam x 96 
+\i (00:31:22) roam x 96
+\i (00:31:22) roam x 96 
+\i (00:31:22) roam x 96
+\i (00:31:23) save 
+\i (00:31:23) fillin yes 
+\i (00:31:23) etchedit 
+\i (00:31:24) zoom out 1 
+\i (00:31:24) setwindow pcb
+\i (00:31:24) zoom out -5.3309 18.0498
+\i (00:31:24) trapsize 3427
+\i (00:31:26) roam y 96 
+\i (00:31:26) roam y 96
+\i (00:31:27) roam y 96 
+\i (00:31:27) roam y 96
+\i (00:31:27) roam y 96 
+\i (00:31:27) roam y 96
+\i (00:31:29) roam x 96 
+\i (00:31:29) roam x 96
+\i (00:31:29) roam x 96 
+\i (00:31:29) roam x 96
+\i (00:31:30) zoom in 1 
+\i (00:31:30) setwindow pcb
+\i (00:31:30) zoom in 19.5821 3.4172
+\i (00:31:30) trapsize 1713
+\i (00:31:32) drag_start grid 16.6008 3.7257
+\i (00:31:32) slide 
+\t (00:31:32) Waiting for the destination pick.
+\i (00:31:35) drag_stop grid 16.3267 3.3830
+\t (00:31:35) No DRC errors detected.
+\i (00:31:35) etchedit 
+\i (00:31:36) drag_start grid 16.8064 3.5201
+\i (00:31:36) slide 
+\t (00:31:36) Waiting for the destination pick.
+\i (00:31:37) drag_stop grid 16.3609 3.5201
+\t (00:31:37) No DRC errors detected.
+\i (00:31:37) etchedit 
+\i (00:31:38) drag_start grid 16.4980 3.6571
+\i (00:31:39) slide 
+\t (00:31:39) Waiting for the destination pick.
+\i (00:31:41) drag_stop grid 16.2924 3.4515
+\t (00:31:41) No DRC errors detected.
+\i (00:31:41) etchedit 
+\i (00:31:42) drag_start grid 16.1553 3.8970
+\i (00:31:42) slide 
+\t (00:31:42) Waiting for the destination pick.
+\i (00:31:43) drag_stop grid 16.4980 3.7257
+\t (00:31:43) No DRC errors detected.
+\i (00:31:43) etchedit 
+\i (00:31:46) roam y 96 
+\i (00:31:46) roam y 96
+\i (00:31:46) roam y 96 
+\i (00:31:46) roam y 96
+\i (00:31:46) roam y 96 
+\i (00:31:46) roam y 96
+\i (00:31:46) roam y 96 
+\i (00:31:46) roam y 96
+\i (00:31:52) drag_start grid 17.0120 -10.9070
+\i (00:31:52) slide 
+\t (00:31:52) Waiting for the destination pick.
+\i (00:31:52) drag_stop grid 16.3609 -10.8727
+\t (00:31:52) No DRC errors detected.
+\i (00:31:53) etchedit 
+\i (00:31:54) drag_start grid 17.1148 -11.2497
+\i (00:31:54) slide 
+\t (00:31:54) Waiting for the destination pick.
+\i (00:31:55) drag_stop grid 16.7036 -11.2497
+\t (00:31:55) No DRC errors detected.
+\i (00:31:55) etchedit 
+\i (00:31:58) drag_start grid 21.4669 -10.6328
+\i (00:31:58) slide 
+\t (00:31:58) Waiting for the destination pick.
+\i (00:31:59) drag_stop grid 21.9467 -10.9070
+\t (00:31:59) No DRC errors detected.
+\i (00:31:59) etchedit 
+\i (00:32:00) drag_start grid 20.5760 -10.7699
+\i (00:32:00) slide 
+\t (00:32:00) Waiting for the destination pick.
+\i (00:32:00) drag_stop grid 21.0900 -11.0098
+\t (00:32:00) No DRC errors detected.
+\i (00:32:00) etchedit 
+\i (00:32:05) drag_start grid 19.7878 -10.8042
+\i (00:32:05) slide 
+\t (00:32:05) Waiting for the destination pick.
+\t (00:32:05) Start slide location has pre-existing DRC errors.
+\i (00:32:08) drag_stop grid 20.2675 -11.1811
+\t (00:32:08) No DRC errors detected.
+\i (00:32:08) etchedit 
+\i (00:32:12) drag_start grid 18.5884 -11.5238
+\i (00:32:12) slide 
+\t (00:32:12) Waiting for the destination pick.
+\t (00:32:13) Start slide location has pre-existing DRC errors.
+\i (00:32:16) drag_stop grid 18.8625 -11.4553
+\t (00:32:16) No DRC errors detected.
+\i (00:32:16) etchedit 
+\i (00:32:18) drag_start grid 17.8002 -12.7917
+\i (00:32:18) slide 
+\t (00:32:18) Waiting for the destination pick.
+\i (00:32:19) drag_stop grid 17.3205 -12.7232
+\t (00:32:19) No DRC errors detected.
+\i (00:32:19) etchedit 
+\i (00:32:25) drag_start grid 19.0339 -12.5861
+\i (00:32:25) slide 
+\t (00:32:25) Waiting for the destination pick.
+\i (00:32:27) drag_stop grid 18.2457 -12.6547
+\t (00:32:27) No DRC errors detected.
+\i (00:32:27) etchedit 
+\i (00:32:29) drag_start grid 20.4731 -11.7980
+\i (00:32:29) slide 
+\t (00:32:29) Waiting for the destination pick.
+\i (00:32:30) drag_stop grid 20.7816 -11.3867
+\t (00:32:30) No DRC errors detected.
+\i (00:32:31) etchedit 
+\i (00:32:33) drag_start grid 21.4327 -10.5643
+\i (00:32:33) slide 
+\t (00:32:33) Waiting for the destination pick.
+\i (00:32:33) drag_stop grid 21.7753 -10.5643
+\t (00:32:33) No DRC errors detected.
+\i (00:32:33) etchedit 
+\i (00:32:35) drag_start grid 20.6445 -11.7980
+\i (00:32:35) slide 
+\t (00:32:35) Waiting for the destination pick.
+\i (00:32:36) drag_stop grid 20.7130 -11.6951
+\t (00:32:36) No DRC errors detected.
+\i (00:32:36) etchedit 
+\i (00:32:38) pick grid 22.0152 -11.0440
+\t (00:32:38) last pick:  22.2250 -10.7950
+\i (00:32:38) slide 
+\t (00:32:38) Waiting for the destination pick.
+\i (00:32:40) pick grid 21.8439 -11.4553
+\t (00:32:40) last pick:  21.5900 -11.4300
+\t (00:32:41) No DRC errors detected.
+\i (00:32:41) etchedit 
+\i (00:32:45) pick grid 14.7161 -16.4242
+\t (00:32:45) last pick:  14.6050 -16.5100
+\i (00:32:45) slide 
+\t (00:32:45) Waiting for the destination pick.
+\i (00:32:45) delete 
+\i (00:32:45) etchedit 
+\i (00:32:46) pick grid 14.8531 -15.8074
+\t (00:32:46) last pick:  14.6050 -15.8750
+\i (00:32:46) slide 
+\t (00:32:46) Waiting for the destination pick.
+\i (00:32:46) delete 
+\i (00:32:46) etchedit 
+\i (00:32:47) pick grid 14.4076 -16.8354
+\t (00:32:47) last pick:  14.6050 -17.1450
+\i (00:32:47) slide 
+\t (00:32:47) Waiting for the destination pick.
+\i (00:32:47) delete 
+\i (00:32:47) etchedit 
+\i (00:32:48) pick grid 14.6475 -15.8759
+\t (00:32:48) last pick:  14.6050 -15.8750
+\i (00:32:48) add connect 
+\t (00:32:48) Pick first element.
+\t (00:32:48) last pick:  14.6518 -15.3683
+\i (00:32:48) delete 
+\t (00:32:48) Selected item not valid for current operation, ignored: Ratsnest "Cr-out-data0, J4.4:J2.35"
+\t (00:32:48) No valid items selected for the current operation, exiting.
+\i (00:32:48) etchedit 
+\i (00:32:49) pick grid 14.7161 -15.7731
+\t (00:32:49) last pick:  14.6050 -15.8750
+\i (00:32:49) add connect 
+\t (00:32:49) Pick first element.
+\t (00:32:49) last pick:  14.6518 -15.3683
+\i (00:32:49) mouse_pos 14.6133 -15.8759
+\i (00:32:50) mouse_pos 14.6133 -16.1843
+\i (00:32:51) cancel 
+\i (00:32:51) etchedit 
+\i (00:32:51) cancel 
+\i (00:32:51) etchedit 
+\i (00:32:52) pick grid 14.6818 -15.8759
+\t (00:32:52) last pick:  14.6050 -15.8750
+\i (00:32:52) add connect 
+\t (00:32:52) Pick first element.
+\t (00:32:52) last pick:  14.6518 -15.3683
+\i (00:32:52) mouse_pos 14.6818 -15.8759
+\i (00:32:52) mouse_pos 14.7161 -16.1843
+\i (00:32:53) cancel 
+\i (00:32:53) etchedit 
+\i (00:32:54) zoom in 1 
+\i (00:32:54) setwindow pcb
+\i (00:32:54) zoom in 14.7503 -16.5955
+\i (00:32:54) trapsize 857
+\i (00:32:54) zoom in 1 
+\i (00:32:54) setwindow pcb
+\i (00:32:54) zoom in 14.7503 -16.5955
+\i (00:32:54) trapsize 428
+\i (00:32:55) pick grid 14.6304 -15.9358
+\t (00:32:55) last pick:  14.6050 -15.8750
+\i (00:32:55) slide 
+\t (00:32:55) Waiting for the destination pick.
+\i (00:32:56) delete 
+\i (00:32:57) etchedit 
+\i (00:32:58) add connect 
+\t (00:32:58) Pick first element.
+\i (00:32:59) pick grid 13.9879 -17.1009
+\t (00:32:59) last pick:  13.9700 -17.1450
+\t (00:32:59) Target Odd-angle Line Segment is defined on BOTTOM.
+\t (00:32:59) last pick:  13.9700 -17.1450
+\i (00:32:59) mouse_pos 14.5362 -15.5503
+\i (00:33:01) mouse_pos 14.5105 -15.5417
+\i (00:33:01) mouse_pos 14.5533 -15.5332
+\i (00:33:01) mouse_pos 14.5447 -15.5674
+\i (00:33:01) mouse_pos 14.5876 -15.5246
+\i (00:33:01) mouse_pos 14.5704 -15.5075
+\i (00:33:01) mouse_pos 14.6133 -15.5503
+\i (00:33:02) mouse_pos 14.5362 -15.5075
+\i (00:33:02) mouse_pos 14.5447 -15.5417
+\i (00:33:02) mouse_pos 14.4762 -15.5417
+\i (00:33:02) mouse_pos 14.5105 -15.5160
+\i (00:33:03) cancel 
+\i (00:33:03) etchedit 
+\i (00:33:04) zoom out 1 
+\i (00:33:04) setwindow pcb
+\i (00:33:04) zoom out 14.6390 -15.6360
+\i (00:33:04) trapsize 857
+\i (00:33:05) pick grid 13.3539 -17.1952
+\t (00:33:05) last pick:  13.3350 -17.1450
+\i (00:33:05) slide 
+\t (00:33:05) Waiting for the destination pick.
+\i (00:33:05) delete 
+\i (00:33:06) etchedit 
+\i (00:33:06) pick grid 15.1187 -15.1733
+\t (00:33:06) last pick:  15.2400 -15.2400
+\i (00:33:06) slide 
+\t (00:33:06) Waiting for the destination pick.
+\i (00:33:06) delete 
+\i (00:33:06) etchedit 
+\i (00:33:09) pick grid 11.8803 -17.0238
+\t (00:33:09) last pick:  12.0650 -17.1450
+\i (00:33:09) slide 
+\t (00:33:09) Waiting for the destination pick.
+\i (00:33:10) delete 
+\i (00:33:10) etchedit 
+\i (00:33:10) add connect 
+\t (00:33:10) Pick first element.
+\i (00:33:11) pick grid 10.9551 -16.1157
+\t (00:33:11) last pick:  10.7950 -15.8750
+\t (00:33:11) Target Vertical Line Segment is defined on BOTTOM.
+\t (00:33:11) last pick:  10.7950 -15.8750
+\i (00:33:27) setwindow form.mini
+\i (00:33:27) FORM mini acon_line_width 0.3175 
+\i (00:33:30) setwindow pcb
+\i (00:33:30) zoom out 1 
+\i (00:33:30) setwindow pcb
+\i (00:33:30) zoom out 16.3866 -13.6655
+\i (00:33:30) trapsize 1713
+\i (00:33:31) mouse_pos 20.6017 -9.8274
+\i (00:33:38) pick grid 16.7979 -13.3228
+\t (00:33:38) last pick:  16.5100 -13.3350
+\t (00:33:38) No DRC errors detected.
+\i (00:33:39) done 
+\i (00:33:40) etchedit 
+\i (00:33:42) pick grid 15.8384 -13.2885
+\t (00:33:42) last pick:  15.8750 -13.3350
+\i (00:33:42) slide 
+\t (00:33:42) Waiting for the destination pick.
+\i (00:33:46) delete 
+\i (00:33:46) etchedit 
+\i (00:33:48) pick grid 14.9474 -14.0425
+\t (00:33:48) last pick:  15.2400 -13.9700
+\i (00:33:48) slide 
+\t (00:33:48) Waiting for the destination pick.
+\i (00:33:49) delete 
+\i (00:33:49) etchedit 
+\i (00:33:49) pick grid 14.2278 -14.1795
+\t (00:33:49) last pick:  13.9700 -13.9700
+\i (00:33:49) slide 
+\t (00:33:49) Waiting for the destination pick.
+\t (00:33:49) New cline would result in DRC error(s); retaining old cline.
+\i (00:33:49) delete 
+\i (00:33:49) etchedit 
+\i (00:33:50) pick grid 14.1593 -14.5565
+\t (00:33:50) last pick:  13.9700 -14.6050
+\i (00:33:50) add connect 
+\t (00:33:50) Pick first element.
+\t (00:33:50) last pick:  14.1837 -14.3913
+\i (00:33:50) delete 
+\t (00:33:50) Selected item not valid for current operation, ignored: Ratsnest "Cr-out-data1, J4.5:J2.36"
+\t (00:33:50) No valid items selected for the current operation, exiting.
+\i (00:33:50) etchedit 
+\i (00:33:51) pick grid 14.1935 -14.6936
+\t (00:33:51) last pick:  13.9700 -14.6050
+\i (00:33:51) slide 
+\t (00:33:51) Waiting for the destination pick.
+\i (00:33:52) delete 
+\i (00:33:52) etchedit 
+\i (00:33:53) pick grid 14.0565 -15.1733
+\t (00:33:53) last pick:  13.9700 -15.2400
+\i (00:33:53) add connect 
+\t (00:33:53) Pick first element.
+\t (00:33:53) last pick:  14.1837 -15.0263
+\i (00:33:53) mouse_pos 14.0222 -15.1733
+\i (00:33:54) delete 
+\t (00:33:54) Selected item not valid for current operation, ignored: Ratsnest "Cr-out-data1, J4.5:J2.36"
+\t (00:33:54) No valid items selected for the current operation, exiting.
+\i (00:33:54) etchedit 
+\i (00:33:56) cancel 
+\i (00:33:56) etchedit 
+\i (00:33:56) cancel 
+\i (00:33:56) etchedit 
+\i (00:33:57) Esc 
+\i (00:33:58) zoom in 1 
+\i (00:33:58) setwindow pcb
+\i (00:33:58) zoom in 13.0627 -15.3104
+\i (00:33:58) trapsize 857
+\i (00:33:59) pick grid 14.0394 -15.0876
+\t (00:33:59) last pick:  13.9700 -15.2400
+\i (00:33:59) slide 
+\t (00:33:59) Waiting for the destination pick.
+\i (00:33:59) delete 
+\i (00:33:59) etchedit 
+\i (00:34:01) pick grid 16.7294 -12.6374
+\t (00:34:01) last pick:  16.5100 -12.7000
+\i (00:34:01) slide 
+\t (00:34:01) Waiting for the destination pick.
+\i (00:34:02) delete 
+\i (00:34:02) etchedit 
+\i (00:34:03) pick grid 16.4724 -12.6374
+\t (00:34:03) last pick:  16.5100 -12.7000
+\i (00:34:03) add connect 
+\t (00:34:03) Pick first element.
+\t (00:34:03) last pick:  19.6850 -9.5250
+\i (00:34:03) mouse_pos 16.7980 -12.8088
+\i (00:34:03) mouse_pos 16.8322 -12.6888
+\i (00:34:04) cancel 
+\i (00:34:04) etchedit 
+\i (00:34:05) cancel 
+\i (00:34:05) etchedit 
+\i (00:34:05) cancel 
+\i (00:34:05) etchedit 
+\i (00:34:05) cancel 
+\i (00:34:05) etchedit 
+\i (00:34:06) zoom in 1 
+\i (00:34:06) setwindow pcb
+\i (00:34:06) zoom in 16.5410 -12.7916
+\i (00:34:06) trapsize 428
+\i (00:34:06) zoom in 1 
+\i (00:34:06) setwindow pcb
+\i (00:34:06) zoom in 16.5410 -12.7916
+\i (00:34:06) trapsize 214
+\i (00:34:07) pick grid 16.5539 -12.7487
+\t (00:34:07) last pick:  16.5100 -12.7000
+\i (00:34:07) slide 
+\t (00:34:07) Waiting for the destination pick.
+\i (00:34:08) delete 
+\i (00:34:08) etchedit 
+\i (00:34:08) zoom out 1 
+\i (00:34:08) setwindow pcb
+\i (00:34:08) zoom out 16.5539 -12.7487
+\i (00:34:08) trapsize 428
+\i (00:34:08) zoom out 1 
+\i (00:34:08) setwindow pcb
+\i (00:34:08) zoom out 16.5538 -12.7487
+\i (00:34:08) trapsize 857
+\i (00:34:10) roam y -96 
+\i (00:34:10) roam y -96
+\i (00:34:10) roam y -96 
+\i (00:34:10) roam y -96
+\i (00:34:13) drag_start grid 14.9090 -11.7812
+\i (00:34:13) slide 
+\t (00:34:13) Waiting for the destination pick.
+\i (00:34:14) drag_stop grid 14.3778 -11.6613
+\t (00:34:14) No DRC errors detected.
+\i (00:34:14) etchedit 
+\i (00:34:14) drag_start grid 15.9713 -11.9868
+\i (00:34:14) slide 
+\t (00:34:14) Waiting for the destination pick.
+\i (00:34:15) drag_stop grid 15.3031 -11.8155
+\t (00:34:15) No DRC errors detected.
+\i (00:34:15) etchedit 
+\i (00:34:17) add connect 
+\t (00:34:17) Pick first element.
+\i (00:34:18) pick grid 16.5367 -13.2376
+\t (00:34:18) last pick:  16.5100 -13.3350
+\t (00:34:18) Target Vertical Line Segment is defined on BOTTOM.
+\t (00:34:18) last pick:  16.5100 -13.3350
+\i (00:34:20) mouse_pos 20.1692 -9.8108
+\i (00:34:21) pick grid 20.1692 -9.8108
+\t (00:34:21) last pick:  20.3200 -9.5250
+\t (00:34:22) No DRC errors detected.
+\t (00:34:22) Pick first element.
+\i (00:34:23) drag_start grid 20.2206 -13.1691
+\i (00:34:24) drag_stop 19.9293 -13.0834
+\t (00:34:24) Pick first element.
+\i (00:34:25) drag_start grid 20.2034 -13.1348
+\i (00:34:26) drag_stop 19.5009 -12.9977
+\i (00:34:27) drag_start grid 20.2206 -13.2033
+\i (00:34:27) drag_stop 19.5523 -12.8435
+\i (00:34:28) cancel 
+\i (00:34:29) etchedit 
+\i (00:34:29) drag_start grid 20.2034 -13.2205
+\i (00:34:29) slide 
+\t (00:34:29) Waiting for the destination pick.
+\i (00:34:31) drag_stop grid 17.9246 -12.1582
+\t (00:34:31) No DRC errors detected.
+\i (00:34:31) etchedit 
+\i (00:34:35) drag_start grid 21.2486 -14.3342
+\i (00:34:35) slide 
+\t (00:34:35) Waiting for the destination pick.
+\i (00:34:36) drag_stop grid 20.8545 -14.2143
+\t (00:34:36) No DRC errors detected.
+\i (00:34:36) etchedit 
+\i (00:34:37) drag_start grid 20.7346 -13.6317
+\i (00:34:37) slide 
+\t (00:34:37) Waiting for the destination pick.
+\i (00:34:39) drag_stop grid 19.9978 -13.1348
+\t (00:34:39) No DRC errors detected.
+\i (00:34:39) etchedit 
+\i (00:34:44) add connect 
+\t (00:34:44) Pick first element.
+\i (00:34:44) pick grid 13.2812 -15.9962
+\t (00:34:44) last pick:  13.3350 -15.8750
+\t (00:34:44) Target Vertical Line Segment is defined on BOTTOM.
+\t (00:34:44) last pick:  13.3350 -15.8750
+\i (00:34:48) pick grid 13.6410 -14.3685
+\t (00:34:48) last pick:  13.3350 -14.6050
+\t (00:34:48) No DRC errors detected.
+\i (00:34:55) pick grid 15.4059 -13.0320
+\t (00:34:55) last pick:  15.2400 -13.3350
+\t (00:34:55) No DRC errors detected.
+\i (00:34:57) pick grid 16.1769 -12.4323
+\t (00:34:57) last pick:  15.8750 -12.7000
+\t (00:34:57) No DRC errors detected.
+\i (00:34:57) pick grid 16.1940 -12.3638
+\t (00:34:57) last pick:  16.5100 -12.0650
+\t (00:34:57) No DRC errors detected.
+\i (00:34:58) pick grid 16.8280 -11.6955
+\t (00:34:58) last pick:  17.1450 -11.4300
+\t (00:34:58) No DRC errors detected.
+\i (00:35:00) pick grid 18.0617 -10.4790
+\t (00:35:00) last pick:  17.7800 -10.7950
+\t (00:35:00) No DRC errors detected.
+\i (00:35:01) pick grid 18.1816 -10.4447
+\t (00:35:01) last pick:  18.4150 -10.1600
+\t (00:35:01) No DRC errors detected.
+\i (00:35:02) pick grid 18.9355 -9.8279
+\t (00:35:02) last pick:  19.0500 -9.5250
+\t (00:35:02) No DRC errors detected.
+\i (00:35:02) mouse_pos 18.9355 -9.8279
+\i (00:35:02) mouse_pos 19.3810 -9.5366
+\i (00:35:03) pick grid 19.3810 -9.5366
+\t (00:35:03) last pick:  19.6850 -9.5250
+\t (00:35:03) No DRC errors detected.
+\t (00:35:03) Pick first element.
+\i (00:35:05) done 
+\i (00:35:05) etchedit 
+\i (00:35:06) drag_start grid 19.7579 -9.5195
+\i (00:35:06) slide 
+\t (00:35:06) Waiting for the destination pick.
+\t (00:35:06) Start slide location has pre-existing DRC errors.
+\i (00:35:07) drag_stop grid 19.6037 -9.1083
+\t (00:35:07) No DRC errors detected.
+\i (00:35:07) etchedit 
+\i (00:35:08) drag_start grid 18.4215 -10.4790
+\i (00:35:08) slide 
+\t (00:35:08) Waiting for the destination pick.
+\i (00:35:08) drag_stop grid 18.2330 -10.2905
+\t (00:35:08) No DRC errors detected.
+\i (00:35:08) etchedit 
+\i (00:35:10) drag_start grid 14.3778 -13.8373
+\i (00:35:10) slide 
+\t (00:35:10) Waiting for the destination pick.
+\i (00:35:10) drag_stop grid 14.6177 -13.9915
+\t (00:35:10) No DRC errors detected.
+\i (00:35:10) etchedit 
+\i (00:35:12) drag_start grid 13.9666 -15.2766
+\i (00:35:12) slide 
+\t (00:35:12) Waiting for the destination pick.
+\i (00:35:13) drag_stop grid 13.4183 -15.0367
+\t (00:35:13) No DRC errors detected.
+\i (00:35:13) etchedit 
+\i (00:35:13) drag_start grid 14.1551 -14.6940
+\i (00:35:13) slide 
+\t (00:35:13) Waiting for the destination pick.
+\i (00:35:14) drag_stop grid 13.0756 -14.7797
+\t (00:35:14) No DRC errors detected.
+\i (00:35:14) etchedit 
+\i (00:35:15) drag_start grid 14.1722 -14.6083
+\i (00:35:15) slide 
+\t (00:35:15) Waiting for the destination pick.
+\i (00:35:15) drag_stop grid 13.3326 -14.6597
+\t (00:35:15) No DRC errors detected.
+\i (00:35:15) etchedit 
+\i (00:35:18) drag_start grid 14.0865 -14.7111
+\i (00:35:18) slide 
+\t (00:35:18) Waiting for the destination pick.
+\i (00:35:18) drag_stop grid 13.2298 -14.5398
+\t (00:35:18) No DRC errors detected.
+\i (00:35:18) etchedit 
+\i (00:35:19) pick grid 14.1379 -14.6940
+\t (00:35:19) last pick:  13.9700 -14.6050
+\i (00:35:19) slide 
+\t (00:35:19) Waiting for the destination pick.
+\i (00:35:21) delete 
+\i (00:35:21) etchedit 
+\i (00:35:21) pick grid 13.8124 -15.2766
+\t (00:35:21) last pick:  13.9700 -15.2400
+\i (00:35:21) add connect 
+\t (00:35:21) Pick first element.
+\t (00:35:21) last pick:  14.1837 -15.0263
+\i (00:35:21) mouse_pos 14.0523 -15.1395
+\i (00:35:23) cancel 
+\i (00:35:23) etchedit 
+\i (00:35:24) pick grid 13.3155 -15.8249
+\t (00:35:24) last pick:  13.3350 -15.8750
+\i (00:35:24) slide 
+\t (00:35:24) Waiting for the destination pick.
+\i (00:35:25) delete 
+\i (00:35:25) etchedit 
+\i (00:35:25) add connect 
+\t (00:35:25) Pick first element.
+\i (00:35:26) pick grid 13.2641 -15.8420
+\t (00:35:26) last pick:  13.3350 -15.8750
+\t (00:35:26) Target Odd-angle Line Segment is defined on BOTTOM.
+\t (00:35:26) last pick:  13.3350 -15.8750
+\i (00:35:27) mouse_pos 14.2921 -14.3856
+\i (00:35:28) mouse_pos 13.6239 -14.5741
+\i (00:35:29) pick grid 13.6239 -14.5741
+\t (00:35:29) last pick:  13.3350 -14.6050
+\t (00:35:29) No DRC errors detected.
+\i (00:35:30) mouse_pos 14.2921 -14.3856
+\i (00:35:32) mouse_pos 13.6410 -14.4884
+\i (00:35:33) mouse_pos 14.0865 -14.2828
+\i (00:35:34) pick grid 14.2236 -14.3171
+\t (00:35:34) last pick:  13.9700 -14.6050
+\t (00:35:34) No DRC errors detected.
+\t (00:35:34) Pick first element.
+\i (00:35:35) done 
+\i (00:35:35) etchedit 
+\i (00:35:37) drag_start grid 15.0289 -13.7002
+\i (00:35:37) slide 
+\t (00:35:37) Waiting for the destination pick.
+\i (00:35:39) drag_stop grid 14.5492 -13.5803
+\t (00:35:39) No DRC errors detected.
+\i (00:35:39) etchedit 
+\i (00:35:41) roam y -96 
+\i (00:35:41) roam y -96
+\i (00:35:41) roam y -96 
+\i (00:35:41) roam y -96
+\i (00:35:41) roam y -96 
+\i (00:35:41) roam y -96
+\i (00:35:44) drag_start grid 19.1411 -8.9370
+\i (00:35:44) slide 
+\t (00:35:44) Waiting for the destination pick.
+\i (00:35:47) drag_stop grid 19.1754 -9.0569
+\t (00:35:47) No DRC errors detected.
+\i (00:35:47) etchedit 
+\i (00:35:48) drag_start grid 19.4153 -8.7142
+\i (00:35:48) slide 
+\t (00:35:48) Waiting for the destination pick.
+\i (00:35:49) drag_stop grid 19.4324 -9.5024
+\t (00:35:49) No DRC errors detected.
+\i (00:35:49) etchedit 
+\i (00:36:07) drag_start grid 16.3140 -11.4728
+\i (00:36:07) slide 
+\t (00:36:07) Waiting for the destination pick.
+\i (00:36:09) drag_stop grid 16.7081 -11.6099
+\t (00:36:09) No DRC errors detected.
+\i (00:36:09) etchedit 
+\i (00:36:12) pick grid 19.7751 -8.3887
+\t (00:36:12) last pick:  19.6850 -8.2550
+\i (00:36:12) slide 
+\t (00:36:12) Waiting for the destination pick.
+\i (00:36:14) pick grid 19.3981 -9.9650
+\t (00:36:14) last pick:  19.6850 -10.1600
+\t (00:36:14) No DRC errors detected.
+\i (00:36:14) etchedit 
+\i (00:36:17) drag_start grid 16.2454 -10.5647
+\i (00:36:17) slide 
+\t (00:36:17) Waiting for the destination pick.
+\i (00:36:18) drag_stop grid 16.5367 -10.7532
+\t (00:36:18) No DRC errors detected.
+\i (00:36:18) etchedit 
+\i (00:36:19) drag_start grid 15.4230 -10.8046
+\i (00:36:19) slide 
+\t (00:36:19) Waiting for the destination pick.
+\t (00:36:19) New cline would result in DRC error(s); retaining old cline.
+\i (00:36:23) drag_stop grid 15.4401 -10.8389
+\t (00:36:23) No DRC errors detected.
+\i (00:36:23) etchedit 
+\i (00:36:25) roam y 96 
+\i (00:36:25) roam y 96
+\i (00:36:25) roam y 96 
+\i (00:36:25) roam y 96
+\i (00:36:26) roam y 96 
+\i (00:36:26) roam y 96
+\i (00:36:28) zoom fit 
+\i (00:36:28) trapsize 3427
+\e (00:36:29) Command not found: ~[
+\i (00:36:30) save 
+\i (00:36:31) fillin yes 
+\i (00:36:31) etchedit 
+\i (00:36:34) zoom in 1 
+\i (00:36:34) setwindow pcb
+\i (00:36:34) zoom in 18.2309 -15.5236
+\i (00:36:34) trapsize 1713
+\i (00:36:43) island_delete 
+\t (00:36:43) To delete, pick highlighted islands(s) or navigate using Options panel.
+\i (00:36:44) pick grid 18.4023 -12.9192
+\t (00:36:44) last pick:  18.4150 -12.7000
+\i (00:36:45) zoom out 1 
+\i (00:36:45) setwindow pcb
+\i (00:36:45) zoom out 20.4241 -9.4923
+\i (00:36:45) trapsize 3427
+\i (00:36:47) zoom fit 
+\i (00:36:47) trapsize 3427
+\i (00:36:50) save 
+\i (00:36:51) fillin yes 
+\i (00:36:51) etchedit 
+\i (00:36:58) color192 
+\i (00:36:58) setwindow cvf.dialog
+\i (00:36:58) cvf layer_mode
+\i (00:36:58) setwindow pcb
+\i (00:36:58) etchedit 
+\i (00:37:01) setwindow cvf.dialog
+\i (00:37:01) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:37:01) cvf layers_visible stack-up stack-up/top FALSE
+\i (00:37:02) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:37:02) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:37:03) cvf layers_visible stack-up stack-up/bottom FALSE
+\i (00:37:04) cvf apply
+\i (00:37:05) cvf okay
+\i (00:37:10) setwindow pcb
+\i (00:37:10) island_delete 
+\t (00:37:10) To delete, pick highlighted islands(s) or navigate using Options panel.
+\i (00:37:15) pick grid 15.9006 12.9192
+\t (00:37:15) last pick:  15.8750 12.7000
+\i (00:37:17) pick grid 0.4113 -3.0499
+\t (00:37:17) last pick:  0.6350 -3.1750
+\i (00:37:17) zoom in 1 
+\i (00:37:17) setwindow pcb
+\i (00:37:17) zoom in -5.0031 -6.7509
+\i (00:37:17) trapsize 1713
+\i (00:37:17) zoom in 1 
+\i (00:37:17) setwindow pcb
+\i (00:37:17) zoom in -5.0031 -6.7509
+\i (00:37:17) trapsize 857
+\i (00:37:18) pick grid -5.1059 -6.7166
+\t (00:37:18) last pick:  -5.0800 -6.9850
+\i (00:37:19) zoom out 1 
+\i (00:37:19) setwindow pcb
+\i (00:37:19) zoom out -4.7460 -6.4082
+\i (00:37:19) trapsize 1713
+\i (00:37:19) zoom out 1 
+\i (00:37:19) setwindow pcb
+\i (00:37:19) zoom out -4.7461 -6.4081
+\i (00:37:19) trapsize 3427
+\i (00:37:20) zoom fit 
+\i (00:37:20) trapsize 3427
+\i (00:37:36) zoom in 1 
+\i (00:37:36) setwindow pcb
+\i (00:37:36) zoom in -5.3458 -9.2182
+\i (00:37:36) trapsize 1713
+\i (00:37:36) zoom in 1 
+\i (00:37:36) setwindow pcb
+\i (00:37:36) zoom in -5.3458 -9.2182
+\i (00:37:36) trapsize 857
+\i (00:37:37) zoom out 1 
+\i (00:37:37) setwindow pcb
+\i (00:37:37) zoom out -5.1745 -8.8926
+\i (00:37:37) trapsize 1713
+\i (00:37:41) zoom out 1 
+\i (00:37:41) setwindow pcb
+\i (00:37:41) zoom out -10.2805 -13.9644
+\i (00:37:41) trapsize 3427
+\i (00:37:42) zoom in 1 
+\i (00:37:42) setwindow pcb
+\i (00:37:42) zoom in -10.9657 -16.2946
+\i (00:37:42) trapsize 1713
+\i (00:37:43) roam y 96 
+\i (00:37:43) roam y 96
+\i (00:37:43) roam x -96 
+\i (00:37:43) roam x -96
+\i (00:37:44) roam x -96 
+\i (00:37:44) roam x -96
+\i (00:37:44) roam y 96 
+\i (00:37:44) roam y 96
+\i (00:37:46) done 
+\i (00:37:46) etchedit 
+\i (00:37:47) save 
+\i (00:37:47) fillin yes 
+\i (00:37:48) etchedit 
+\i (00:37:50) pick grid -10.8817 -14.8133
+\t (00:37:50) last pick:  -10.7950 -14.6050
+\i (00:37:50) slide 
+\t (00:37:50) Waiting for the destination pick.
+\i (00:37:52) cancel 
+\i (00:37:52) etchedit 
+\i (00:37:53) delete 
+\i (00:37:53) etchedit 
+\i (00:37:54) pick grid -11.3614 -15.6357
+\t (00:37:54) last pick:  -11.4300 -15.8750
+\i (00:37:54) slide 
+\t (00:37:54) Waiting for the destination pick.
+\i (00:37:54) delete 
+\i (00:37:54) etchedit 
+\i (00:37:55) pick grid -11.4985 -15.9784
+\t (00:37:55) last pick:  -11.4300 -15.8750
+\i (00:37:55) add connect 
+\t (00:37:55) Pick first element.
+\t (00:37:55) last pick:  -11.3832 -15.8282
+\i (00:37:55) mouse_pos -11.4985 -16.0812
+\i (00:37:55) delete 
+\t (00:37:55) Selected item not valid for current operation, ignored: Ratsnest "Cr-in-data0, J3.4:J2.21"
+\t (00:37:55) No valid items selected for the current operation, exiting.
+\i (00:37:55) etchedit 
+\i (00:37:56) pick grid -11.8069 -16.9036
+\t (00:37:56) last pick:  -12.0650 -17.1450
+\i (00:37:56) slide 
+\t (00:37:56) Waiting for the destination pick.
+\i (00:37:56) delete 
+\i (00:37:56) etchedit 
+\i (00:37:56) pick grid -11.4300 -16.1840
+\t (00:37:56) last pick:  -11.4300 -15.8750
+\i (00:37:56) add connect 
+\t (00:37:56) Pick first element.
+\t (00:37:57) last pick:  -12.0650 -17.1450
+\i (00:37:57) mouse_pos -11.4300 -16.1497
+\i (00:37:58) cancel 
+\i (00:37:58) etchedit 
+\i (00:37:59) pick grid -11.4300 -15.8071
+\t (00:37:59) last pick:  -11.4300 -15.8750
+\i (00:37:59) slide 
+\t (00:37:59) Waiting for the destination pick.
+\i (00:37:59) delete 
+\i (00:38:00) etchedit 
+\i (00:38:00) zoom in 1 
+\i (00:38:00) setwindow pcb
+\i (00:38:00) zoom in -11.7727 -17.0065
+\i (00:38:00) trapsize 857
+\i (00:38:01) pick grid -11.5156 -16.0470
+\t (00:38:01) last pick:  -11.4300 -15.8750
+\i (00:38:01) slide 
+\t (00:38:01) Waiting for the destination pick.
+\i (00:38:01) delete 
+\i (00:38:01) etchedit 
+\i (00:38:01) pick grid -12.7322 -17.1436
+\t (00:38:01) last pick:  -12.7000 -17.1450
+\i (00:38:01) slide 
+\t (00:38:02) Waiting for the destination pick.
+\i (00:38:02) delete 
+\i (00:38:02) etchedit 
+\i (00:38:02) pick grid -14.2400 -16.7495
+\t (00:38:02) last pick:  -13.9700 -16.5100
+\i (00:38:02) slide 
+\t (00:38:02) Waiting for the destination pick.
+\i (00:38:02) delete 
+\i (00:38:02) etchedit 
+\i (00:38:03) add connect 
+\t (00:38:03) Pick first element.
+\i (00:38:04) pick grid -15.2509 -15.8585
+\t (00:38:04) last pick:  -15.2400 -15.8750
+\t (00:38:04) Target Vertical Line Segment is defined on TOP.
+\t (00:38:04) last pick:  -15.2400 -15.8750
+\i (00:38:13) pick grid -10.0592 -14.2993
+\t (00:38:13) last pick:  -10.1600 -14.6050
+\t (00:38:13) No DRC errors detected.
+\i (00:38:16) zoom out 1 
+\i (00:38:16) setwindow pcb
+\i (00:38:16) zoom out -9.6823 -14.1279
+\i (00:38:16) trapsize 1713
+\i (00:38:18) mouse_pos -2.6915 -6.6574
+\i (00:38:23) mouse_pos -10.5047 -14.6762
+\i (00:38:23) mouse_pos -11.4984 -15.5672
+\i (00:38:24) mouse_pos -11.7383 -16.8352
+\i (00:38:25) mouse_pos -11.6698 -16.1841
+\i (00:38:26) cancel 
+\i (00:38:27) etchedit 
+\i (00:38:28) add connect 
+\t (00:38:28) Pick first element.
+\i (00:38:30) pick grid -15.3708 -16.1155
+\t (00:38:30) last pick:  -15.2400 -15.8750
+\t (00:38:30) Target Vertical Line Segment is defined on TOP.
+\t (00:38:30) last pick:  -15.2400 -15.8750
+\i (00:38:35) pick grid -11.5327 -15.5330
+\t (00:38:35) last pick:  -11.4300 -15.2400
+\t (00:38:35) No DRC errors detected.
+\i (00:38:44) pick grid -9.3395 -13.0314
+\t (00:38:44) last pick:  -9.5250 -13.3350
+\t (00:38:44) No DRC errors detected.
+\i (00:38:49) pick grid -7.9688 -12.0718
+\t (00:38:49) last pick:  -8.2550 -12.0650
+\t (00:38:49) No DRC errors detected.
+\i (00:38:50) done 
+\i (00:38:50) etchedit 
+\i (00:38:52) drag_start grid -8.3800 -13.3398
+\i (00:38:52) slide 
+\t (00:38:52) Waiting for the destination pick.
+\t (00:38:52) New cline would result in DRC error(s); retaining old cline.
+\i (00:38:53) drag_stop grid -9.0311 -12.9286
+\t (00:38:53) No DRC errors detected.
+\i (00:38:53) etchedit 
+\i (00:38:59) pick grid -9.9221 -12.6544
+\t (00:38:59) last pick:  -10.1600 -12.7000
+\i (00:38:59) slide 
+\t (00:38:59) Waiting for the destination pick.
+\i (00:39:00) delete 
+\i (00:39:00) etchedit 
+\i (00:39:01) pick grid -9.0311 -12.1404
+\t (00:39:01) last pick:  -8.8900 -12.0650
+\i (00:39:01) slide 
+\t (00:39:01) Waiting for the destination pick.
+\i (00:39:01) delete 
+\i (00:39:01) etchedit 
+\i (00:39:01) pick grid -7.4205 -10.3584
+\t (00:39:01) last pick:  -7.6200 -10.1600
+\i (00:39:02) slide 
+\t (00:39:02) Waiting for the destination pick.
+\i (00:39:02) delete 
+\i (00:39:02) etchedit 
+\i (00:39:04) pick grid -8.2087 -11.3865
+\t (00:39:04) last pick:  -8.2550 -11.4300
+\i (00:39:04) add connect 
+\t (00:39:04) Pick first element.
+\t (00:39:04) last pick:  -10.1600 -12.7000
+\i (00:39:05) cancel 
+\i (00:39:05) etchedit 
+\i (00:39:06) zoom in 1 
+\i (00:39:06) setwindow pcb
+\i (00:39:06) zoom in -8.3115 -11.5236
+\i (00:39:06) trapsize 857
+\i (00:39:10) setwindow form.find
+\i (00:39:10) FORM find ratsnests NO 
+\i (00:39:13) setwindow pcb
+\i (00:39:13) pick grid -8.1916 -11.4893
+\t (00:39:13) last pick:  -8.2550 -11.4300
+\i (00:39:13) slide 
+\t (00:39:13) Waiting for the destination pick.
+\i (00:39:14) delete 
+\i (00:39:14) etchedit 
+\i (00:39:16) pick grid -5.9641 -9.2104
+\t (00:39:16) last pick:  -5.7150 -9.5250
+\i (00:39:16) slide 
+\t (00:39:16) Waiting for the destination pick.
+\i (00:39:16) delete 
+\i (00:39:16) etchedit 
+\i (00:39:17) pick grid -6.4781 -9.7587
+\t (00:39:17) last pick:  -6.3500 -9.5250
+\i (00:39:17) slide 
+\t (00:39:17) Waiting for the destination pick.
+\i (00:39:17) delete 
+\i (00:39:17) etchedit 
+\i (00:39:18) zoom out 1 
+\i (00:39:18) setwindow pcb
+\i (00:39:18) zoom out -6.4781 -9.7587
+\i (00:39:18) trapsize 1713
+\i (00:39:19) pick grid -7.5405 -10.1699
+\t (00:39:19) last pick:  -7.6200 -10.1600
+\i (00:39:19) slide 
+\t (00:39:19) Waiting for the destination pick.
+\i (00:39:20) delete 
+\i (00:39:20) etchedit 
+\i (00:39:20) pick grid -8.5343 -10.7868
+\t (00:39:20) last pick:  -8.2550 -10.7950
+\i (00:39:20) slide 
+\t (00:39:20) Waiting for the destination pick.
+\i (00:39:21) delete 
+\i (00:39:21) etchedit 
+\i (00:39:21) pick grid -10.1449 -11.8491
+\t (00:39:21) last pick:  -10.1600 -12.0650
+\i (00:39:21) slide 
+\t (00:39:22) Waiting for the destination pick.
+\i (00:39:22) delete 
+\i (00:39:22) etchedit 
+\i (00:39:22) zoom in 1 
+\i (00:39:22) setwindow pcb
+\i (00:39:22) zoom in -8.3972 -10.7868
+\i (00:39:22) trapsize 857
+\i (00:39:23) pick grid -8.3629 -10.7867
+\t (00:39:23) last pick:  -8.2550 -10.7950
+\i (00:39:23) slide 
+\t (00:39:23) Waiting for the destination pick.
+\i (00:39:23) delete 
+\i (00:39:23) etchedit 
+\i (00:39:24) zoom out 1 
+\i (00:39:24) setwindow pcb
+\i (00:39:24) zoom out -8.1915 -10.6497
+\i (00:39:24) trapsize 1713
+\i (00:39:24) zoom out 1 
+\i (00:39:24) setwindow pcb
+\i (00:39:24) zoom out -8.0202 -10.2041
+\i (00:39:24) trapsize 3427
+\i (00:39:25) roam y -96 
+\i (00:39:25) roam y -96
+\i (00:39:26) roam y -96 
+\i (00:39:26) roam y -96
+\i (00:39:26) roam y 96 
+\i (00:39:26) roam y 96
+\i (00:39:27) zoom in 1 
+\i (00:39:27) setwindow pcb
+\i (00:39:27) zoom in -3.2226 -12.0031
+\i (00:39:27) trapsize 1713
+\i (00:39:29) add connect 
+\t (00:39:29) Pick first element.
+\i (00:39:29) pick grid -8.0888 -12.0031
+\t (00:39:29) last pick:  -8.2550 -12.0650
+\t (00:39:29) Target Vertical Line Segment is defined on TOP.
+\t (00:39:29) last pick:  -8.2550 -12.0650
+\i (00:39:32) pick grid -7.0950 -11.1121
+\t (00:39:32) last pick:  -6.9850 -10.7950
+\t (00:39:32) No DRC errors detected.
+\i (00:39:33) pick grid -5.4501 -9.2273
+\t (00:39:33) last pick:  -5.7150 -9.5250
+\t (00:39:33) No DRC errors detected.
+\i (00:39:34) pick grid -4.6619 -8.5077
+\t (00:39:34) last pick:  -4.4450 -8.2550
+\t (00:39:34) No DRC errors detected.
+\i (00:39:36) mouse_pos -2.2288 -6.6572
+\i (00:39:37) mouse_pos -2.8799 -6.9656
+\i (00:39:44) pick grid -3.4968 -7.4796
+\t (00:39:44) last pick:  -3.8100 -7.6200
+\t (00:39:44) No DRC errors detected.
+\i (00:39:44) mouse_pos -3.7024 -7.5482
+\i (00:39:44) mouse_pos -3.4282 -7.3768
+\i (00:39:44) mouse_pos -2.8457 -6.7943
+\i (00:39:45) pick grid -2.6743 -6.6572
+\t (00:39:45) last pick:  -2.5400 -6.3500
+\t (00:39:45) No DRC errors detected.
+\t (00:39:45) Pick first element.
+\i (00:39:46) done 
+\i (00:39:46) etchedit 
+\i (00:39:48) drag_start grid -7.0607 -12.0373
+\i (00:39:48) slide 
+\t (00:39:48) Waiting for the destination pick.
+\i (00:39:49) drag_stop grid -7.7803 -11.5233
+\t (00:39:49) No DRC errors detected.
+\i (00:39:49) etchedit 
+\i (00:39:50) drag_start grid -5.7928 -10.6666
+\i (00:39:50) slide 
+\t (00:39:50) Waiting for the destination pick.
+\i (00:39:51) drag_stop grid -6.4439 -10.3582
+\t (00:39:51) No DRC errors detected.
+\i (00:39:51) etchedit 
+\i (00:39:52) drag_start grid -4.5248 -9.4329
+\i (00:39:52) slide 
+\t (00:39:52) Waiting for the destination pick.
+\i (00:39:53) drag_stop grid -5.2102 -8.9874
+\t (00:39:53) No DRC errors detected.
+\i (00:39:53) etchedit 
+\i (00:39:54) drag_start grid -2.6058 -7.4796
+\i (00:39:54) slide 
+\t (00:39:54) Waiting for the destination pick.
+\i (00:39:55) drag_stop grid -3.3254 -7.2398
+\t (00:39:55) No DRC errors detected.
+\i (00:39:55) etchedit 
+\i (00:39:57) roam y -96 
+\i (00:39:57) roam y -96
+\i (00:39:57) roam y -96 
+\i (00:39:57) roam y -96
+\i (00:39:58) roam y -96 
+\i (00:39:58) roam y -96
+\i (00:39:58) roam y 96 
+\i (00:39:58) roam y 96
+\i (00:40:03) pick grid -6.9579 -8.1652
+\t (00:40:03) last pick:  -6.9850 -8.2550
+\i (00:40:03) slide 
+\t (00:40:03) Waiting for the destination pick.
+\i (00:40:06) delete 
+\i (00:40:06) etchedit 
+\i (00:40:07) add connect 
+\t (00:40:08) Pick first element.
+\i (00:40:10) pick grid -10.1106 -12.6201
+\t (00:40:10) last pick:  -10.1600 -12.7000
+\t (00:40:10) Target Vertical Line Segment is defined on TOP.
+\t (00:40:10) last pick:  -10.1600 -12.7000
+\i (00:40:13) pick grid -9.8022 -12.0033
+\t (00:40:13) last pick:  -9.5250 -12.0650
+\t (00:40:13) No DRC errors detected.
+\i (00:40:14) pick grid -9.1853 -11.4893
+\t (00:40:14) last pick:  -8.8900 -11.4300
+\t (00:40:14) No DRC errors detected.
+\i (00:40:16) pick grid -7.9517 -10.4955
+\t (00:40:16) last pick:  -8.2550 -10.7950
+\t (00:40:16) No DRC errors detected.
+\i (00:40:17) pick grid -7.3348 -9.9472
+\t (00:40:17) last pick:  -7.6200 -10.1600
+\t (00:40:17) No DRC errors detected.
+\i (00:40:20) pick grid -6.6837 -9.2276
+\t (00:40:20) last pick:  -6.9850 -9.5250
+\t (00:40:20) No DRC errors detected.
+\i (00:40:20) mouse_pos -6.8208 -9.4674
+\i (00:40:20) mouse_pos -6.7180 -9.1933
+\i (00:40:22) pick grid -6.1012 -8.6107
+\t (00:40:22) last pick:  -6.3500 -8.8900
+\t (00:40:22) No DRC errors detected.
+\i (00:40:23) pick grid -5.4158 -7.9596
+\t (00:40:23) last pick:  -5.7150 -8.2550
+\t (00:40:23) No DRC errors detected.
+\i (00:40:24) pick grid -4.7647 -7.4113
+\t (00:40:24) last pick:  -5.0800 -7.6200
+\t (00:40:24) No DRC errors detected.
+\i (00:40:26) pick grid -4.1479 -6.9316
+\t (00:40:26) last pick:  -4.4450 -6.9850
+\t (00:40:26) No DRC errors detected.
+\i (00:40:26) mouse_pos -4.2850 -7.0344
+\i (00:40:26) mouse_pos -4.1136 -6.8630
+\i (00:40:26) mouse_pos -3.4625 -6.3490
+\i (00:40:28) mouse_pos -3.6681 -6.0063
+\i (00:40:29) pick grid -4.6619 -6.4176
+\t (00:40:29) last pick:  -4.4450 -6.3500
+\t (00:40:29) No DRC errors detected.
+\i (00:40:30) mouse_pos -3.4625 -6.0406
+\i (00:40:30) pick grid -3.4625 -6.0406
+\t (00:40:30) last pick:  -3.1750 -6.3500
+\t (00:40:30) No DRC errors detected.
+\t (00:40:30) Pick first element.
+\i (00:40:32) done 
+\i (00:40:32) etchedit 
+\i (00:40:33) drag_start grid -3.2226 -6.2462
+\i (00:40:33) slide 
+\t (00:40:33) Waiting for the destination pick.
+\i (00:40:34) drag_stop grid -3.2912 -5.6636
+\t (00:40:34) No DRC errors detected.
+\i (00:40:34) etchedit 
+\i (00:40:36) drag_start grid -8.1230 -11.0781
+\i (00:40:36) slide 
+\t (00:40:36) Waiting for the destination pick.
+\i (00:40:42) drag_stop grid -8.1230 -11.0781
+\t (00:40:42) No DRC errors detected.
+\i (00:40:42) etchedit 
+\i (00:40:44) drag_start grid -3.9423 -6.0063
+\i (00:40:44) slide 
+\t (00:40:44) Waiting for the destination pick.
+\i (00:40:46) drag_stop grid -3.4625 -6.3833
+\t (00:40:46) No DRC errors detected.
+\i (00:40:46) etchedit 
+\i (00:40:49) pick grid -11.8240 -13.0656
+\t (00:40:49) last pick:  -12.0650 -13.3350
+\i (00:40:49) slide 
+\t (00:40:49) Waiting for the destination pick.
+\i (00:40:52) delete 
+\i (00:40:53) etchedit 
+\i (00:40:54) add connect 
+\t (00:40:54) Pick first element.
+\i (00:40:54) pick grid -13.5032 -14.6420
+\t (00:40:54) last pick:  -13.3350 -14.6050
+\t (00:40:54) last pick:  -13.4970 -14.6050
+\t (00:40:54) Target Via is defined from TOP to BOTTOM.
+\t (00:40:54) last pick:  -13.4970 -14.6050
+\i (00:40:58) pick grid -11.7555 -13.9223
+\t (00:40:58) last pick:  -12.0650 -13.9700
+\t (00:40:58) No DRC errors detected.
+\i (00:40:58) mouse_pos -12.0639 -14.0251
+\i (00:40:58) mouse_pos -11.8926 -13.6482
+\i (00:41:00) pick grid -11.1386 -13.0314
+\t (00:41:00) last pick:  -11.4300 -13.3350
+\t (00:41:00) No DRC errors detected.
+\i (00:41:01) pick grid -10.5218 -12.4145
+\t (00:41:01) last pick:  -10.7950 -12.7000
+\t (00:41:01) No DRC errors detected.
+\i (00:41:03) pick grid -9.8707 -12.1061
+\t (00:41:03) last pick:  -10.1600 -12.0650
+\t (00:41:03) No DRC errors detected.
+\i (00:41:03) mouse_pos -9.9735 -12.1747
+\i (00:41:03) mouse_pos -9.8364 -12.1061
+\i (00:41:04) pick grid -9.2196 -11.5236
+\t (00:41:04) last pick:  -9.5250 -11.4300
+\t (00:41:04) No DRC errors detected.
+\i (00:41:04) mouse_pos -9.3910 -11.6949
+\i (00:41:05) mouse_pos -9.1853 -11.4550
+\i (00:41:06) pick grid -8.6028 -10.8725
+\t (00:41:06) last pick:  -8.8900 -10.7950
+\t (00:41:06) No DRC errors detected.
+\i (00:41:06) mouse_pos -8.6370 -10.9067
+\i (00:41:07) mouse_pos -8.5342 -10.7354
+\i (00:41:08) pick grid -7.9517 -10.0843
+\t (00:41:08) last pick:  -8.2550 -10.1600
+\t (00:41:08) No DRC errors detected.
+\i (00:41:08) mouse_pos -8.1230 -10.2214
+\i (00:41:09) mouse_pos -7.9174 -9.9129
+\i (00:41:10) pick grid -7.3348 -9.3304
+\t (00:41:10) last pick:  -7.6200 -9.5250
+\t (00:41:10) No DRC errors detected.
+\i (00:41:10) mouse_pos -7.4719 -9.4674
+\i (00:41:10) mouse_pos -7.4719 -9.1933
+\i (00:41:12) pick grid -6.6837 -3.6075
+\t (00:41:12) last pick:  -6.9850 -3.8100
+\t (00:41:12) No DRC errors detected.
+\i (00:41:14) done 
+\i (00:41:14) etchedit 
+\i (00:41:18) drag_start grid -12.4408 -9.1590
+\i (00:41:18) slide 
+\t (00:41:18) Waiting for the destination pick.
+\t (00:41:18) New cline would result in DRC error(s); retaining old cline.
+\i (00:41:27) drag_stop grid -9.7336 -11.2837
+\t (00:41:27) No DRC errors detected.
+\i (00:41:27) etchedit 
+\i (00:41:35) undo 
+\i (00:41:35) trapsize 1713
+\i (00:41:35) etchedit 
+\i (00:41:38) drag_start grid -6.2725 -10.1528
+\i (00:41:38) slide 
+\t (00:41:38) Waiting for the destination pick.
+\i (00:41:47) drag_stop grid -5.8270 -10.3584
+\t (00:41:47) No DRC errors detected.
+\i (00:41:47) etchedit 
+\i (00:41:49) drag_start grid -1.6120 -8.9534
+\i (00:41:49) slide 
+\t (00:41:49) Waiting for the destination pick.
+\i (00:41:50) drag_stop grid -1.0980 -9.1933
+\t (00:41:50) No DRC errors detected.
+\i (00:41:50) etchedit 
+\i (00:41:51) drag_start grid -2.2631 -8.7821
+\i (00:41:51) slide 
+\t (00:41:51) Waiting for the destination pick.
+\i (00:41:52) drag_stop grid -1.8519 -9.0562
+\t (00:41:52) No DRC errors detected.
+\i (00:41:52) etchedit 
+\i (00:41:53) drag_start grid -3.8395 -9.6388
+\i (00:41:53) slide 
+\t (00:41:53) Waiting for the destination pick.
+\t (00:41:53) New cline would result in DRC error(s); retaining old cline.
+\i (00:41:57) drag_stop grid -3.5653 -9.9129
+\t (00:41:57) No DRC errors detected.
+\i (00:41:58) etchedit 
+\i (00:42:02) undo 
+\i (00:42:02) trapsize 1713
+\i (00:42:02) etchedit 
+\i (00:42:05) delete 
+\i (00:42:05) etchedit 
+\i (00:42:06) pick grid -9.1511 -14.9161
+\t (00:42:06) last pick:  -8.8900 -14.6050
+\i (00:42:06) slide 
+\t (00:42:06) Waiting for the destination pick.
+\i (00:42:07) delete 
+\i (00:42:07) etchedit 
+\i (00:42:07) pick grid -8.9112 -14.5392
+\t (00:42:07) last pick:  -8.8900 -14.6050
+\i (00:42:07) slide 
+\t (00:42:07) Waiting for the destination pick.
+\i (00:42:07) delete 
+\i (00:42:08) etchedit 
+\i (00:42:11) drag_start grid 0.4784 -7.1715
+\i (00:42:11) slide 
+\t (00:42:11) Waiting for the destination pick.
+\i (00:42:13) drag_stop grid 0.7868 -7.4456
+\t (00:42:13) No DRC errors detected.
+\i (00:42:13) etchedit 
+\i (00:42:15) drag_start grid 6.2355 -1.7228
+\i (00:42:15) slide 
+\t (00:42:15) Waiting for the destination pick.
+\i (00:42:15) drag_stop grid 6.8866 -1.5857
+\t (00:42:15) No DRC errors detected.
+\i (00:42:15) etchedit 
+\i (00:42:17) drag_start grid 1.8148 -6.5889
+\i (00:42:17) slide 
+\t (00:42:17) Waiting for the destination pick.
+\i (00:42:19) drag_stop grid 2.1575 -6.5546
+\t (00:42:19) No DRC errors detected.
+\i (00:42:19) etchedit 
+\i (00:42:21) drag_start grid -1.2008 -8.1995
+\i (00:42:21) slide 
+\t (00:42:22) Waiting for the destination pick.
+\i (00:42:25) drag_stop grid -1.1323 -8.3023
+\t (00:42:25) No DRC errors detected.
+\i (00:42:25) etchedit 
+\i (00:42:28) add connect 
+\t (00:42:28) Pick first element.
+\i (00:42:29) pick grid 4.4878 -1.1745
+\t (00:42:29) last pick:  4.4450 -1.2700
+\t (00:42:29) last pick:  4.4450 -1.2177
+\t (00:42:29) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:42:29) last pick:  4.4450 -1.2177
+\i (00:42:32) pick grid 3.4254 -2.2025
+\t (00:42:32) last pick:  3.1750 -1.9050
+\t (00:42:32) No DRC errors detected.
+\i (00:42:34) pick grid 2.2603 -3.4705
+\t (00:42:34) last pick:  2.5400 -3.1750
+\t (00:42:34) No DRC errors detected.
+\i (00:42:36) pick grid 0.8896 -5.1154
+\t (00:42:36) last pick:  0.6350 -5.0800
+\t (00:42:36) No DRC errors detected.
+\i (00:42:38) pick grid -1.6120 -7.5141
+\t (00:42:38) last pick:  -1.9050 -7.6200
+\t (00:42:38) No DRC errors detected.
+\i (00:42:40) done 
+\i (00:42:40) etchedit 
+\i (00:42:42) drag_start grid -1.7148 -5.2524
+\i (00:42:42) slide 
+\t (00:42:42) Waiting for the destination pick.
+\i (00:42:43) drag_stop grid -0.3098 -6.1777
+\t (00:42:43) No DRC errors detected.
+\i (00:42:43) etchedit 
+\i (00:42:44) drag_start grid 0.9238 -3.2649
+\i (00:42:44) slide 
+\t (00:42:44) Waiting for the destination pick.
+\i (00:42:44) drag_stop grid 1.8834 -3.9845
+\t (00:42:44) No DRC errors detected.
+\i (00:42:45) etchedit 
+\i (00:42:45) drag_start grid 2.7743 -1.9627
+\i (00:42:45) slide 
+\t (00:42:45) Waiting for the destination pick.
+\i (00:42:46) drag_stop grid 3.6996 -2.4424
+\t (00:42:46) No DRC errors detected.
+\i (00:42:46) etchedit 
+\i (00:42:47) drag_start grid 0.8553 -5.0811
+\i (00:42:47) slide 
+\t (00:42:48) Waiting for the destination pick.
+\i (00:42:49) drag_stop grid 0.3413 -4.9440
+\t (00:42:49) No DRC errors detected.
+\i (00:42:49) etchedit 
+\i (00:42:51) drag_start grid 0.7182 -5.1496
+\i (00:42:51) slide 
+\t (00:42:51) Waiting for the destination pick.
+\i (00:42:53) drag_stop grid 1.1295 -5.2524
+\t (00:42:53) No DRC errors detected.
+\i (00:42:53) etchedit 
+\i (00:42:56) undo 
+\i (00:42:57) trapsize 1713
+\i (00:42:57) etchedit 
+\i (00:42:58) redraw 
+\i (00:42:59) add connect 
+\t (00:42:59) Pick first element.
+\t (00:42:59) last pick:  1.2700 -5.0800
+\i (00:42:59) mouse_pos -3.6339 -7.7883
+\i (00:42:59) mouse_pos -2.1946 -7.3428
+\i (00:43:00) mouse_pos -1.8862 -7.9596
+\i (00:43:00) mouse_pos -2.1946 -8.5765
+\i (00:43:00) mouse_pos -2.2288 -8.5765
+\i (00:43:00) mouse_pos -1.7834 -7.8226
+\i (00:43:02) cancel 
+\i (00:43:02) etchedit 
+\i (00:43:04) pick grid -35.6063 -12.3460
+\t (00:43:04) last pick:  -35.5600 -12.0650
+\i (00:43:06) add connect 
+\t (00:43:06) Pick first element.
+\i (00:43:09) pick grid -7.1635 -11.6949
+\t (00:43:09) last pick:  -6.9850 -11.4300
+\t (00:43:09) last pick:  -6.9851 -11.4301
+\t (00:43:09) last pick:  -6.9851 -11.4301
+\i (00:43:11) cancel 
+\i (00:43:11) etchedit 
+\i (00:43:12) pick grid -7.1635 -11.6949
+\t (00:43:12) last pick:  -6.9850 -11.4300
+\i (00:43:12) slide 
+\t (00:43:12) Waiting for the destination pick.
+\i (00:43:13) delete 
+\i (00:43:13) etchedit 
+\i (00:43:14) pick grid -10.5561 -14.5392
+\t (00:43:14) last pick:  -10.7950 -14.6050
+\i (00:43:14) slide 
+\t (00:43:14) Waiting for the destination pick.
+\i (00:43:14) delete 
+\i (00:43:14) etchedit 
+\i (00:43:15) pick grid -11.1386 -15.0532
+\t (00:43:15) last pick:  -11.4300 -15.2400
+\i (00:43:15) slide 
+\t (00:43:15) Waiting for the destination pick.
+\t (00:43:15) New cline would result in DRC error(s); retaining old cline.
+\i (00:43:15) delete 
+\i (00:43:15) etchedit 
+\i (00:43:16) pick grid -11.3100 -15.5330
+\t (00:43:16) last pick:  -11.4300 -15.2400
+\i (00:43:16) slide 
+\t (00:43:16) Waiting for the destination pick.
+\i (00:43:16) delete 
+\i (00:43:16) etchedit 
+\i (00:43:16) pick grid -11.4813 -16.1155
+\t (00:43:16) last pick:  -11.4300 -15.8750
+\i (00:43:16) slide 
+\t (00:43:16) Waiting for the destination pick.
+\i (00:43:16) delete 
+\i (00:43:16) etchedit 
+\i (00:43:17) pick grid -11.5156 -16.7324
+\t (00:43:17) last pick:  -11.4300 -16.5100
+\i (00:43:17) slide 
+\t (00:43:17) Waiting for the destination pick.
+\i (00:43:17) delete 
+\i (00:43:18) etchedit 
+\i (00:43:18) pick grid -11.4471 -15.9785
+\t (00:43:18) last pick:  -11.4300 -15.8750
+\i (00:43:18) slide 
+\t (00:43:18) Waiting for the destination pick.
+\i (00:43:18) delete 
+\i (00:43:18) etchedit 
+\i (00:43:20) pick grid -2.8114 -6.9658
+\t (00:43:20) last pick:  -2.5400 -6.9850
+\i (00:43:20) slide 
+\t (00:43:20) Waiting for the destination pick.
+\i (00:43:20) delete 
+\i (00:43:20) etchedit 
+\i (00:43:21) pick grid -2.5030 -6.1434
+\t (00:43:21) last pick:  -2.5400 -6.3500
+\i (00:43:21) slide 
+\t (00:43:21) Waiting for the destination pick.
+\i (00:43:21) delete 
+\i (00:43:21) etchedit 
+\i (00:43:22) pick grid -2.6401 -6.5204
+\t (00:43:22) last pick:  -2.5400 -6.3500
+\i (00:43:22) slide 
+\t (00:43:22) Waiting for the destination pick.
+\i (00:43:22) delete 
+\i (00:43:22) etchedit 
+\i (00:43:24) pick grid -5.8956 -9.2961
+\t (00:43:24) last pick:  -5.7150 -9.5250
+\i (00:43:24) slide 
+\t (00:43:24) Waiting for the destination pick.
+\i (00:43:24) delete 
+\i (00:43:24) etchedit 
+\i (00:43:24) pick grid -8.0888 -10.2214
+\t (00:43:24) last pick:  -8.2550 -10.1600
+\i (00:43:24) slide 
+\t (00:43:25) Waiting for the destination pick.
+\i (00:43:25) delete 
+\i (00:43:25) etchedit 
+\i (00:43:26) pick grid -6.7523 -5.4580
+\t (00:43:26) last pick:  -6.9850 -5.7150
+\i (00:43:26) slide 
+\t (00:43:27) Waiting for the destination pick.
+\i (00:43:27) delete 
+\i (00:43:27) etchedit 
+\i (00:43:28) add connect 
+\t (00:43:29) Pick first element.
+\i (00:43:29) pick grid -2.0575 -7.6855
+\t (00:43:29) last pick:  -1.9050 -7.6200
+\t (00:43:29) Target Symbol Pin is defined from TOP to BOTTOM.
+\t (00:43:29) last pick:  -1.9050 -7.6200
+\i (00:43:32) pick grid -6.1355 -10.4955
+\t (00:43:32) last pick:  -6.3500 -10.7950
+\t (00:43:32) No DRC errors detected.
+\i (00:43:33) pick grid -8.7056 -13.6825
+\t (00:43:33) last pick:  -8.8900 -13.9700
+\t (00:43:33) No DRC errors detected.
+\i (00:43:33) mouse_pos -9.5623 -14.9847
+\i (00:43:34) pick grid -9.8707 -15.8756
+\t (00:43:34) last pick:  -10.1600 -15.8750
+\t (00:43:34) No DRC errors detected.
+\t (00:43:34) Pick first element.
+\i (00:43:37) drag_start grid -6.1012 -7.6512
+\i (00:43:38) drag_stop -5.2445 -8.4051
+\t (00:43:38) Pick first element.
+\i (00:43:39) drag_start grid -6.1355 -7.6512
+\i (00:43:40) drag_stop -5.9298 -8.0967
+\i (00:43:41) done 
+\i (00:43:41) etchedit 
+\i (00:43:42) drag_start grid -6.2040 -7.8226
+\i (00:43:42) slide 
+\t (00:43:42) Waiting for the destination pick.
+\i (00:43:43) drag_stop grid -3.6681 -9.3646
+\t (00:43:43) No DRC errors detected.
+\i (00:43:43) etchedit 
+\i (00:43:45) drag_start grid -8.5685 -10.9753
+\i (00:43:45) slide 
+\t (00:43:45) Waiting for the destination pick.
+\i (00:43:47) drag_stop grid -6.5467 -11.9690
+\t (00:43:47) No DRC errors detected.
+\i (00:43:47) etchedit 
+\i (00:43:51) drag_start grid -10.0421 -14.1280
+\i (00:43:51) slide 
+\t (00:43:51) Waiting for the destination pick.
+\i (00:43:53) drag_stop grid -9.0483 -14.5049
+\t (00:43:54) No DRC errors detected.
+\i (00:43:54) etchedit 
+\i (00:43:57) add connect 
+\t (00:43:57) Pick first element.
+\i (00:44:00) pick grid -11.9954 -17.0750
+\t (00:44:00) last pick:  -12.0650 -17.1450
+\t (00:44:00) Target Odd-angle Line Segment is defined on TOP.
+\t (00:44:00) last pick:  -12.0650 -17.1450
+\i (00:44:05) pick grid -9.9050 -14.5392
+\t (00:44:05) last pick:  -10.1600 -14.6050
+\t (00:44:06) No DRC errors detected.
+\i (00:44:07) pick grid -9.2196 -13.8881
+\t (00:44:07) last pick:  -9.5250 -13.9700
+\t (00:44:08) No DRC errors detected.
+\i (00:44:08) mouse_pos -9.3567 -14.0251
+\i (00:44:08) mouse_pos -9.1853 -13.9566
+\i (00:44:09) pick grid -8.6028 -13.3055
+\t (00:44:09) last pick:  -8.8900 -13.3350
+\t (00:44:09) No DRC errors detected.
+\i (00:44:09) mouse_pos -8.7741 -13.4426
+\i (00:44:10) mouse_pos -8.5685 -13.1684
+\i (00:44:12) pick grid -7.9517 -12.7572
+\t (00:44:12) last pick:  -8.2550 -12.7000
+\t (00:44:12) No DRC errors detected.
+\i (00:44:12) mouse_pos -7.9517 -12.7572
+\i (00:44:12) mouse_pos -7.9174 -12.7572
+\i (00:44:15) pick grid -7.4377 -12.3803
+\t (00:44:15) last pick:  -7.6200 -12.0650
+\t (00:44:15) No DRC errors detected.
+\i (00:44:15) mouse_pos -7.3348 -12.1747
+\i (00:44:15) mouse_pos -7.2663 -11.8662
+\i (00:44:16) pick grid -6.6837 -11.2494
+\t (00:44:16) last pick:  -6.9850 -11.4300
+\t (00:44:16) No DRC errors detected.
+\i (00:44:16) mouse_pos -6.8894 -11.3522
+\i (00:44:16) mouse_pos -6.6495 -11.1466
+\i (00:44:17) pick grid -6.6495 -11.1123
+\t (00:44:17) last pick:  -6.3500 -10.7950
+\t (00:44:17) No DRC errors detected.
+\i (00:44:18) pick grid -5.4158 -9.9815
+\t (00:44:18) last pick:  -5.7150 -10.1600
+\t (00:44:19) No DRC errors detected.
+\i (00:44:19) pick grid -5.2787 -9.8101
+\t (00:44:19) last pick:  -5.0800 -9.5250
+\t (00:44:20) No DRC errors detected.
+\i (00:44:20) mouse_pos -4.8675 -9.5017
+\i (00:44:20) mouse_pos -4.6962 -9.3989
+\i (00:44:21) pick grid -4.1136 -9.0220
+\t (00:44:21) last pick:  -3.8100 -8.8900
+\t (00:44:21) No DRC errors detected.
+\i (00:44:21) mouse_pos -4.1136 -9.0220
+\i (00:44:21) mouse_pos -4.1479 -9.0220
+\i (00:44:21) mouse_pos -5.2787 -9.2276
+\i (00:44:22) mouse_pos -4.6962 -9.6045
+\i (00:44:23) cancel 
+\i (00:44:23) etchedit 
+\i (00:44:24) add connect 
+\t (00:44:24) Pick first element.
+\i (00:44:24) pick grid -11.9611 -17.1093
+\t (00:44:24) last pick:  -12.0650 -17.1450
+\t (00:44:24) Target Odd-angle Line Segment is defined on TOP.
+\t (00:44:24) last pick:  -12.0650 -17.1450
+\i (00:44:27) pick grid -9.9050 -14.2993
+\t (00:44:27) last pick:  -10.1600 -14.6050
+\t (00:44:27) No DRC errors detected.
+\i (00:44:29) pick grid -9.2196 -13.8881
+\t (00:44:29) last pick:  -9.5250 -13.9700
+\t (00:44:29) No DRC errors detected.
+\i (00:44:30) pick grid -8.6028 -13.0999
+\t (00:44:30) last pick:  -8.8900 -13.3350
+\t (00:44:30) No DRC errors detected.
+\i (00:44:32) pick grid -7.9517 -12.6201
+\t (00:44:32) last pick:  -8.2550 -12.7000
+\t (00:44:32) No DRC errors detected.
+\i (00:44:33) pick grid -7.3348 -12.0718
+\t (00:44:33) last pick:  -7.6200 -12.0650
+\t (00:44:33) No DRC errors detected.
+\i (00:44:36) pick grid -6.6837 -11.3522
+\t (00:44:36) last pick:  -6.9850 -11.4300
+\t (00:44:36) No DRC errors detected.
+\i (00:44:36) mouse_pos -6.7866 -11.3865
+\i (00:44:36) mouse_pos -6.6495 -11.3865
+\i (00:44:37) pick grid -6.0326 -10.4955
+\t (00:44:37) last pick:  -6.3500 -10.7950
+\t (00:44:38) No DRC errors detected.
+\i (00:44:39) pick grid -5.4158 -9.8444
+\t (00:44:39) last pick:  -5.7150 -10.1600
+\t (00:44:39) No DRC errors detected.
+\i (00:44:40) pick grid -4.8675 -9.2618
+\t (00:44:40) last pick:  -5.0800 -9.5250
+\t (00:44:40) No DRC errors detected.
+\i (00:44:42) pick grid -4.1822 -8.5765
+\t (00:44:42) last pick:  -4.4450 -8.8900
+\t (00:44:42) No DRC errors detected.
+\i (00:44:43) pick grid -3.5653 -7.9596
+\t (00:44:43) last pick:  -3.8100 -8.2550
+\t (00:44:43) No DRC errors detected.
+\i (00:44:48) pick grid -2.8799 -7.4799
+\t (00:44:48) last pick:  -3.1750 -7.6200
+\t (00:44:48) No DRC errors detected.
+\i (00:44:48) mouse_pos -3.0170 -7.6169
+\i (00:44:48) mouse_pos -2.8457 -7.2743
+\i (00:44:50) mouse_pos -2.6743 0.3333
+\i (00:44:51) pick grid -2.6743 0.3333
+\t (00:44:51) last pick:  -2.5400 0.6350
+\t (00:44:51) No DRC errors detected.
+\t (00:44:51) Pick first element.
+\i (00:44:53) done 
+\i (00:44:53) etchedit 
+\i (00:44:55) redraw 
+\i (00:44:59) pick grid -13.0234 -14.6420
+\t (00:44:59) last pick:  -13.3350 -14.6050
+\i (00:44:59) slide 
+\t (00:44:59) Waiting for the destination pick.
+\i (00:45:00) delete 
+\i (00:45:00) etchedit 
+\i (00:45:02) add connect 
+\t (00:45:02) Pick first element.
+\i (00:45:02) pick grid -12.5437 -15.9099
+\t (00:45:02) last pick:  -12.7000 -15.8750
+\t (00:45:02) Target Vertical Line Segment is defined on TOP.
+\t (00:45:02) last pick:  -12.7000 -15.8750
+\i (00:45:15) pick grid -11.1386 -13.9223
+\t (00:45:15) last pick:  -11.4300 -13.9700
+\t (00:45:15) No DRC errors detected.
+\i (00:45:16) pick grid -10.2819 -13.7167
+\t (00:45:16) last pick:  -10.1600 -13.9700
+\t (00:45:16) No DRC errors detected.
+\i (00:45:20) pick grid -9.8707 -13.5111
+\t (00:45:20) last pick:  -10.1600 -13.3350
+\t (00:45:20) No DRC errors detected.
+\i (00:45:20) mouse_pos -10.0078 -13.4769
+\i (00:45:20) mouse_pos -9.8364 -13.0999
+\i (00:45:22) pick grid -9.2196 -12.2775
+\t (00:45:22) last pick:  -9.5250 -12.0650
+\t (00:45:22) No DRC errors detected.
+\i (00:45:24) pick grid -7.9517 -11.2151
+\t (00:45:24) last pick:  -8.2550 -11.4300
+\t (00:45:24) No DRC errors detected.
+\i (00:45:26) pick grid -7.3348 -10.2556
+\t (00:45:26) last pick:  -7.6200 -10.1600
+\t (00:45:26) No DRC errors detected.
+\i (00:45:27) pick grid -6.0326 -9.2276
+\t (00:45:27) last pick:  -6.3500 -9.5250
+\t (00:45:27) No DRC errors detected.
+\i (00:45:29) pick grid -5.4158 -8.1652
+\t (00:45:29) last pick:  -5.7150 -8.2550
+\t (00:45:29) No DRC errors detected.
+\i (00:45:30) pick grid -4.6962 -7.8568
+\t (00:45:30) last pick:  -4.4450 -7.6200
+\t (00:45:30) No DRC errors detected.
+\i (00:45:30) mouse_pos -3.4625 -6.4176
+\i (00:45:31) mouse_pos -3.5311 -6.3490
+\i (00:45:31) pick grid -3.5311 -6.3490
+\t (00:45:31) last pick:  -3.8100 -6.3500
+\t (00:45:31) No DRC errors detected.
+\i (00:45:32) mouse_pos -3.4625 -6.3490
+\i (00:45:32) pick grid -3.4625 -6.3490
+\t (00:45:32) last pick:  -3.1750 -6.3500
+\t (00:45:32) No DRC errors detected.
+\t (00:45:32) Pick first element.
+\i (00:45:33) done 
+\i (00:45:33) etchedit 
+\i (00:45:37) drag_start grid -9.3224 -12.2775
+\i (00:45:37) slide 
+\t (00:45:37) Waiting for the destination pick.
+\i (00:45:38) drag_stop grid -8.9112 -12.5173
+\t (00:45:38) No DRC errors detected.
+\i (00:45:38) etchedit 
+\i (00:45:39) drag_start grid -7.6090 -10.2899
+\i (00:45:39) slide 
+\t (00:45:39) Waiting for the destination pick.
+\i (00:45:39) drag_stop grid -6.9579 -10.5298
+\t (00:45:40) No DRC errors detected.
+\i (00:45:40) etchedit 
+\i (00:45:41) drag_start grid -5.5872 -8.5079
+\i (00:45:41) slide 
+\t (00:45:41) Waiting for the destination pick.
+\i (00:45:42) drag_stop grid -5.1759 -8.7478
+\t (00:45:42) No DRC errors detected.
+\i (00:45:42) etchedit 
+\i (00:45:43) drag_start grid -3.6339 -6.5889
+\i (00:45:43) slide 
+\t (00:45:43) Waiting for the destination pick.
+\i (00:45:44) drag_stop grid -3.2569 -6.8973
+\t (00:45:44) No DRC errors detected.
+\i (00:45:44) etchedit 
+\i (00:45:53) drag_start grid -12.4408 -9.3304
+\i (00:45:53) slide 
+\t (00:45:53) Waiting for the destination pick.
+\t (00:45:53) New cline would result in DRC error(s); retaining old cline.
+\i (00:45:55) drag_stop grid -10.2819 -10.9410
+\t (00:45:55) No DRC errors detected.
+\i (00:45:55) etchedit 
+\i (00:45:57) add connect 
+\t (00:45:57) Pick first element.
+\i (00:45:58) pick grid -16.4160 -14.5734
+\t (00:45:58) last pick:  -16.5100 -14.6050
+\t (00:45:58) Target Via is defined from TOP to BOTTOM.
+\t (00:45:58) last pick:  -16.5100 -14.6050
+\i (00:46:00) pick grid -12.4408 -14.2993
+\t (00:46:00) last pick:  -12.7000 -14.6050
+\t (00:46:00) No DRC errors detected.
+\i (00:46:01) done 
+\i (00:46:01) etchedit 
+\i (00:46:04) add connect 
+\t (00:46:04) Pick first element.
+\i (00:46:05) pick grid -12.6807 -14.5734
+\t (00:46:05) last pick:  -12.7000 -14.6050
+\t (00:46:05) Target Via is defined from TOP to BOTTOM.
+\t (00:46:05) last pick:  -12.7000 -14.6050
+\i (00:46:08) pick grid -10.4875 -12.7229
+\t (00:46:08) last pick:  -10.7950 -12.7000
+\t (00:46:08) No DRC errors detected.
+\i (00:46:21) pick grid -6.8208 -8.5422
+\t (00:46:21) last pick:  -6.9850 -8.2550
+\t (00:46:21) No DRC errors detected.
+\i (00:46:21) mouse_pos -8.3972 -11.7634
+\i (00:46:21) mouse_pos -9.0483 -13.3055
+\i (00:46:22) mouse_pos -7.9517 -12.2775
+\i (00:46:22) mouse_pos -7.8146 -11.1123
+\i (00:46:24) pick grid -7.3006 -7.1715
+\t (00:46:24) last pick:  -6.9850 -6.9850
+\t (00:46:24) No DRC errors detected.
+\i (00:46:26) done 
+\i (00:46:26) etchedit 
+\i (00:46:30) drag_start grid -6.1355 -13.0999
+\i (00:46:30) slide 
+\t (00:46:30) Waiting for the destination pick.
+\i (00:46:33) drag_stop grid -6.6152 -12.8600
+\t (00:46:33) No DRC errors detected.
+\i (00:46:33) etchedit 
+\i (00:46:35) pick grid -5.9641 -13.7510
+\t (00:46:35) last pick:  -5.7150 -13.9700
+\i (00:46:35) slide 
+\t (00:46:35) Waiting for the destination pick.
+\i (00:46:37) pick grid -6.0326 -14.0251
+\t (00:46:37) last pick:  -6.3500 -13.9700
+\t (00:46:37) No DRC errors detected.
+\i (00:46:37) etchedit 
+\i (00:46:38) done 
+\i (00:46:38) etchedit 
+\i (00:46:41) drag_start grid -9.9393 -11.5578
+\i (00:46:41) slide 
+\t (00:46:41) Waiting for the destination pick.
+\i (00:46:42) drag_stop grid -9.0140 -11.6264
+\t (00:46:42) No DRC errors detected.
+\i (00:46:42) etchedit 
+\i (00:46:43) drag_start grid -9.1168 -9.9815
+\i (00:46:43) slide 
+\t (00:46:43) Waiting for the destination pick.
+\i (00:46:46) drag_stop grid -8.1916 -10.9410
+\t (00:46:47) No DRC errors detected.
+\i (00:46:47) etchedit 
+\i (00:46:48) drag_start grid -12.0982 -13.7510
+\i (00:46:48) slide 
+\t (00:46:48) Waiting for the destination pick.
+\i (00:46:52) drag_stop grid -11.5499 -13.8538
+\t (00:46:52) No DRC errors detected.
+\i (00:46:52) etchedit 
+\i (00:46:53) drag_start grid -12.2352 -12.9628
+\i (00:46:53) slide 
+\t (00:46:53) Waiting for the destination pick.
+\i (00:46:56) drag_stop grid -11.8926 -13.3055
+\t (00:46:56) No DRC errors detected.
+\i (00:46:56) etchedit 
+\i (00:46:57) save 
+\i (00:46:58) fillin yes 
+\i (00:46:58) etchedit 
+\i (00:47:00) drag_start grid -11.2415 -12.5516
+\i (00:47:00) slide 
+\t (00:47:00) Waiting for the destination pick.
+\t (00:47:00) New cline would result in DRC error(s); retaining old cline.
+\i (00:47:05) drag_stop grid -11.2072 -12.8258
+\t (00:47:05) No DRC errors detected.
+\i (00:47:05) etchedit 
+\i (00:47:06) drag_start grid -9.8022 -11.8320
+\i (00:47:06) slide 
+\t (00:47:06) Waiting for the destination pick.
+\i (00:47:07) drag_stop grid -9.8707 -12.2775
+\t (00:47:07) No DRC errors detected.
+\i (00:47:07) etchedit 
+\i (00:47:08) drag_start grid -11.2415 -12.7572
+\i (00:47:08) slide 
+\t (00:47:08) Waiting for the destination pick.
+\t (00:47:08) New cline would result in DRC error(s); retaining old cline.
+\i (00:47:10) drag_stop grid -10.7617 -12.8258
+\t (00:47:10) No DRC errors detected.
+\i (00:47:10) etchedit 
+\i (00:47:12) undo 
+\i (00:47:12) trapsize 1713
+\i (00:47:12) etchedit 
+\i (00:47:23) save 
+\i (00:47:23) fillin yes 
+\i (00:47:23) etchedit 
+\i (00:47:25) pick grid -36.6686 -6.7602
+\t (00:47:25) last pick:  -36.8300 -6.9850
+\i (00:47:28) add connect 
+\t (00:47:28) Pick first element.
+\i (00:47:29) pick grid -6.8894 -6.7945
+\t (00:47:29) last pick:  -6.9850 -6.9850
+\t (00:47:29) Target Via is defined from TOP to BOTTOM.
+\t (00:47:29) last pick:  -6.9850 -6.9850
+\i (00:47:29) mouse_pos -6.6152 4.2057
+\i (00:47:30) pick grid -7.3006 4.3770
+\t (00:47:30) last pick:  -6.9850 4.4450
+\t (00:47:30) No DRC errors detected.
+\t (00:47:30) Pick first element.
+\i (00:47:32) save 
+\i (00:47:33) fillin yes 
+\i (00:47:33) etchedit 
+\i (00:47:42) zoom out 1 
+\i (00:47:42) setwindow pcb
+\i (00:47:42) zoom out 0.7868 -8.4051
+\i (00:47:42) trapsize 3427
+\i (00:47:44) roam x 96 
+\i (00:47:44) roam x 96
+\i (00:47:44) roam y -96 
+\i (00:47:44) roam y -96
+\i (00:47:55) roam y -96 
+\i (00:47:55) roam y -96
+\i (00:48:03) save 
+\i (00:48:04) fillin yes 
+\i (00:48:04) etchedit 
+\i (00:48:05) color192 
+\i (00:48:05) setwindow cvf.dialog
+\i (00:48:05) cvf layer_mode
+\i (00:48:05) setwindow pcb
+\i (00:48:05) etchedit 
+\i (00:48:07) setwindow cvf.dialog
+\i (00:48:07) cvf layer_tree_item 'Display'
+\i (00:48:12) cvf layer_tree_item 'My Favorites'
+\i (00:48:14) cvf layers_visible my_favorites my_favorites/all_row TRUE
+\i (00:48:15) cvf apply
+\i (00:48:19) cvf global_visible
+\i (00:48:21) cvf apply
+\i (00:48:33) setwindow pcb
+\i (00:48:33) dbdoctor 
+\i (00:48:35) setwindow form.dbdoctor_allegro
+\i (00:48:35) FORM dbdoctor_allegro drc YES 
+\i (00:48:36) FORM dbdoctor_allegro shapes YES 
+\i (00:48:37) FORM dbdoctor_allegro execute  
+\t (00:48:37) Dbdoctor in progress - please wait.
+\t (00:48:37) Checking db records
+\t (00:48:37)     checking for orphans...
+\t (00:48:37)     Checked 100 percent
+\t (00:48:37) Regenerating DRC
+\t (00:48:37)   Original DRC errors: 0
+\t (00:48:37) Performing DRC...
+\t (00:48:37) Multithreaded DRC update (4 threads).
+\t (00:48:38)   Updated DRC errors:  0
+\t (00:48:38) Done dbdoctor.
+\t (00:48:38) Dbdoctor completed.
+\i (00:48:40) FORM dbdoctor_allegro close  
+\i (00:48:40) setwindow pcb
+\i (00:48:40) etchedit 
+\i (00:48:41) drc update 
+\t (00:48:41) Performing DRC...
+\t (00:48:41) Multithreaded DRC update (4 threads).
+\t (00:48:41) No DRC errors detected.
+\i (00:48:41) etchedit 
+\i (00:48:44) drc window 
+\t (00:48:44) Select items to DRC.
+\i (00:48:47) cancel 
+\i (00:48:47) etchedit 
+\i (00:48:51) setwindow cvf.dialog
+\i (00:48:51) cvf cancel
+\i (00:48:52) setwindow pcb
+\i (00:48:52) zoom fit 
+\i (00:48:52) trapsize 3427
+\i (00:49:04) color192 
+\i (00:49:04) setwindow cvf.dialog
+\i (00:49:04) cvf layer_mode
+\i (00:49:04) setwindow pcb
+\i (00:49:04) etchedit 
+\i (00:49:18) setwindow cvf.dialog
+\i (00:49:18) cvf cancel
+\i (00:49:31) setwindow pcb
+\i (00:49:31) zoom in 1 
+\i (00:49:31) setwindow pcb
+\i (00:49:31) zoom in 7.2650 -2.2275
+\i (00:49:31) trapsize 1713
+\i (00:49:32) zoom fit 
+\i (00:49:32) trapsize 3427
+\i (00:49:45) cmgr_phys 
+\i (00:49:46) setwindow cmgr
+\i (00:49:46) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (00:49:46) cm newView ( worksheet 78:Spacing "111:Net Class-Class" "112:All Layers" 113:Line )
+\i (00:49:46) cm newView ( worksheet 78:Spacing 126:Region "127:All Layers" 128:Line )
+\i (00:49:46) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 167:All )
+\i (00:49:46) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:49:46) setwindow pcb
+\i (00:49:46) etchedit 
+\i (00:50:28) setwindow cmgr
+\i (00:50:28) cm scope Design "Kati"
+\i (00:50:28) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_LINE_WIDTH 0.15 7
+\i (00:50:28) cm endUndoBlock
+\i (00:50:35) cm exit
+\i (00:50:39) setwindow pcb
+\i (00:50:39) drc update 
+\t (00:50:39) Performing DRC...
+\t (00:50:39) Multithreaded DRC update (4 threads).
+\t (00:50:39) No DRC errors detected.
+\i (00:50:39) etchedit 
+\i (00:50:43) open 
+\e (00:50:43) Do you want to save the changes you made to D:/Dokumenty/buk/kati/board/Kati.brd?
+\i (00:50:44) fillin no 
+\i (00:50:45) fillin "Kati.brd"
+\t (00:50:45) Opening existing design...
+\i (00:50:45) trapsize 3427
+\d (00:50:45) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:50:46) etchedit 
+\i (00:50:47) zoom fit 
+\i (00:50:47) trapsize 3427
+\i (00:50:50) pick grid -49.5522 5.1060
+\t (00:50:50) last pick:  -49.5300 5.0800
+\i (00:50:58) define property 
+\i (00:50:58) etchedit 
+\i (00:51:07) cns cmmodes 
+\i (00:51:58) etchedit 
+\i (00:52:02) cmgr_phys 
+\i (00:52:02) setwindow cmgr
+\i (00:52:02) cm newView ( worksheet 78:Spacing "79:Spacing Constraint Set" "80:All Layers" 167:All )
+\i (00:52:02) cm newView ( worksheet 78:Spacing 94:Net "95:All Layers" 96:Line )
+\i (00:52:02) cm newView ( worksheet 78:Spacing "111:Net Class-Class" "112:All Layers" 113:Line )
+\i (00:52:02) cm newView ( worksheet 78:Spacing 126:Region "127:All Layers" 128:Line )
+\i (00:52:02) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:52:02) cm newView ( worksheet 55:Physical "56:Physical Constraint Set" "57:All Layers" "58:All Layers" )
+\i (00:52:02) setwindow pcb
+\i (00:52:02) etchedit 
+\i (00:52:13) setwindow cmgr
+\i (00:52:13) cm scope Design "Kati"
+\i (00:52:13) cm expand ( row ( "Physical CSet" "DEFAULT" ) )
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_LINE_WIDTH 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) MAX_LINE_WIDTH 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_NECK_WIDTH 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) MAXIMUM_NECK_LENGTH 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_MIN_SPACE 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_PRIMARY_GAP 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_NECK_GAP 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_COUPLED_PLUS 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) DIFFP_COUPLED_MINUS 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) MIN_BVIA_STAGGER 0.15 7
+\i (00:52:19) cm putValue ( "Physical CSet" "DEFAULT" ) MAX_BVIA_STAGGER 0.15 7
+\i (00:52:19) cm endUndoBlock
+\i (00:52:21) cm exit
+\i (00:52:24) setwindow pcb
+\i (00:52:24) pick grid 19.6016 -18.6763
+\t (00:52:24) last pick:  19.6850 -18.4150
+\i (00:52:32) pick grid 32.4866 -13.4675
+\t (00:52:32) last pick:  32.3850 -13.3350
+\i (00:52:37) prepopup 30.6361 -9.0126
+\i (00:52:38) pop dyn_option_select '@:@Show element' 
+\i (00:52:38) show element 
+\i (00:52:38) etchedit 
+\i (00:52:39) zoom out 1 
+\i (00:52:39) setwindow pcb
+\i (00:52:39) zoom out -1.3707 1.4735
+\i (00:52:39) trapsize 6854
+\i (00:52:39) zoom out 1 
+\i (00:52:39) setwindow pcb
+\i (00:52:39) zoom out -1.3707 1.4736
+\i (00:52:39) trapsize 13707
+\i (00:52:39) zoom out 1 
+\i (00:52:39) setwindow pcb
+\i (00:52:39) zoom out -1.3707 1.4736
+\i (00:52:39) trapsize 27415
+\i (00:52:39) zoom out 1 
+\i (00:52:39) setwindow pcb
+\i (00:52:39) zoom out 28.7673 37.9604
+\i (00:52:39) trapsize 33867
+\i (00:52:39) zoom out 1 
+\i (00:52:39) setwindow pcb
+\i (00:52:39) zoom out 129.6747 93.9627
+\i (00:52:39) trapsize 33867
+\i (00:52:39) zoom out 1 
+\i (00:52:39) setwindow pcb
+\i (00:52:39) zoom out 129.6747 93.9627
+\i (00:52:39) trapsize 33867
+\i (00:52:42) setwindow text
+\i (00:52:42) close 
+\i (00:52:43) setwindow pcb
+\i (00:52:43) zoom fit 
+\i (00:52:43) trapsize 3427
+\i (00:52:48) open 
+\e (00:52:48) Do you want to save the changes you made to Kati.brd?
+\i (00:52:49) fillin no 
+\i (00:52:50) fillin "Kati.brd"
+\t (00:52:50) Opening existing design...
+\i (00:52:50) trapsize 3427
+\d (00:52:50) Design opened: D:/Dokumenty/buk/kati/board/Kati.brd
+\i (00:52:50) etchedit 
+\i (00:52:52) zoom fit 
+\i (00:52:52) trapsize 3427
+\i (00:53:00) pick grid 41.5335 4.4892
+\t (00:53:00) last pick:  41.2750 4.4450
+\i (00:53:08) zoom in 1 
+\i (00:53:08) setwindow pcb
+\i (00:53:08) zoom in -7.1963 20.4583
+\i (00:53:08) trapsize 1713
+\i (00:53:10) zoom in 1 
+\i (00:53:10) setwindow pcb
+\i (00:53:10) zoom in -2.7757 17.5455
+\i (00:53:10) trapsize 857
+\i (00:53:11) zoom out 1 
+\i (00:53:11) setwindow pcb
+\i (00:53:11) zoom out -2.7756 17.5455
+\i (00:53:11) trapsize 1713
+\i (00:53:12) roam x 96 
+\i (00:53:12) roam x 96
+\i (00:53:13) roam x 96 
+\i (00:53:13) roam x 96
+\i (00:53:13) roam y -96 
+\i (00:53:13) roam y -96
+\i (00:53:13) roam y -96 
+\i (00:53:13) roam y -96
+\i (00:53:13) roam y -96 
+\i (00:53:13) roam y -96
+\i (00:53:13) roam x 96 
+\i (00:53:13) roam x 96
+\i (00:53:14) roam x 96 
+\i (00:53:14) roam x 96
+\i (00:53:14) roam y 96 
+\i (00:53:14) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:15) roam y 96 
+\i (00:53:15) roam y 96
+\i (00:53:16) roam y 96 
+\i (00:53:16) roam y 96
+\i (00:53:16) roam x -96 
+\i (00:53:16) roam x -96
+\i (00:53:17) roam x -96 
+\i (00:53:17) roam x -96
+\i (00:53:17) roam x -96 
+\i (00:53:17) roam x -96
+\i (00:53:17) roam x -96 
+\i (00:53:17) roam x -96
+\i (00:53:17) roam x -96 
+\i (00:53:17) roam x -96
+\i (00:53:17) roam x -96 
+\i (00:53:17) roam x -96
+\i (00:53:17) roam x -96 
+\i (00:53:17) roam x -96
+\i (00:53:17) roam x -96 
+\i (00:53:17) roam x -96
+\i (00:53:17) roam x -96 
+\i (00:53:17) roam x -96
+\i (00:53:17) roam y -96 
+\i (00:53:17) roam y -96
+\i (00:53:17) roam y -96 
+\i (00:53:17) roam y -96
+\i (00:53:18) roam x 96 
+\i (00:53:18) roam x 96
+\i (00:53:18) roam y -96 
+\i (00:53:18) roam y -96
+\i (00:53:18) roam x 96 
+\i (00:53:18) roam x 96
+\i (00:53:18) roam y -96 
+\i (00:53:18) roam y -96
+\i (00:53:18) roam y -96 
+\i (00:53:18) roam y -96
+\i (00:53:18) roam y -96 
+\i (00:53:18) roam y -96
+\i (00:53:19) roam y -96 
+\i (00:53:19) roam y -96
+\i (00:53:19) roam y -96 
+\i (00:53:19) roam y -96
+\i (00:53:19) roam y -96 
+\i (00:53:19) roam y -96
+\i (00:53:27) roam x 96 
+\i (00:53:27) roam x 96
+\i (00:53:29) zoom in 1 
+\i (00:53:29) setwindow pcb
+\i (00:53:29) zoom in -9.5452 8.0781
+\i (00:53:29) trapsize 857
+\i (00:53:29) zoom in 1 
+\i (00:53:29) setwindow pcb
+\i (00:53:29) zoom in -9.5452 8.0781
+\i (00:53:29) trapsize 428
+\i (00:53:29) zoom in 1 
+\i (00:53:29) setwindow pcb
+\i (00:53:29) zoom in -9.5452 8.0781
+\i (00:53:29) trapsize 214
+\i (00:53:29) zoom out 1 
+\i (00:53:29) setwindow pcb
+\i (00:53:29) zoom out -9.5452 8.0781
+\i (00:53:29) trapsize 428
+\i (00:53:29) zoom in 1 
+\i (00:53:29) setwindow pcb
+\i (00:53:29) zoom in -9.5452 8.0782
+\i (00:53:29) trapsize 214
+\i (00:53:30) zoom out 1 
+\i (00:53:30) setwindow pcb
+\i (00:53:30) zoom out -9.6566 8.3909
+\i (00:53:30) trapsize 428
+\i (00:53:31) zoom out 1 
+\i (00:53:31) setwindow pcb
+\i (00:53:31) zoom out -9.6566 8.3910
+\i (00:53:31) trapsize 857
+\i (00:53:34) zoom out 1 
+\i (00:53:34) setwindow pcb
+\i (00:53:34) zoom out -7.5490 8.9735
+\i (00:53:34) trapsize 1713
+\i (00:53:35) roam x 96 
+\i (00:53:35) roam x 96
+\i (00:53:36) roam x 96 
+\i (00:53:36) roam x 96
+\i (00:53:36) roam x 96 
+\i (00:53:36) roam x 96
+\i (00:53:36) roam y -96 
+\i (00:53:36) roam y -96
+\i (00:53:45) shape void polygon 
+\i (00:53:47) pick grid 8.0680 18.1183
+\t (00:53:47) last pick:  8.2550 18.4150
+\i (00:53:50) pick grid -3.3777 16.4735
+\t (00:53:50) last pick:  -3.1750 16.5100
+\i (00:53:52) pick grid -1.3901 16.8162
+\t (00:53:52) last pick:  -1.2700 16.5100
+\i (00:53:55) pick grid -1.2188 19.3177
+\t (00:53:55) last pick:  -1.2700 19.0500
+\i (00:53:57) pick grid -2.8636 19.1807
+\t (00:53:57) last pick:  -3.1750 19.0500
+\i (00:53:59) pick grid -3.1035 16.7819
+\t (00:53:59) last pick:  -3.1750 16.5100
+\i (00:54:04) undo 
+\i (00:54:04) trapsize 1713
+\i (00:54:04) etchedit 
+\i (00:54:09) shape void rectangle 
+\i (00:54:12) pick grid -3.3777 16.7133
+\t (00:54:12) last pick:  -3.1750 16.5100
+\i (00:54:14) pick grid 0.2890 18.2554
+\t (00:54:14) last pick:  0.0000 18.4150
+\i (00:54:16) pick grid -3.3434 16.7819
+\t (00:54:16) last pick:  -3.1750 16.5100
+\i (00:54:20) pick grid -0.2935 19.1807
+\t (00:54:20) last pick:  0.0000 19.0500
+\i (00:54:27) pick grid -9.5802 8.2491
+\t (00:54:27) last pick:  -9.5250 8.2550
+\i (00:54:29) pick grid -10.5055 9.8254
+\t (00:54:29) last pick:  -10.7950 9.5250
+\i (00:54:31) undo 
+\i (00:54:31) trapsize 1713
+\i (00:54:31) etchedit 
+\i (00:54:38) shape void rectangle 
+\i (00:54:40) pick grid -3.3091 16.7819
+\t (00:54:40) last pick:  -3.1750 16.5100
+\i (00:54:41) pick grid -2.4524 17.8099
+\t (00:54:41) last pick:  -2.5400 17.7800
+\i (00:54:42) pick grid -3.2406 16.7133
+\t (00:54:42) last pick:  -3.1750 16.5100
+\i (00:54:45) pick grid -0.2935 19.0093
+\t (00:54:45) last pick:  0.0000 19.0500
+\i (00:54:46) done 
+\i (00:54:46) etchedit 
+\i (00:54:48) save 
+\i (00:54:48) fillin yes 
+\i (00:54:48) etchedit 
+\i (00:54:54) shape void rectangle 
+\i (00:55:04) pick grid -14.0694 8.8659
+\t (00:55:04) last pick:  -13.9700 8.8900
+\i (00:55:05) pick grid -13.3840 8.7973
+\t (00:55:05) last pick:  -13.3350 8.8900
+\i (00:55:06) pick grid -13.9666 8.8659
+\t (00:55:06) last pick:  -13.9700 8.8900
+\i (00:55:10) pick grid -9.6145 11.1276
+\t (00:55:10) last pick:  -9.5250 11.4300
+\i (00:55:14) pick grid -10.2999 9.2428
+\t (00:55:14) last pick:  -10.1600 9.5250
+\i (00:55:17) pick grid -8.5522 7.8378
+\t (00:55:17) last pick:  -8.2550 7.6200
+\i (00:55:20) done 
+\i (00:55:20) etchedit 
+\i (00:55:25) save 
+\i (00:55:26) fillin yes 
+\i (00:55:26) etchedit 
+\i (00:55:31) zoom out 1 
+\i (00:55:31) setwindow pcb
+\i (00:55:31) zoom out -2.8636 10.8877
+\i (00:55:31) trapsize 3427
+\i (00:55:32) roam y 96 
+\i (00:55:32) roam y 96
+\i (00:55:32) roam y 96 
+\i (00:55:32) roam y 96
+\i (00:55:41) roam y -96 
+\i (00:55:41) roam y -96
+\i (00:55:54) color192 
+\i (00:55:54) setwindow cvf.dialog
+\i (00:55:54) cvf layer_mode
+\i (00:55:54) setwindow pcb
+\i (00:55:54) etchedit 
+\i (00:55:55) setwindow cvf.dialog
+\i (00:55:55) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:55:56) cvf layers_visible stack-up stack-up/top FALSE
+\i (00:55:56) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:55:57) cvf apply
+\i (00:56:00) cvf okay
+\i (00:56:04) setwindow pcb
+\i (00:56:04) pick grid 7.5539 17.1931
+\t (00:56:04) last pick:  7.6200 17.1450
+\i (00:56:04) slide 
+\t (00:56:04) Waiting for the destination pick.
+\i (00:56:06) cancel 
+\i (00:56:07) etchedit 
+\i (00:56:14) zoom in 1 
+\i (00:56:14) setwindow pcb
+\i (00:56:14) zoom in 11.3234 12.4640
+\i (00:56:14) trapsize 1713
+\i (00:56:14) zoom in 1 
+\i (00:56:14) setwindow pcb
+\i (00:56:14) zoom in 11.3234 12.4641
+\i (00:56:14) trapsize 857
+\i (00:56:16) zoom out 1 
+\i (00:56:16) setwindow pcb
+\i (00:56:16) zoom out 9.4900 11.6417
+\i (00:56:16) trapsize 1713
+\i (00:56:17) zoom out 1 
+\i (00:56:17) setwindow pcb
+\i (00:56:17) zoom out 9.4901 11.6417
+\i (00:56:17) trapsize 3427
+\i (00:56:29) zoom in 1 
+\i (00:56:29) setwindow pcb
+\i (00:56:29) zoom in -25.9434 24.1839
+\i (00:56:29) trapsize 1713
+\i (00:56:29) zoom in 1 
+\i (00:56:29) setwindow pcb
+\i (00:56:29) zoom in -25.9434 24.1839
+\i (00:56:29) trapsize 857
+\i (00:56:33) zoom out 1 
+\i (00:56:33) setwindow pcb
+\i (00:56:33) zoom out -25.4807 24.6294
+\i (00:56:33) trapsize 1713
+\i (00:56:35) roam x 96 
+\i (00:56:35) roam x 96
+\i (00:56:35) roam x 96 
+\i (00:56:35) roam x 96
+\i (00:56:35) roam x 96 
+\i (00:56:35) roam x 96
+\i (00:56:35) roam x 96 
+\i (00:56:35) roam x 96
+\i (00:56:35) roam x 96 
+\i (00:56:35) roam x 96
+\i (00:56:35) roam x 96 
+\i (00:56:35) roam x 96
+\i (00:56:38) roam x -96 
+\i (00:56:38) roam x -96
+\i (00:56:38) roam x -96 
+\i (00:56:38) roam x -96
+\i (00:56:38) roam x -96 
+\i (00:56:38) roam x -96
+\i (00:56:39) roam x -96 
+\i (00:56:39) roam x -96
+\i (00:56:39) roam x -96 
+\i (00:56:39) roam x -96
+\i (00:56:39) roam x -96 
+\i (00:56:39) roam x -96
+\i (00:56:42) color192 
+\i (00:56:42) setwindow cvf.dialog
+\i (00:56:42) cvf layer_mode
+\i (00:56:42) setwindow pcb
+\i (00:56:42) etchedit 
+\i (00:56:44) setwindow cvf.dialog
+\i (00:56:44) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:56:44) cvf layers_visible stack-up stack-up/top FALSE
+\i (00:56:45) cvf layers_visible stack-up stack-up/top TRUE
+\i (00:56:45) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (00:56:46) cvf layers_visible stack-up stack-up/bottom FALSE
+\i (00:56:47) cvf apply
+\i (00:56:49) cvf okay
+\i (00:56:52) setwindow pcb
+\i (00:56:52) add connect 
+\t (00:56:52) Pick first element.
+\t (00:56:52) last pick:  7.6200 17.1450
+\i (00:56:57) setwindow form.mini
+\i (00:56:57) FORM mini acon_line_width 0.635 
+\i (00:57:04) setwindow pcb
+\i (00:57:04) undo 
+\i (00:57:04) trapsize 1713
+\i (00:57:04) etchedit 
+\i (00:57:04) add connect 
+\t (00:57:05) Pick first element.
+\t (00:57:05) last pick:  7.6200 17.1450
+\i (00:57:06) cancel 
+\i (00:57:06) etchedit 
+\i (00:57:07) pick grid -36.4466 17.6730
+\t (00:57:07) last pick:  -36.1950 17.7800
+\i (00:57:09) add connect 
+\t (00:57:09) Pick first element.
+\i (00:57:13) setwindow form.mini
+\i (00:57:13) FORM mini acon_line_width 0.635 
+\i (00:57:15) setwindow pcb
+\i (00:57:15) pick grid -26.1318 27.2681
+\t (00:57:15) last pick:  -26.0350 27.3050
+\t (00:57:15) last pick:  -26.0350 27.3050
+\i (00:57:16) mouse_pos -26.1318 26.8912
+\i (00:57:21) mouse_pos -23.6645 20.6201
+\i (00:57:22) mouse_pos -24.4527 20.4487
+\i (00:57:26) pick grid -25.7206 21.2026
+\t (00:57:26) last pick:  -26.0350 20.9550
+\t (00:57:26) No DRC errors detected.
+\t (00:57:26) Pick first element.
+\i (00:57:28) Esc 
+\t (00:57:28) Pick first element.
+\i (00:57:29) pick grid -26.1318 24.1154
+\t (00:57:29) last pick:  -26.0350 24.1300
+\t (00:57:29) last pick:  -26.0350 24.1300
+\i (00:57:30) mouse_pos -25.6863 24.2525
+\i (00:57:30) mouse_pos -25.7549 24.7665
+\i (00:57:30) mouse_pos -26.2004 24.3896
+\i (00:57:31) cancel 
+\i (00:57:31) etchedit 
+\i (00:57:32) Esc 
+\i (00:57:32) Esc 
+\i (00:57:33) pick grid -33.4653 23.3615
+\t (00:57:33) last pick:  -33.6550 23.4950
+\i (00:57:34) drag_start grid -26.0633 24.2868
+\i (00:57:34) slide 
+\t (00:57:34) Waiting for the destination pick.
+\i (00:57:39) drag_stop grid -25.8234 24.2182
+\t (00:57:39) No DRC errors detected.
+\i (00:57:39) etchedit 
+\i (00:57:53) cancel 
+\i (00:57:53) etchedit 
+\i (00:57:55) undo 
+\i (00:57:55) trapsize 1713
+\i (00:57:55) etchedit 
+\i (00:57:57) undo 
+\i (00:57:57) trapsize 1713
+\i (00:57:57) etchedit 
+\i (00:57:58) undo 
+\i (00:57:58) trapsize 1713
+\i (00:57:58) etchedit 
+\i (00:58:00) save 
+\i (00:58:00) fillin yes 
+\i (00:58:01) etchedit 
+\i (00:58:02) zoom in 1 
+\i (00:58:02) setwindow pcb
+\i (00:58:02) zoom in -24.8296 23.3273
+\i (00:58:02) trapsize 857
+\i (00:58:03) roam y -96 
+\i (00:58:03) roam y -96
+\i (00:58:06) add connect 
+\t (00:58:06) Pick first element.
+\i (00:58:14) setwindow form.mini
+\i (00:58:14) FORM mini acon_line_width 0.3175 
+\i (00:58:16) setwindow pcb
+\i (00:58:16) pick grid -26.1489 27.3190
+\t (00:58:16) last pick:  -26.0350 27.3050
+\t (00:58:16) last pick:  -26.0350 27.3050
+\i (00:58:16) mouse_pos -26.2174 26.9592
+\i (00:58:17) mouse_pos -26.0804 25.0230
+\i (00:58:17) mouse_pos -25.9776 23.7722
+\i (00:58:21) pick grid -25.9262 20.6195
+\t (00:58:21) last pick:  -26.0350 20.3200
+\t (00:58:21) No DRC errors detected.
+\t (00:58:21) Pick first element.
+\i (00:58:24) done 
+\i (00:58:24) etchedit 
+\i (00:58:24) Esc 
+\i (00:58:24) Esc 
+\i (00:58:25) Esc 
+\i (00:58:26) drag_start grid -26.0290 24.5433
+\i (00:58:26) slide 
+\t (00:58:26) Waiting for the destination pick.
+\i (00:58:29) drag_stop grid -25.6520 24.4919
+\t (00:58:29) No DRC errors detected.
+\i (00:58:29) etchedit 
+\i (00:58:31) drag_start grid -25.4464 24.2691
+\i (00:58:31) slide 
+\t (00:58:31) Waiting for the destination pick.
+\i (00:58:37) drag_stop grid -25.7034 24.2691
+\t (00:58:37) No DRC errors detected.
+\i (00:58:37) etchedit 
+\i (00:58:48) shape add rect 
+\i (00:58:53) setwindow form.mini
+\i (00:58:53) FORM mini dyns_netname gnd 
+\t (00:58:53) Assigning selected shape to net: gnd
+\i (00:58:56) setwindow pcb
+\i (00:58:56) pick grid -26.3202 26.5994
+\t (00:58:56) last pick:  -26.0350 26.6700
+\i (00:58:58) pick grid -25.0866 21.0993
+\t (00:58:58) last pick:  -25.4000 20.9550
+\i (00:59:00) undo 
+\i (00:59:00) trapsize 857
+\i (00:59:00) etchedit 
+\i (00:59:09) define grid 
+\t (00:59:09) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:59:09) etchedit 
+\i (00:59:25) setwindow form.grid
+\i (00:59:25) FORM grid all_etch all_etch_x_grids 0.3175 
+\i (00:59:30) FORM grid all_etch all_etch_y_grids 0.3175 
+\i (00:59:30) FORM grid done  
+\i (00:59:32) setwindow pcb
+\i (00:59:32) drag_start grid -25.2922 24.2862
+\i (00:59:32) slide 
+\t (00:59:32) Waiting for the destination pick.
+\t (00:59:32) New cline would result in DRC error(s); retaining old cline.
+\i (00:59:35) drag_stop grid -25.7891 24.1834
+\t (00:59:35) No DRC errors detected.
+\i (00:59:35) etchedit 
+\i (00:59:36) pick grid -25.6006 21.2192
+\t (00:59:36) last pick:  -25.7175 21.2725
+\i (00:59:36) slide 
+\t (00:59:36) Waiting for the destination pick.
+\i (00:59:37) delete 
+\i (00:59:37) etchedit 
+\i (00:59:37) pick grid -25.6349 20.7223
+\t (00:59:37) last pick:  -25.7175 20.6375
+\i (00:59:37) slide 
+\t (00:59:37) Waiting for the destination pick.
+\i (00:59:37) delete 
+\i (00:59:37) etchedit 
+\i (00:59:39) roam x 96 
+\i (00:59:39) roam x 96
+\i (00:59:39) roam x 96 
+\i (00:59:39) roam x 96
+\i (00:59:39) roam x 96 
+\i (00:59:39) roam x 96
+\i (00:59:39) roam x 96 
+\i (00:59:39) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:40) roam x 96 
+\i (00:59:40) roam x 96
+\i (00:59:41) roam x 96 
+\i (00:59:41) roam x 96
+\i (00:59:41) roam x 96 
+\i (00:59:41) roam x 96
+\i (00:59:41) roam x 96 
+\i (00:59:41) roam x 96
+\i (00:59:41) roam x 96 
+\i (00:59:41) roam x 96
+\i (00:59:41) roam x 96 
+\i (00:59:41) roam x 96
+\i (00:59:41) roam x 96 
+\i (00:59:41) roam x 96
+\i (00:59:41) roam x 96 
+\i (00:59:41) roam x 96
+\i (00:59:42) roam x 96 
+\i (00:59:42) roam x 96
+\i (00:59:42) roam x 96 
+\i (00:59:42) roam x 96
+\i (00:59:42) roam x 96 
+\i (00:59:42) roam x 96
+\i (00:59:43) add connect 
+\t (00:59:43) Pick first element.
+\i (00:59:44) pick grid 25.7326 27.1648
+\t (00:59:44) last pick:  25.7175 27.3050
+\t (00:59:44) last pick:  26.0350 27.3050
+\t (00:59:44) last pick:  26.0350 27.3050
+\i (00:59:44) mouse_pos 25.7326 27.1305
+\i (00:59:45) mouse_pos 25.8354 23.3267
+\i (00:59:46) mouse_pos 25.7498 22.6928
+\i (00:59:55) pick grid 25.7326 21.7333
+\t (00:59:55) last pick:  25.7175 21.5900
+\t (00:59:55) No DRC errors detected.
+\t (00:59:55) Pick first element.
+\i (00:59:57) done 
+\i (00:59:57) etchedit 
+\i (00:59:58) save 
+\i (01:00:00) fillin yes 
+\i (01:00:00) etchedit 
+\i (01:00:00) zoom out 1 
+\i (01:00:00) setwindow pcb
+\i (01:00:00) zoom out 18.1251 20.2597
+\i (01:00:00) trapsize 1713
+\i (01:00:01) roam x -96 
+\i (01:00:01) roam x -96
+\i (01:00:01) roam x -96 
+\i (01:00:01) roam x -96
+\i (01:00:01) roam y 96 
+\i (01:00:01) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam y 96 
+\i (01:00:02) roam y 96
+\i (01:00:02) roam x -96 
+\i (01:00:02) roam x -96
+\i (01:00:02) roam x -96 
+\i (01:00:02) roam x -96
+\i (01:00:02) roam y -96 
+\i (01:00:02) roam y -96
+\i (01:00:03) roam y -96 
+\i (01:00:03) roam y -96
+\i (01:00:03) roam x -96 
+\i (01:00:03) roam x -96
+\i (01:00:03) roam y -96 
+\i (01:00:03) roam y -96
+\i (01:00:03) roam x -96 
+\i (01:00:03) roam x -96
+\i (01:00:03) roam y -96 
+\i (01:00:03) roam y -96
+\i (01:00:03) roam x -96 
+\i (01:00:03) roam x -96
+\i (01:00:03) roam y -96 
+\i (01:00:03) roam y -96
+\i (01:00:03) roam x -96 
+\i (01:00:03) roam x -96
+\i (01:00:03) roam y -96 
+\i (01:00:03) roam y -96
+\i (01:00:03) roam x -96 
+\i (01:00:03) roam x -96
+\i (01:00:04) roam y -96 
+\i (01:00:04) roam y -96
+\i (01:00:04) roam y 96 
+\i (01:00:04) roam y 96
+\i (01:00:04) roam y 96 
+\i (01:00:04) roam y 96
+\i (01:00:04) roam y 96 
+\i (01:00:04) roam y 96
+\i (01:00:06) roam y -96 
+\i (01:00:06) roam y -96
+\i (01:00:07) roam y -96 
+\i (01:00:07) roam y -96
+\i (01:00:07) roam y -96 
+\i (01:00:07) roam y -96
+\i (01:00:07) roam y -96 
+\i (01:00:07) roam y -96
+\i (01:00:07) roam y -96 
+\i (01:00:07) roam y -96
+\i (01:00:07) roam y -96 
+\i (01:00:07) roam y -96
+\i (01:00:07) roam y -96 
+\i (01:00:07) roam y -96
+\i (01:00:08) roam y 96 
+\i (01:00:08) roam y 96
+\i (01:00:08) roam x 96 
+\i (01:00:08) roam x 96
+\i (01:00:11) roam x 96 
+\i (01:00:11) roam x 96
+\i (01:00:11) roam x 96 
+\i (01:00:11) roam x 96
+\i (01:00:11) roam y 96 
+\i (01:00:11) roam y 96
+\i (01:00:11) roam x 96 
+\i (01:00:11) roam x 96
+\i (01:00:12) roam y 96 
+\i (01:00:12) roam y 96
+\i (01:00:12) roam x 96 
+\i (01:00:12) roam x 96
+\i (01:00:12) roam y -96 
+\i (01:00:12) roam y -96
+\i (01:00:12) roam y -96 
+\i (01:00:12) roam y -96
+\i (01:00:13) roam y -96 
+\i (01:00:13) roam y -96
+\i (01:00:14) roam y 96 
+\i (01:00:14) roam y 96
+\i (01:00:14) roam x -96 
+\i (01:00:14) roam x -96
+\i (01:00:15) roam x -96 
+\i (01:00:15) roam x -96
+\i (01:00:15) roam x -96 
+\i (01:00:15) roam x -96
+\i (01:00:16) roam x -96 
+\i (01:00:16) roam x -96
+\i (01:00:17) roam y -96 
+\i (01:00:17) roam y -96
+\i (01:00:24) add connect 
+\t (01:00:24) Pick first element.
+\i (01:00:29) setwindow form.mini
+\i (01:00:29) FORM mini acon_line_width 0.635 
+\i (01:00:30) setwindow pcb
+\i (01:00:30) pick grid 6.3204 23.1901
+\t (01:00:30) last pick:  6.3500 23.1775
+\t (01:00:30) last pick:  6.3500 23.2300
+\t (01:00:30) last pick:  6.3500 23.2300
+\i (01:00:30) mouse_pos 6.4574 22.6760
+\i (01:00:30) mouse_pos 6.5260 22.6075
+\i (01:00:31) mouse_pos 7.1771 22.1278
+\i (01:00:31) mouse_pos 7.1771 22.0592
+\i (01:00:31) mouse_pos 7.4855 21.1682
+\i (01:00:31) mouse_pos 7.0400 21.4424
+\i (01:00:32) mouse_pos 8.1023 21.2710
+\i (01:00:33) mouse_pos 7.7939 21.4424
+\i (01:00:34) pick grid 7.7596 21.4767
+\t (01:00:34) last pick:  7.6200 21.5900
+\t (01:00:34) No DRC errors detected.
+\t (01:00:34) Pick first element.
+\i (01:00:36) done 
+\i (01:00:36) etchedit 
+\i (01:00:36) Esc 
+\i (01:00:37) drag_start grid 7.3827 22.9159
+\i (01:00:37) slide 
+\t (01:00:37) Waiting for the destination pick.
+\t (01:00:37) New cline would result in DRC error(s); retaining old cline.
+\i (01:00:40) drag_stop grid 6.3546 23.1558
+\t (01:00:40) No DRC errors detected.
+\i (01:00:40) etchedit 
+\i (01:00:41) pick grid 7.6226 21.6480
+\t (01:00:41) last pick:  7.6200 21.5900
+\i (01:00:41) slide 
+\t (01:00:41) Waiting for the destination pick.
+\i (01:00:44) delete 
+\i (01:00:44) etchedit 
+\i (01:00:45) drag_start grid 7.6911 20.7228
+\i (01:00:45) slide 
+\t (01:00:45) Waiting for the destination pick.
+\i (01:00:46) drag_stop grid 7.6226 22.0935
+\t (01:00:46) No DRC errors detected.
+\i (01:00:46) etchedit 
+\i (01:00:47) drag_start grid 7.6226 20.7913
+\i (01:00:47) slide 
+\t (01:00:47) Waiting for the destination pick.
+\i (01:00:48) drag_stop grid 7.5198 19.7290
+\t (01:00:48) No DRC errors detected.
+\i (01:00:48) etchedit 
+\i (01:00:49) pick grid 8.1709 21.0997
+\t (01:00:49) last pick:  8.2550 20.9550
+\i (01:00:49) slide 
+\t (01:00:49) Waiting for the destination pick.
+\i (01:00:50) pick grid 8.4107 21.2368
+\t (01:00:50) last pick:  8.2550 21.2725
+\t (01:00:50) No DRC errors detected.
+\i (01:00:50) etchedit 
+\i (01:00:51) Esc 
+\i (01:00:51) Esc 
+\i (01:00:52) drag_start grid 7.5883 20.8256
+\i (01:00:52) slide 
+\t (01:00:52) Waiting for the destination pick.
+\i (01:00:52) drag_stop grid 7.6568 21.6823
+\t (01:00:52) No DRC errors detected.
+\i (01:00:53) etchedit 
+\i (01:00:54) undo 
+\i (01:00:54) trapsize 1713
+\i (01:00:54) etchedit 
+\i (01:00:55) undo 
+\i (01:00:55) trapsize 1713
+\i (01:00:55) etchedit 
+\i (01:00:57) undo 
+\i (01:00:57) trapsize 1713
+\i (01:00:57) etchedit 
+\i (01:00:58) undo 
+\i (01:00:58) trapsize 1713
+\i (01:00:58) etchedit 
+\i (01:00:59) undo 
+\i (01:00:59) trapsize 1713
+\i (01:00:59) etchedit 
+\i (01:01:01) undo 
+\i (01:01:01) trapsize 1713
+\i (01:01:01) etchedit 
+\i (01:01:01) undo 
+\i (01:01:02) trapsize 1713
+\i (01:01:02) etchedit 
+\i (01:01:03) undo 
+\i (01:01:03) trapsize 1713
+\i (01:01:03) etchedit 
+\i (01:01:05) add connect 
+\t (01:01:05) Pick first element.
+\i (01:01:06) pick grid 8.4450 21.5109
+\t (01:01:06) last pick:  8.5725 21.5900
+\t (01:01:06) last pick:  8.5725 21.5900
+\i (01:01:06) mouse_pos 8.3765 21.5109
+\i (01:01:06) mouse_pos 8.0681 21.5109
+\i (01:01:06) mouse_pos 7.1428 22.0935
+\i (01:01:07) mouse_pos 7.0743 22.4019
+\i (01:01:08) mouse_pos 7.5198 22.6075
+\i (01:01:08) mouse_pos 9.4388 22.0249
+\i (01:01:08) mouse_pos 13.7909 20.9626
+\i (01:01:08) mouse_pos 15.6414 20.6542
+\i (01:01:11) setwindow form.mini
+\i (01:01:11) FORM mini acon_line_width 0.635 
+\i (01:01:12) setwindow pcb
+\i (01:01:12) mouse_pos 16.2925 19.1121
+\i (01:01:12) mouse_pos 11.0837 21.3396
+\i (01:01:12) mouse_pos 8.9933 21.6480
+\i (01:01:12) mouse_pos 8.6506 21.6480
+\i (01:01:12) mouse_pos 8.1366 21.7508
+\i (01:01:12) mouse_pos 7.8282 21.8193
+\i (01:01:12) mouse_pos 6.4232 22.0935
+\i (01:01:12) mouse_pos 6.1490 22.0935
+\i (01:01:12) mouse_pos 5.7378 22.4362
+\i (01:01:12) mouse_pos 5.7378 22.7103
+\i (01:01:14) mouse_pos 7.4855 22.4362
+\i (01:01:14) mouse_pos 7.3827 22.6760
+\i (01:01:20) cancel 
+\i (01:01:20) etchedit 
+\i (01:01:31) save 
+\i (01:01:32) fillin yes 
+\i (01:01:32) etchedit 
+\i (01:01:33) zoom fit 
+\i (01:01:33) trapsize 3427
+\i (01:01:38) color192 
+\i (01:01:38) setwindow cvf.dialog
+\i (01:01:38) cvf layer_mode
+\i (01:01:38) setwindow pcb
+\i (01:01:38) etchedit 
+\i (01:01:39) setwindow cvf.dialog
+\i (01:01:39) cvf layers_visible stack-up stack-up/top TRUE
+\i (01:01:40) cvf layers_visible stack-up stack-up/top FALSE
+\i (01:01:40) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (01:01:41) cvf apply
+\i (01:01:42) cvf okay
+\i (01:01:46) setwindow pcb
+\i (01:01:46) zoom in 1 
+\i (01:01:46) setwindow pcb
+\i (01:01:46) zoom in 10.0750 11.6170
+\i (01:01:46) trapsize 1713
+\i (01:01:53) shape void rectangle 
+\i (01:01:55) pick grid 10.4176 10.8631
+\t (01:01:55) last pick:  10.4775 10.7950
+\i (01:01:57) pick grid 11.9940 9.6980
+\t (01:01:57) last pick:  12.0650 9.8425
+\i (01:02:00) pick grid 7.9161 16.0034
+\t (01:02:00) last pick:  7.9375 15.8750
+\i (01:02:03) save 
+\i (01:02:03) fillin yes 
+\i (01:02:03) etchedit 
+\i (01:02:09) add connect 
+\t (01:02:09) Pick first element.
+\i (01:02:11) zoom in 1 
+\i (01:02:11) setwindow pcb
+\i (01:02:11) zoom in 16.5860 9.9036
+\i (01:02:11) trapsize 857
+\i (01:02:11) zoom in 1 
+\i (01:02:11) setwindow pcb
+\i (01:02:11) zoom in 16.6031 9.9036
+\i (01:02:11) trapsize 428
+\i (01:02:11) zoom in 1 
+\i (01:02:11) setwindow pcb
+\i (01:02:11) zoom in 16.6031 9.9036
+\i (01:02:11) trapsize 214
+\i (01:02:11) zoom in 1 
+\i (01:02:11) setwindow pcb
+\i (01:02:11) zoom in 16.6031 9.9036
+\i (01:02:11) trapsize 107
+\i (01:02:12) zoom in 1 
+\i (01:02:12) setwindow pcb
+\i (01:02:12) zoom in 16.6074 9.9037
+\i (01:02:12) trapsize 54
+\i (01:02:12) zoom out 1 
+\i (01:02:12) setwindow pcb
+\i (01:02:12) zoom out 16.6074 9.9037
+\i (01:02:12) trapsize 107
+\i (01:02:12) zoom out 1 
+\i (01:02:12) setwindow pcb
+\i (01:02:12) zoom out 16.6074 9.9038
+\i (01:02:12) trapsize 214
+\i (01:02:12) zoom out 1 
+\i (01:02:12) setwindow pcb
+\i (01:02:12) zoom out 16.6073 9.9037
+\i (01:02:12) trapsize 428
+\i (01:02:13) zoom fit 
+\i (01:02:13) trapsize 3427
+\i (01:02:17) zoom in 1 
+\i (01:02:17) setwindow pcb
+\i (01:02:17) zoom in -26.1125 23.5424
+\i (01:02:17) trapsize 1713
+\i (01:02:17) roam x -96 
+\i (01:02:17) roam x -96
+\i (01:02:18) roam y -96 
+\i (01:02:18) roam y -96
+\i (01:02:18) roam y -96 
+\i (01:02:18) roam y -96
+\i (01:02:20) add connect 
+\t (01:02:20) Pick first element.
+\i (01:02:22) pick grid -25.9256 25.6920
+\t (01:02:22) last pick:  -26.0350 25.7175
+\t (01:02:22) last pick:  -25.7812 25.7700
+\t (01:02:22) last pick:  -25.7812 25.7700
+\i (01:02:22) mouse_pos -25.9599 25.5549
+\i (01:02:23) mouse_pos -25.5144 22.1281
+\i (01:02:23) mouse_pos -25.3430 21.7169
+\i (01:02:26) pick grid -25.8571 21.0315
+\t (01:02:26) last pick:  -25.7175 20.9550
+\t (01:02:26) No DRC errors detected.
+\t (01:02:26) Pick first element.
+\i (01:02:28) add connect 
+\t (01:02:28) Pick first element.
+\i (01:02:30) pick grid -25.7200 25.6578
+\t (01:02:30) last pick:  -25.7175 25.7175
+\t (01:02:30) last pick:  -25.7175 25.7063
+\t (01:02:30) last pick:  -25.7175 25.7063
+\i (01:02:30) mouse_pos -25.7200 25.6578
+\i (01:02:30) mouse_pos -25.6515 26.2060
+\i (01:02:33) pick grid -25.7543 27.4397
+\t (01:02:33) last pick:  -25.7175 27.3050
+\t (01:02:33) No DRC errors detected.
+\t (01:02:33) Pick first element.
+\i (01:02:38) roam x 96 
+\i (01:02:38) roam x 96
+\i (01:02:38) roam x 96 
+\i (01:02:38) roam x 96
+\i (01:02:38) roam x 96 
+\i (01:02:38) roam x 96
+\i (01:02:38) roam x 96 
+\i (01:02:38) roam x 96
+\i (01:02:39) roam x -96 
+\i (01:02:39) roam x -96
+\i (01:02:40) roam x -96 
+\i (01:02:40) roam x -96
+\i (01:02:40) roam x 96 
+\i (01:02:40) roam x 96
+\i (01:02:40) roam x 96 
+\i (01:02:40) roam x 96
+\i (01:02:40) roam x 96 
+\i (01:02:40) roam x 96
+\i (01:02:41) roam x 96 
+\i (01:02:41) roam x 96
+\i (01:02:41) roam x 96 
+\i (01:02:41) roam x 96
+\i (01:02:41) roam x 96 
+\i (01:02:41) roam x 96
+\i (01:02:41) roam x 96 
+\i (01:02:41) roam x 96
+\i (01:02:42) roam x 96 
+\i (01:02:42) roam x 96
+\i (01:02:42) roam x 96 
+\i (01:02:42) roam x 96
+\i (01:02:42) roam x 96 
+\i (01:02:42) roam x 96
+\i (01:02:45) add connect 
+\t (01:02:45) Pick first element.
+\i (01:02:49) pick grid 25.5457 26.5145
+\t (01:02:49) last pick:  25.4000 26.6700
+\t (01:02:49) last pick:  25.5506 26.5194
+\t (01:02:49) last pick:  25.5506 26.5194
+\i (01:02:49) mouse_pos 25.5457 26.5145
+\i (01:02:49) mouse_pos 25.5114 25.8634
+\i (01:02:49) mouse_pos 25.5799 25.7263
+\i (01:02:50) mouse_pos 25.5114 23.3275
+\i (01:02:50) mouse_pos 25.5799 22.8135
+\i (01:02:53) pick grid 25.6827 21.7854
+\t (01:02:53) last pick:  25.7175 21.9075
+\t (01:02:53) No DRC errors detected.
+\t (01:02:53) Pick first element.
+\i (01:02:56) save 
+\i (01:02:56) fillin yes 
+\i (01:02:56) etchedit 
+\i (01:02:59) color192 
+\i (01:03:00) setwindow cvf.dialog
+\i (01:03:00) cvf layer_mode
+\i (01:03:00) setwindow pcb
+\i (01:03:00) etchedit 
+\i (01:03:01) setwindow cvf.dialog
+\i (01:03:01) cvf layers_visible stack-up stack-up/top TRUE
+\i (01:03:02) cvf layers_visible stack-up stack-up/bottom TRUE
+\i (01:03:03) cvf layers_visible stack-up stack-up/bottom FALSE
+\i (01:03:04) cvf apply
+\i (01:03:04) cvf okay
+\i (01:03:05) setwindow pcb
+\i (01:03:05) roam x -96 
+\i (01:03:05) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:06) roam x -96 
+\i (01:03:06) roam x -96
+\i (01:03:09) zoom fit 
+\i (01:03:09) trapsize 3427
+\i (01:03:20) save 
+\i (01:03:20) fillin yes 
+\i (01:03:21) etchedit 
+\i (01:03:25) color192 
+\i (01:03:25) setwindow cvf.dialog
+\i (01:03:25) cvf layer_mode
+\i (01:03:25) setwindow pcb
+\i (01:03:25) etchedit 
+\i (01:03:29) setwindow cvf.dialog
+\i (01:03:29) cvf global_visible
+\i (01:03:30) cvf apply
+\i (01:03:31) cvf okay
+\i (01:03:38) setwindow pcb
+\i (01:03:38) drc update 
+\t (01:03:38) Performing DRC...
+\t (01:03:38) Multithreaded DRC update (4 threads).
+\t (01:03:38) No DRC errors detected.
+\i (01:03:38) etchedit 
+\i (01:03:40) save 
+\i (01:03:40) fillin yes 
+\i (01:03:40) etchedit 
+\i (01:55:16) drag_start grid -38.8604 19.8415
+\i (01:55:17) drag_stop -36.0504 16.1405
+\i (01:55:22) artwork 
+\i (01:55:24) setwindow form.film_control
+\i (01:55:24) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (01:55:25) FORM film_control filmtree  Silkscreen_TOP 
+\i (01:55:26) FORM film_control filmtree  Soldermask_BOTTOM 
+\i (01:55:28) FORM film_control filmtree  Silkscreen_TOP 
+\i (01:55:28) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (01:55:29) FORM film_control filmtree  Silkscreen_TOP 
+\i (01:55:30) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (01:55:30) FORM film_control filmtree  BOTTOM 
+\i (01:55:32) FORM film_control filmtree  TOP 
+\i (01:55:33) FORM film_control filmtree  Soldermask_TOP 
+\i (01:55:34) FORM film_control filmtree  Soldermask_BOTTOM 
+\i (01:55:35) FORM film_control filmtree  Silkscreen_TOP 
+\i (01:55:39) FORM film_control filmtree  BOTTOM 
+\i (01:55:40) FORM film_control filmtree 'MULTISEL YES' BOTTOM 
+\i (01:55:41) FORM film_control filmtree 'MULTISEL YES' Silkscreen_BOTTOM 
+\i (01:55:41) FORM film_control filmtree  Silkscreen_BOTTOM 
+\i (01:55:42) FORM film_control filmtree 'MULTISEL YES' Silkscreen_TOP 
+\i (01:55:42) FORM film_control filmtree  Silkscreen_TOP 
+\i (01:55:42) FORM film_control filmtree 'MULTISEL YES' Soldermask_BOTTOM 
+\i (01:55:42) FORM film_control filmtree  Soldermask_BOTTOM 
+\i (01:55:43) FORM film_control filmtree 'MULTISEL YES' TOP 
+\i (01:55:43) FORM film_control filmtree  TOP 
+\i (01:55:43) FORM film_control filmtree 'MULTISEL YES' Soldermask_TOP 
+\i (01:55:43) FORM film_control filmtree  Soldermask_TOP 
+\i (01:55:46) FORM film_control create  
+\t (01:55:46) Checking db records
+\t (01:55:46)     checking for orphans...
+\t (01:55:46)     Checked 100 percent
+\t (01:55:46) Done dbdoctor.
+\t (01:55:46) Starting Create artwork films...
+\w (01:55:46) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
+\w (01:55:47) Artwork generated with warnings.
+\i (01:56:09) setwindow text
+\i (01:56:09) close 
+\i (01:56:28) setwindow form.film_control
+\i (01:56:28) FORM film_control cancel  
+\i (01:56:28) setwindow pcb
+\i (01:56:28) etchedit 
+\i (01:57:13) new 
+\e (01:57:14) Do you want to save the changes you made to D:/Dokumenty/buk/kati/board/Kati.brd?
+\i (01:57:15) fillin no 
+\i (01:57:22) newdrawfillin "tmp.brd" "Board"
+\t (01:57:22) Starting new design...
+\i (01:57:22) trapsize 33867
+\i (01:57:22) trapsize 33867
+\i (01:57:22) etchedit 
+\i (01:57:27) load photoplot 
+\i (01:57:29) setwindow form.load_photoplot
+\i (01:57:29) FORM load_photoplot browse  
+\i (01:57:34) fillin "D:\Dokumenty\buk\kati\board\export\TOP.art"
+   (01:57:34) Loading mfg.cxt 
+\i (01:57:36) FORM load_photoplot loadfile  
+\t (01:57:36) Processing photoplot file D:/Dokumenty/buk/kati/board/export/TOP.art ...
+\i (01:57:39) setwindow pcb
+\i (01:57:39) pick grid -34.2400 29.6160
+\t (01:57:39) last pick:  -34.2900 29.8450
+\t (01:57:39) Adding the film data on ETCH/TOP.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) DRC errors detected.
+\t (01:57:39) Load Photoplot complete.
+\i (01:57:41) setwindow form.load_photoplot
+\i (01:57:41) FORM load_photoplot browse  
+\i (01:57:44) fillin "D:\Dokumenty\buk\kati\board\export\BOTTOM.art"
+\i (01:57:46) FORM load_photoplot loadfile  
+\t (01:57:46) Processing photoplot file D:/Dokumenty/buk/kati/board/export/BOTTOM.art ...
+\i (01:57:51) setwindow pcb
+\i (01:57:51) pick grid 36.2027 29.6160
+\t (01:57:51) last pick:  36.1950 29.8450
+\t (01:57:51) Adding the film data on ETCH/TOP.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) DRC errors detected.
+\t (01:57:51) Load Photoplot complete.
+\i (01:57:54) setwindow form.load_photoplot
+\i (01:57:54) FORM load_photoplot browse  
+\i (01:57:57) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_TOP.art"
+\i (01:57:58) FORM load_photoplot loadfile  
+\t (01:57:58) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_TOP.art ...
+\i (01:58:01) setwindow pcb
+\i (01:58:01) pick grid -34.2400 -36.0853
+\t (01:58:01) last pick:  -34.2900 -36.1950
+\t (01:58:01) Adding the film data on ETCH/TOP.
+\w (01:58:01) WARNING(SPMHAW-126): Coordinates have been rounded off.
+\t (01:58:01) Load Photoplot complete.
+\i (01:58:03) setwindow form.load_photoplot
+\i (01:58:03) FORM load_photoplot browse  
+\i (01:58:07) fillin "D:\Dokumenty\buk\kati\board\export\Silkscreen_BOTTOM.art"
+\i (01:58:08) FORM load_photoplot loadfile  
+\t (01:58:08) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Silkscreen_BOTTOM.art ...
+\i (01:58:12) setwindow pcb
+\i (01:58:12) pick grid 34.1707 -37.4400
+\t (01:58:12) last pick:  34.2900 -37.4650
+\t (01:58:12) Adding the film data on ETCH/TOP.
+\t (01:58:12) Load Photoplot complete.
+\i (01:58:13) setwindow form.load_photoplot
+\i (01:58:13) FORM load_photoplot browse  
+\i (01:58:17) fillin "D:\Dokumenty\buk\kati\board\export\Soldermask_TOP.art"
+\i (01:58:18) FORM load_photoplot loadfile  
+\t (01:58:18) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Soldermask_TOP.art ...
+\i (01:58:20) setwindow pcb
+\i (01:58:20) pick grid -32.8853 -105.8507
+\t (01:58:20) last pick:  -33.0200 -106.0450
+\t (01:58:20) Adding the film data on ETCH/TOP.
+\t (01:58:20) DRC errors detected.
+\t (01:58:20) Load Photoplot complete.
+\i (01:58:22) setwindow form.load_photoplot
+\i (01:58:22) FORM load_photoplot browse  
+\i (01:58:25) fillin "D:\Dokumenty\buk\kati\board\export\Soldermask_BOTTOM.art"
+\i (01:58:26) FORM load_photoplot loadfile  
+\t (01:58:26) Processing photoplot file D:/Dokumenty/buk/kati/board/export/Soldermask_BOTTOM.art ...
+\i (01:58:32) setwindow pcb
+\i (01:58:32) pick grid 34.8480 -107.2053
+\t (01:58:32) last pick:  34.9250 -107.3150
+\t (01:58:32) Adding the film data on ETCH/TOP.
+\t (01:58:32) DRC errors detected.
+\t (01:58:32) Load Photoplot complete.
+\i (01:58:34) setwindow form.load_photoplot
+\i (01:58:34) FORM load_photoplot done  
+\i (01:58:34) setwindow pcb
+\i (01:58:34) etchedit 
+\i (01:58:35) zoom points 
+\t (01:58:35) Pick 1st corner of the new window.
+\i (01:58:38) drag_start -75.5573 62.1280
+\i (01:58:42) drag_stop 0.9813 27.5840
+\i (01:58:42) trapsize 2386
+\i (01:58:42) etchedit 
+\i (01:58:48) roam x 96 
+\i (01:58:48) roam x 96
+\i (01:58:50) roam y 96 
+\i (01:58:50) roam y 96
+\i (01:58:50) roam y 96 
+\i (01:58:50) roam y 96
+\i (01:58:52) roam y 96 
+\i (01:58:52) roam y 96
+\i (01:58:52) roam y 96 
+\i (01:58:52) roam y 96
+\i (01:58:55) roam y -96 
+\i (01:58:55) roam y -96
+\i (01:58:55) roam y -96 
+\i (01:58:55) roam y -96
+\i (01:58:55) roam y -96 
+\i (01:58:55) roam y -96
+\i (01:58:55) roam y -96 
+\i (01:58:55) roam y -96
+\i (01:58:56) roam y 96 
+\i (01:58:56) roam y 96
+\i (01:58:59) roam y 96 
+\i (01:58:59) roam y 96
+\i (01:58:59) roam y 96 
+\i (01:58:59) roam y 96
+\i (01:58:59) roam y 96 
+\i (01:58:59) roam y 96
+\i (01:59:01) roam y -96 
+\i (01:59:01) roam y -96
+\i (01:59:01) roam y -96 
+\i (01:59:01) roam y -96
+\i (01:59:01) roam y -96 
+\i (01:59:01) roam y -96
+\i (01:59:01) roam y -96 
+\i (01:59:01) roam y -96
+\i (01:59:07) roam y 96 
+\i (01:59:07) roam y 96
+\i (01:59:07) roam y 96 
+\i (01:59:07) roam y 96
+\i (01:59:07) roam y 96 
+\i (01:59:07) roam y 96
+\i (01:59:08) roam y 96 
+\i (01:59:08) roam y 96
+\i (01:59:08) roam y 96 
+\i (01:59:08) roam y 96
+\i (01:59:09) roam y 96 
+\i (01:59:09) roam y 96
+\i (01:59:09) roam x 96 
+\i (01:59:09) roam x 96
+\i (01:59:09) roam x 96 
+\i (01:59:09) roam x 96
+\i (01:59:09) roam x 96 
+\i (01:59:09) roam x 96
+\i (01:59:10) roam x 96 
+\i (01:59:10) roam x 96
+\i (01:59:10) roam x 96 
+\i (01:59:10) roam x 96
+\i (01:59:10) roam x 96 
+\i (01:59:10) roam x 96
+\i (01:59:10) roam x 96 
+\i (01:59:10) roam x 96
+\i (01:59:10) roam x 96 
+\i (01:59:10) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:11) roam x 96 
+\i (01:59:11) roam x 96
+\i (01:59:12) roam x -96 
+\i (01:59:12) roam x -96
+\i (01:59:13) roam x -96 
+\i (01:59:13) roam x -96
+\i (01:59:13) roam x -96 
+\i (01:59:13) roam x -96
+\i (01:59:13) roam y -96 
+\i (01:59:13) roam y -96
+\i (01:59:14) roam y -96 
+\i (01:59:14) roam y -96
+\i (01:59:14) roam y -96 
+\i (01:59:14) roam y -96
+\i (01:59:15) roam y -96 
+\i (01:59:15) roam y -96
+\i (01:59:16) roam y -96 
+\i (01:59:16) roam y -96
+\i (01:59:17) roam y -96 
+\i (01:59:17) roam y -96
+\i (01:59:24) roam x -96 
+\i (01:59:24) roam x -96
+\i (01:59:30) roam x -96 
+\i (01:59:30) roam x -96
+\i (01:59:31) roam y 96 
+\i (01:59:31) roam y 96
+\i (01:59:31) roam y -96 
+\i (01:59:31) roam y -96
+\i (01:59:32) roam y 96 
+\i (01:59:32) roam y 96
+\i (01:59:32) roam y 96 
+\i (01:59:32) roam y 96
+\i (01:59:35) roam y 96 
+\i (01:59:35) roam y 96
+\i (01:59:35) roam y 96 
+\i (01:59:35) roam y 96
+\i (01:59:40) roam y 96 
+\i (01:59:40) roam y 96
+\i (01:59:44) roam y -96 
+\i (01:59:44) roam y -96
+\i (01:59:45) roam y -96 
+\i (01:59:45) roam y -96
+\i (01:59:45) roam y -96 
+\i (01:59:45) roam y -96
+\i (01:59:45) roam y -96 
+\i (01:59:45) roam y -96
+\i (01:59:45) roam y -96 
+\i (01:59:45) roam y -96
+\i (01:59:48) roam y 96 
+\i (01:59:48) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:49) roam y 96 
+\i (01:59:49) roam y 96
+\i (01:59:50) roam y 96 
+\i (01:59:50) roam y 96
+\i (01:59:50) roam y 96 
+\i (01:59:50) roam y 96
+\i (01:59:50) roam y 96 
+\i (01:59:50) roam y 96
+\i (01:59:51) roam y 96 
+\i (01:59:51) roam y 96
+\i (01:59:51) roam y 96 
+\i (01:59:51) roam y 96
+\i (01:59:51) roam y 96 
+\i (01:59:51) roam y 96
+\i (01:59:51) roam y 96 
+\i (01:59:51) roam y 96
+\i (01:59:51) roam y 96 
+\i (01:59:51) roam y 96
+\i (01:59:52) roam y 96 
+\i (01:59:52) roam y 96
+\i (01:59:52) roam y 96 
+\i (01:59:52) roam y 96
+\i (01:59:52) roam y 96 
+\i (01:59:52) roam y 96
+\i (01:59:52) roam y -96 
+\i (01:59:52) roam y -96
+\i (01:59:52) roam y -96 
+\i (01:59:52) roam y -96
+\i (01:59:52) roam y -96 
+\i (01:59:52) roam y -96
+\i (01:59:53) roam y -96 
+\i (01:59:53) roam y -96
+\i (01:59:53) roam y -96 
+\i (01:59:53) roam y -96
+\i (01:59:53) roam y -96 
+\i (01:59:53) roam y -96
+\i (01:59:53) roam y -96 
+\i (01:59:53) roam y -96
+\i (01:59:53) roam x -96 
+\i (01:59:53) roam x -96
+\i (01:59:54) roam x -96 
+\i (01:59:54) roam x -96
+\i (01:59:54) roam x -96 
+\i (01:59:54) roam x -96
+\i (01:59:54) roam x -96 
+\i (01:59:54) roam x -96
+\i (01:59:54) roam x -96 
+\i (01:59:54) roam x -96
+\i (01:59:54) roam x -96 
+\i (01:59:54) roam x -96
+\i (01:59:54) roam x -96 
+\i (01:59:54) roam x -96
+\i (01:59:54) roam y 96 
+\i (01:59:54) roam y 96
+\i (01:59:55) roam y 96 
+\i (01:59:55) roam y 96
+\i (01:59:55) roam y 96 
+\i (01:59:55) roam y 96
+\i (01:59:56) roam y 96 
+\i (01:59:56) roam y 96
+\i (01:59:56) roam x -96 
+\i (01:59:56) roam x -96
+\i (01:59:58) roam y -96 
+\i (01:59:58) roam y -96
+\i (01:59:58) roam y -96 
+\i (01:59:58) roam y -96
+\i (01:59:58) roam y -96 
+\i (01:59:58) roam y -96
+\i (01:59:59) roam y -96 
+\i (01:59:59) roam y -96
+\i (01:59:59) roam y -96 
+\i (01:59:59) roam y -96
+\i (01:59:59) roam x -96 
+\i (01:59:59) roam x -96
+\i (01:59:59) roam x -96 
+\i (01:59:59) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam x -96 
+\i (02:00:00) roam x -96
+\i (02:00:00) roam y 96 
+\i (02:00:00) roam y 96
+\i (02:00:01) roam y 96 
+\i (02:00:01) roam y 96
+\i (02:00:01) roam y 96 
+\i (02:00:01) roam y 96
+\i (02:00:01) roam y 96 
+\i (02:00:01) roam y 96
+\i (02:00:02) roam y 96 
+\i (02:00:02) roam y 96
+\i (02:00:02) roam y 96 
+\i (02:00:02) roam y 96
+\i (02:00:02) roam y 96 
+\i (02:00:02) roam y 96
+\i (02:00:02) roam y 96 
+\i (02:00:02) roam y 96
+\i (02:00:03) roam x 96 
+\i (02:00:03) roam x 96
+\i (02:00:03) roam x 96 
+\i (02:00:03) roam x 96
+\i (02:00:03) roam x 96 
+\i (02:00:03) roam x 96
+\i (02:00:04) roam x 96 
+\i (02:00:04) roam x 96
+\i (02:00:04) roam x 96 
+\i (02:00:04) roam x 96
+\i (02:00:04) roam x 96 
+\i (02:00:04) roam x 96
+\i (02:00:04) roam x 96 
+\i (02:00:04) roam x 96
+\i (02:00:04) roam x 96 
+\i (02:00:04) roam x 96
+\i (02:00:04) roam x 96 
+\i (02:00:04) roam x 96
+\i (02:00:05) roam x 96 
+\i (02:00:05) roam x 96
+\i (02:00:05) roam y 96 
+\i (02:00:05) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:06) roam y 96 
+\i (02:00:06) roam y 96
+\i (02:00:07) roam y -96 
+\i (02:00:07) roam y -96
+\i (02:00:07) roam y -96 
+\i (02:00:07) roam y -96
+\i (02:00:08) roam y 96 
+\i (02:00:08) roam y 96
+\i (02:00:11) add connect 
+\w (02:00:11) WARNING(SPMHUT-48): Scaled value has been rounded off.
+\t (02:00:11) Pick first element.
+\i (02:00:12) add connect 
+\t (02:00:12) Pick first element.
+\i (02:00:16) roam y -96 
+\i (02:00:16) roam y -96
+\i (02:00:17) roam y -96 
+\i (02:00:17) roam y -96
+\i (02:00:18) roam y 96 
+\i (02:00:18) roam y 96
+\i (02:00:18) roam y 96 
+\i (02:00:18) roam y 96
+\i (02:00:18) roam y 96 
+\i (02:00:18) roam y 96
+\i (02:00:19) roam y 96 
+\i (02:00:19) roam y 96
+\i (02:00:19) roam y -96 
+\i (02:00:19) roam y -96
+\i (02:00:19) roam y -96 
+\i (02:00:19) roam y -96
+\i (02:00:20) roam y -96 
+\i (02:00:20) roam y -96
+\i (02:00:21) roam y 96 
+\i (02:00:21) roam y 96
+\i (02:00:21) roam y 96 
+\i (02:00:21) roam y 96
+\i (02:00:23) redraw 
+\i (02:00:23) roam y -96 
+\i (02:00:23) roam y -96
+\i (02:00:24) redraw 
+\i (02:00:24) redraw 
+\i (02:00:24) redraw 
+\i (02:00:26) prepopup -20.4564 -90.8704
+\i (02:00:28) pick grid -20.9335 -88.5800
+\t (02:00:28) last pick:  -20.9550 -88.2650
+\t (02:00:28) last pick:  -20.9550 -88.2650
+\i (02:00:30) cancel 
+\i (02:00:30) etchedit 
+\i (02:00:32) pick grid -55.6718 -93.2086
+\t (02:00:32) last pick:  -55.8800 -93.3450
+\i (02:00:34) redraw 
+\i (02:00:34) redraw 
+\i (02:00:34) show element 
+\i (02:00:34) show element 
+\i (02:00:36) redraw 
+\i (02:00:38) pick grid -23.6057 -92.6360
+\t (02:00:38) last pick:  -23.4950 -92.7100
+\i (02:00:42) pick grid -22.1265 -93.6380
+\t (02:00:42) last pick:  -22.2250 -93.3450
+\i (02:00:44) zoom out 1 
+\i (02:00:44) setwindow pcb
+\i (02:00:44) zoom out -24.6555 -92.9700
+\i (02:00:44) trapsize 4772
+\i (02:00:44) zoom out 1 
+\i (02:00:44) setwindow pcb
+\i (02:00:44) zoom out -24.6555 -92.9700
+\i (02:00:44) trapsize 9543
+\i (02:00:44) zoom out 1 
+\i (02:00:44) setwindow pcb
+\i (02:00:44) zoom out -24.6555 -76.5075
+\i (02:00:44) trapsize 19087
+\i (02:00:45) setwindow text
+\i (02:00:45) close 
+\i (02:00:47) setwindow pcb
+\i (02:00:47) zoom in 1 
+\i (02:00:47) setwindow pcb
+\i (02:00:47) zoom in -34.5807 -118.6897
+\i (02:00:47) trapsize 9543
+\i (02:00:47) zoom in 1 
+\i (02:00:47) setwindow pcb
+\i (02:00:47) zoom in -34.3898 -118.6896
+\i (02:00:47) trapsize 4772
+\i (02:00:48) zoom in 1 
+\i (02:00:48) setwindow pcb
+\i (02:00:48) zoom in -34.3898 -118.6896
+\i (02:00:48) trapsize 2386
+\i (02:00:49) roam y 96 
+\i (02:00:49) roam y 96
+\i (02:00:50) roam y 96 
+\i (02:00:50) roam y 96
+\i (02:00:52) roam y -96 
+\i (02:00:52) roam y -96
+\i (02:00:52) roam y -96 
+\i (02:00:52) roam y -96
+\i (02:00:54) roam y -96 
+\i (02:00:54) roam y -96
+\i (02:00:54) roam y -96 
+\i (02:00:54) roam y -96
+\i (02:00:55) roam y -96 
+\i (02:00:55) roam y -96
+\i (02:00:56) zoom in 1 
+\i (02:00:56) setwindow pcb
+\i (02:00:56) zoom in -35.7258 -87.2917
+\i (02:00:56) trapsize 1193
+\i (02:00:56) zoom in 1 
+\i (02:00:56) setwindow pcb
+\i (02:00:56) zoom in -35.7019 -87.1008
+\i (02:00:56) trapsize 596
+\i (02:00:57) zoom in 1 
+\i (02:00:57) setwindow pcb
+\i (02:00:57) zoom in -35.6661 -86.9576
+\i (02:00:57) trapsize 298
+\i (02:00:58) zoom out 1 
+\i (02:00:58) setwindow pcb
+\i (02:00:58) zoom out -35.5349 -86.7190
+\i (02:00:58) trapsize 596
+\i (02:00:59) zoom out 1 
+\i (02:00:59) setwindow pcb
+\i (02:00:59) zoom out -35.5349 -86.7190
+\i (02:00:59) trapsize 1193
+\i (02:01:05) zoom out 1 
+\i (02:01:05) setwindow pcb
+\i (02:01:05) zoom out -35.5350 -86.7190
+\i (02:01:05) trapsize 2386
+\i (02:01:06) zoom out 1 
+\i (02:01:06) setwindow pcb
+\i (02:01:06) zoom out -35.5350 -86.7190
+\i (02:01:06) trapsize 4772
+\i (02:01:07) roam x 96 
+\i (02:01:07) roam x 96
+\i (02:01:07) roam x 96 
+\i (02:01:07) roam x 96
+\i (02:01:07) roam x 96 
+\i (02:01:07) roam x 96
+\i (02:01:07) roam x 96 
+\i (02:01:07) roam x 96
+\i (02:01:09) zoom in 1 
+\i (02:01:09) setwindow pcb
+\i (02:01:09) zoom in -2.0354 -115.3495
+\i (02:01:09) trapsize 2386
+\i (02:01:10) roam x 96 
+\i (02:01:10) roam x 96
+\i (02:01:10) roam y 96 
+\i (02:01:10) roam y 96
+\i (02:01:10) roam x 96 
+\i (02:01:10) roam x 96
+\i (02:01:10) roam x 96 
+\i (02:01:10) roam x 96
+\i (02:01:10) roam x 96 
+\i (02:01:10) roam x 96
+\i (02:01:11) roam x 96 
+\i (02:01:11) roam x 96
+\i (02:01:11) roam x 96 
+\i (02:01:11) roam x 96
+\i (02:01:11) roam x 96 
+\i (02:01:11) roam x 96
+\i (02:01:11) roam x 96 
+\i (02:01:11) roam x 96
+\i (02:01:11) roam y -96 
+\i (02:01:11) roam y -96
+\i (02:01:11) roam y -96 
+\i (02:01:11) roam y -96
+\i (02:01:12) roam y -96 
+\i (02:01:12) roam y -96
+\i (02:01:12) roam y -96 
+\i (02:01:12) roam y -96
+\i (02:01:12) roam y -96 
+\i (02:01:12) roam y -96
+\i (02:01:12) roam y -96 
+\i (02:01:12) roam y -96
+\i (02:01:12) roam x -96 
+\i (02:01:12) roam x -96
+\i (02:01:13) roam x -96 
+\i (02:01:13) roam x -96
+\i (02:01:13) roam x -96 
+\i (02:01:13) roam x -96
+\i (02:01:14) roam x -96 
+\i (02:01:14) roam x -96
+\i (02:01:14) roam x -96 
+\i (02:01:14) roam x -96
+\i (02:01:14) roam x -96 
+\i (02:01:14) roam x -96
+\i (02:01:14) roam x -96 
+\i (02:01:14) roam x -96
+\i (02:01:14) roam x -96 
+\i (02:01:14) roam x -96
+\i (02:01:15) roam x -96 
+\i (02:01:15) roam x -96
+\i (02:01:15) roam x -96 
+\i (02:01:15) roam x -96
+\i (02:01:15) roam x -96 
+\i (02:01:15) roam x -96
+\i (02:01:15) roam x -96 
+\i (02:01:15) roam x -96
+\i (02:01:15) roam x -96 
+\i (02:01:15) roam x -96
+\i (02:01:16) roam x -96 
+\i (02:01:16) roam x -96
+\i (02:01:16) roam x -96 
+\i (02:01:16) roam x -96
+\i (02:01:16) roam x -96 
+\i (02:01:16) roam x -96
+\i (02:01:16) roam x 96 
+\i (02:01:16) roam x 96
+\i (02:01:17) roam x 96 
+\i (02:01:17) roam x 96
+\i (02:01:17) roam x -96 
+\i (02:01:17) roam x -96
+\i (02:01:17) roam y 96 
+\i (02:01:17) roam y 96
+\i (02:01:17) roam y 96 
+\i (02:01:17) roam y 96
+\i (02:01:17) roam y 96 
+\i (02:01:17) roam y 96
+\i (02:01:18) roam y 96 
+\i (02:01:18) roam y 96
+\i (02:01:18) roam y 96 
+\i (02:01:18) roam y 96
+\i (02:01:18) roam y 96 
+\i (02:01:18) roam y 96
+\i (02:01:18) roam y 96 
+\i (02:01:18) roam y 96
+\i (02:01:18) roam x 96 
+\i (02:01:18) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam x 96 
+\i (02:01:19) roam x 96
+\i (02:01:19) roam y -96 
+\i (02:01:19) roam y -96
+\i (02:01:19) roam y -96 
+\i (02:01:19) roam y -96
+\i (02:01:20) roam x 96 
+\i (02:01:20) roam x 96
+\i (02:01:20) roam x 96 
+\i (02:01:20) roam x 96
+\i (02:01:20) roam y -96 
+\i (02:01:20) roam y -96
+\i (02:01:20) roam y -96 
+\i (02:01:20) roam y -96
+\i (02:01:20) roam y -96 
+\i (02:01:20) roam y -96
+\i (02:01:21) roam y -96 
+\i (02:01:21) roam y -96
+\i (02:01:21) roam x 96 
+\i (02:01:21) roam x 96
+\i (02:01:21) roam x 96 
+\i (02:01:21) roam x 96
+\i (02:01:21) roam x 96 
+\i (02:01:21) roam x 96
+\i (02:01:22) roam x -96 
+\i (02:01:22) roam x -96
+\i (02:01:22) roam x 96 
+\i (02:01:22) roam x 96
+\i (02:01:22) roam x -96 
+\i (02:01:22) roam x -96
+\i (02:01:22) roam x 96 
+\i (02:01:22) roam x 96
+\i (02:01:22) roam x -96 
+\i (02:01:22) roam x -96
+\i (02:01:22) roam x -96 
+\i (02:01:22) roam x -96
+\i (02:01:22) roam x 96 
+\i (02:01:22) roam x 96
+\i (02:01:23) roam x -96 
+\i (02:01:23) roam x -96
+\i (02:01:23) roam x -96 
+\i (02:01:23) roam x -96
+\i (02:01:23) roam x -96 
+\i (02:01:23) roam x -96
+\i (02:01:23) roam x -96 
+\i (02:01:23) roam x -96
+\i (02:01:23) roam x -96 
+\i (02:01:23) roam x -96
+\i (02:01:23) roam x -96 
+\i (02:01:23) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x -96 
+\i (02:01:24) roam x -96
+\i (02:01:24) roam x 96 
+\i (02:01:24) roam x 96
+\i (02:01:24) roam x 96 
+\i (02:01:24) roam x 96
+\i (02:01:25) roam x 96 
+\i (02:01:25) roam x 96
+\i (02:01:25) roam x -96 
+\i (02:01:25) roam x -96
+\i (02:01:27) roam y 96 
+\i (02:01:27) roam y 96
+\i (02:01:27) roam y 96 
+\i (02:01:27) roam y 96
+\i (02:01:28) roam y 96 
+\i (02:01:28) roam y 96
+\i (02:01:28) roam y 96 
+\i (02:01:28) roam y 96
+\i (02:01:29) roam y 96 
+\i (02:01:29) roam y 96
+\i (02:01:29) roam y 96 
+\i (02:01:29) roam y 96
+\i (02:01:29) roam x 96 
+\i (02:01:29) roam x 96
+\i (02:01:29) roam x 96 
+\i (02:01:29) roam x 96
+\i (02:01:29) roam x 96 
+\i (02:01:29) roam x 96
+\i (02:01:29) roam x 96 
+\i (02:01:29) roam x 96
+\i (02:01:29) roam x 96 
+\i (02:01:29) roam x 96
+\i (02:01:29) roam x 96 
+\i (02:01:29) roam x 96
+\i (02:01:29) roam x 96 
+\i (02:01:29) roam x 96
+\i (02:01:29) roam x 96 
+\i (02:01:30) roam x 96
+\i (02:01:30) roam x 96 
+\i (02:01:30) roam x 96
+\i (02:01:30) roam x 96 
+\i (02:01:30) roam x 96
+\i (02:01:30) roam x 96 
+\i (02:01:30) roam x 96
+\i (02:01:30) roam x 96 
+\i (02:01:30) roam x 96
+\i (02:01:31) roam x 96 
+\i (02:01:31) roam x 96
+\i (02:01:31) roam x 96 
+\i (02:01:31) roam x 96
+\i (02:01:31) roam x 96 
+\i (02:01:31) roam x 96
+\i (02:01:31) roam x 96 
+\i (02:01:31) roam x 96
+\i (02:01:31) roam x 96 
+\i (02:01:31) roam x 96
+\i (02:01:32) roam y -96 
+\i (02:01:32) roam y -96
+\i (02:01:32) roam y -96 
+\i (02:01:32) roam y -96
+\i (02:01:32) roam y -96 
+\i (02:01:32) roam y -96
+\i (02:01:32) roam y -96 
+\i (02:01:32) roam y -96
+\i (02:01:32) roam y -96 
+\i (02:01:32) roam y -96
+\i (02:01:32) roam y -96 
+\i (02:01:32) roam y -96
+\i (02:01:32) roam y -96 
+\i (02:01:32) roam y -96
+\i (02:01:33) roam y -96 
+\i (02:01:33) roam y -96
+\i (02:01:33) roam y -96 
+\i (02:01:33) roam y -96
+\i (02:01:34) roam y -96 
+\i (02:01:34) roam y -96
+\i (02:01:34) roam y -96 
+\i (02:01:34) roam y -96
+\i (02:01:34) roam y -96 
+\i (02:01:34) roam y -96
+\i (02:01:34) roam y -96 
+\i (02:01:34) roam y -96
+\i (02:01:34) roam y -96 
+\i (02:01:34) roam y -96
+\i (02:01:34) roam y -96 
+\i (02:01:34) roam y -96
+\i (02:01:35) roam y 96 
+\i (02:01:35) roam y 96
+\i (02:01:35) roam y 96 
+\i (02:01:35) roam y 96
+\i (02:01:35) roam y 96 
+\i (02:01:35) roam y 96
+\i (02:01:35) roam y 96 
+\i (02:01:35) roam y 96
+\i (02:01:35) roam y 96 
+\i (02:01:35) roam y 96
+\i (02:01:39) roam y -96 
+\i (02:01:39) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:40) roam y -96 
+\i (02:01:40) roam y -96
+\i (02:01:41) roam y -96 
+\i (02:01:41) roam y -96
+\i (02:01:41) roam x -96 
+\i (02:01:41) roam x -96
+\i (02:01:41) roam x -96 
+\i (02:01:41) roam x -96
+\i (02:01:41) roam x -96 
+\i (02:01:41) roam x -96
+\i (02:01:41) roam x -96 
+\i (02:01:41) roam x -96
+\i (02:01:41) roam x -96 
+\i (02:01:41) roam x -96
+\i (02:01:41) roam x -96 
+\i (02:01:41) roam x -96
+\i (02:01:42) roam x -96 
+\i (02:01:42) roam x -96
+\i (02:01:42) roam x -96 
+\i (02:01:42) roam x -96
+\i (02:01:42) roam x -96 
+\i (02:01:42) roam x -96
+\i (02:01:42) roam x -96 
+\i (02:01:42) roam x -96
+\i (02:01:42) roam x -96 
+\i (02:01:42) roam x -96
+\i (02:01:42) roam x -96 
+\i (02:01:42) roam x -96
+\i (02:01:43) roam x -96 
+\i (02:01:43) roam x -96
+\i (02:01:43) roam y -96 
+\i (02:01:43) roam y -96
+\i (02:01:43) roam y -96 
+\i (02:01:43) roam y -96
+\i (02:01:43) roam y -96 
+\i (02:01:43) roam y -96
+\i (02:01:43) roam y -96 
+\i (02:01:43) roam y -96
+\i (02:01:44) roam y -96 
+\i (02:01:44) roam y -96
+\i (02:01:44) roam y -96 
+\i (02:01:44) roam y -96
+\i (02:01:44) roam y -96 
+\i (02:01:44) roam y -96
+\i (02:01:44) roam y -96 
+\i (02:01:44) roam y -96
+\i (02:01:44) roam y -96 
+\i (02:01:44) roam y -96
+\i (02:01:44) roam y -96 
+\i (02:01:44) roam y -96
+\i (02:01:45) roam y -96 
+\i (02:01:45) roam y -96
+\i (02:01:45) roam y -96 
+\i (02:01:45) roam y -96
+\i (02:01:45) roam y -96 
+\i (02:01:45) roam y -96
+\i (02:01:45) roam y -96 
+\i (02:01:45) roam y -96
+\i (02:01:45) roam y -96 
+\i (02:01:45) roam y -96
+\i (02:01:45) roam y -96 
+\i (02:01:45) roam y -96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:46) roam x 96 
+\i (02:01:46) roam x 96
+\i (02:01:47) roam x 96 
+\i (02:01:47) roam x 96
+\i (02:01:47) roam x 96 
+\i (02:01:47) roam x 96
+\i (02:01:47) roam x 96 
+\i (02:01:47) roam x 96
+\i (02:01:47) roam x 96 
+\i (02:01:47) roam x 96
+\i (02:01:47) roam x 96 
+\i (02:01:47) roam x 96
+\i (02:01:47) roam y 96 
+\i (02:01:47) roam y 96
+\i (02:01:47) roam y 96 
+\i (02:01:47) roam y 96
+\i (02:01:48) roam x -96 
+\i (02:01:48) roam x -96
+\i (02:01:48) roam y 96 
+\i (02:01:48) roam y 96
+\i (02:01:48) roam x -96 
+\i (02:01:48) roam x -96
+\i (02:01:48) roam y 96 
+\i (02:01:48) roam y 96
+\i (02:01:50) exit 
+\e (02:01:50) Do you want to save the changes you made to tmp.brd?
+\i (02:01:53) fillin no 
+\t (02:01:54)     Journal end - Fri Oct 09 12:12:46 2015
