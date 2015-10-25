@@ -197,14 +197,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -30 0 200 0 332"))
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 332"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -30 100 1215 100 484")
-        (Scroll "0 85")
-        (Zoom "140")
+        (Placement "44 2 3 -1 -1 -8 -30 100 1215 100 484")
+        (Scroll "-367 -9")
+        (Zoom "114")
         (Occurrence "/"))
       (Path "D:\DOKUMENTY\BUK\KATI\BOARD\KATI.DSN")
       (Schematic "schematics")
