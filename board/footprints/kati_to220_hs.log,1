@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : kati_TO220_HS.dra                             )
+(    Software Version : 16.6S026                                      )
+(    Date/Time        : Thu Oct 01 19:21:36 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Program Files (x86)/OrCAD/share/pcb/pcb_lib/symbols
+    Name      = kati_to220_hs.psm
+    User      = Pavel
+    Machine   = NTB
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

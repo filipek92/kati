@@ -1,0 +1,20 @@
+\t (00:00:03) allegro 16.6 S026 (v16-6-112BY) Windows 32
+\t (00:00:03)     Journal start - Thu Oct 08 21:36:54 2015
+\t (00:00:03)         Host=NTB User=Pavel Pid=6476 CPUs=4
+\t (00:00:03) CmdLine= C:\Program Files (x86)\OrCAD\tools\pcb\bin\allegro.exe
+\t (00:00:03) 
+\t (00:00:05) Opening existing design...
+\d (00:00:05) Design opened: D:/Dokumenty/buk/kati/board/footprints/kati_to92.dra
+\i (00:00:05) trapsize 2
+\i (00:00:05) trapsize 2
+\i (00:00:05) generaledit 
+\i (00:00:08) open 
+\i (00:00:25) fillin "D:\Dokumenty\buk\kati\board\Kati.brd"
+\i (00:00:25) cd "D:\Dokumenty\buk\kati\board"
+\t (00:00:26) Opening existing design...
+\i (00:00:26) trapsize 3427
+\i (00:00:26) trapsize 3354
+\i (00:00:26) trapsize 3427
+\t (00:00:26) Grids are drawn 2.5400, 2.5400 apart for enhanced viewability.
+\i (00:00:26) trapsize 3427
+\t (00:00:26)     Journal end - Thu Oct 08 21:37:18 2015

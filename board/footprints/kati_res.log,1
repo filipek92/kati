@@ -1,0 +1,23 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    CREATE SYMBOL                                                    )
+(                                                                     )
+(    Drawing          : kati_res.dra                                  )
+(    Software Version : 16.6S026                                      )
+(    Date/Time        : Thu Sep 17 17:12:00 2015                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Create Symbol of type: PACKAGE
+    Directory = C:/Program Files (x86)/OrCAD/share/pcb/pcb_lib/symbols
+    Name      = kati_res.psm
+    User      = Pavel
+    Machine   = NTB
+
+
+Create symbol started.
+ 
+
+Create symbol completed.
+

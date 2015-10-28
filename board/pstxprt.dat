@@ -1,0 +1,200 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Oct-08-2015 at 21:22:40 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='KATI';
+ POST_TIME='Jan 13 2014 18:46:08';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_KATI_C508_100 NF':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS456@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins456@discrete.\cap np.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins456@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP POL_0_KATI_C63RAD_22 UF':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS1183@KATI.CAP POL_0.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins1183@kati.\cap pol_0.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins1183@kati.\cap pol_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP POL_0_KATI_C100RAD_1000 UF':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS1110@KATI.CAP POL_0.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins1110@kati.\cap pol_0.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins1110@kati.\cap pol_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'DIODE_KATI_DO201_BY299':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS315@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins315@discrete.\diode.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins315@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'DIODE_KATI_DO35_1N4148':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS12474@DISCRETE.DIODE.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins12474@discrete.\diode.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins12474@discrete.\diode.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'CONNECTOR TWINAX-J_KATI_DS214B_':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS237@CONNECTOR.CONNECTOR TWINAX-J.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins237@connector.\connector twinax-j.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins237@connector.\connector twinax-j.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'HEADER 20X2_KATI_HEADER40_BOTTO':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS136@CONNECTOR.HEADER 20X2.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins136@connector.\header 20x2.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins136@connector.\header 20x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'HEADER 9_KATI_CONN9_HEADER TO I':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS2467@CONNECTOR.HEADER 9.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins2467@connector.\header 9.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins2467@connector.\header 9.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'HEADER 9_KATI_CONN9_HEADER TO O':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS2497@CONNECTOR.HEADER 9.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins2497@connector.\header 9.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins2497@connector.\header 9.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'HEADER 3_KATI_CONN3_HEADER TO L':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS2264@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins2264@connector.\header 3.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins2264@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'HEADER 2_KATI_CONN2_HEADER TO T':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS6351@CONNECTOR.HEADER 2.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins6351@connector.\header 2.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins6351@connector.\header 2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'HEADER 3_KATI_CONN3_HEADER WITH':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS13416@CONNECTOR.HEADER 3.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins13416@connector.\header 3.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins13416@connector.\header 3.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J8 'HEADER 4_KATI_HEADER4_HEADER WI':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS2540@CONNECTOR.HEADER 4.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins2540@connector.\header 4.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins2540@connector.\header 4.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'R_KATI_RES_R':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS2412@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins2412@discrete.\r.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins2412@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'R_KATI_RES_4K7':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS14883@DISCRETE.R.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins14883@discrete.\r.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins14883@discrete.\r.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ RELAY 'RELAY SPDT_KATI_RELAY_RAS-0515':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS1856@DISCRETE.RELAY SPDT.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins1856@discrete.\relay spdt.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins1856@discrete.\relay spdt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ T1 'PNP BCE_0_KATI_TO92_BC369-030':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS1975@KATI.PNP BCE_0.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins1975@kati.\pnp bce_0.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins1975@kati.\pnp bce_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 '78XX/SM_5_KATI_TO220_HS_L4940V5':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS264@KATI.78XX/SM_5.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins264@kati.\78xx/sm_5.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins264@kati.\78xx/sm_5.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U2 'TMP01_0_KATI_SO8_LM75A':;
+
+SECTION_NUMBER 1
+ '@KATI.SCHEMATICS(SCH_1):INS9643@KATI.TMP01_0.NORMAL(CHIPS)':
+ C_PATH='@kati.schematics(sch_1):ins9643@kati.\tmp01_0.normal\(chips)',
+ P_PATH='@kati.schematics(sch_1):page1_ins9643@kati.\tmp01_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
