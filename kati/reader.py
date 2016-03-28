@@ -4,7 +4,7 @@ import pigpio
 import wiegand
 
 
-BEEP_LENGTH = 1e6  # in microseconds
+BEEP_LENGTH = 1000 * 1000  # in microseconds
 
 
 class Reader:
@@ -76,7 +76,7 @@ if __name__ == "__main__":
         print("bits={} value={}".format(bits, value))
 
     pi = pigpio.pi()
-    r = Reader(pi, 18, 19, 21, 22, 23, 24, 26, callback)
+    r = Reader(pi, 24, 10, 9, 25, 11, 8, 7, callback)
     time.sleep(300)
     r.cancel()
     pi.stop()

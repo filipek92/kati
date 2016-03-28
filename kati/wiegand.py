@@ -95,7 +95,7 @@ if __name__ == "__main__":
         print("bits={} value={}".format(bits, value))
 
     pi = pigpio.pi()
-    w = decoder(pi, 14, 15, callback)
+    w = decoder(pi, 9, 25, callback)
     time.sleep(300)
     w.cancel()
     pi.stop()
