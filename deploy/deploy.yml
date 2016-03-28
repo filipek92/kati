@@ -1,9 +1,13 @@
 ---
 - hosts: all
-  vars:
-    ansible_ssh_user: root
+  remote_user: pi
+  become: yes
+  become_user: root
+  become_method: sudo
   tasks:
     # basic packages
+    - name: update package index
+      apt: update_cache=yes
     - name: install basic packages
       apt: name={{item}} state=present
       with_items:
@@ -14,15 +18,19 @@
         - iotop
         - vim
         - rsync
+        - unzip
         - git
         - raspi-config
         - rpi-update
-        - python
+    - name: install requirements
+      apt: name={{item}} state=present
+      with_items:
+        - gcc
+        - make
+        - python3
     - name: clone kati repo
       git: repo=git@github.com:techSU/kati.git dest=/root/kati/ update=yes
     # pigpio
-    - name: kill pigpio daemon
-      command: killall pigpiod
     - name: install pigpio
       command: /root/kati/deploy/install_pigpio.sh chdir=/root/pigpio/
     - name: start pigpio daemon

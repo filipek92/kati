@@ -4,6 +4,7 @@
 
 set -x
 
+pkill pigpiod
 rm master.zip
 rm -rf pigpio-master
 wget https://github.com/joan2937/pigpio/archive/master.zip
