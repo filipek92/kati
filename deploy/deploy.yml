@@ -1,15 +1,16 @@
 ---
 - hosts: all
   remote_user: pi
-  become: yes
   become_user: root
   become_method: sudo
   tasks:
     # basic packages
     - name: update package index
       apt: update_cache=yes
+      become: yes
     - name: install basic packages
       apt: name={{item}} state=present
+      become: yes
       with_items:
         - htop
         - sudo
@@ -24,14 +25,16 @@
         - rpi-update
     - name: install requirements
       apt: name={{item}} state=present
+      become: yes
       with_items:
         - gcc
         - make
         - python3
     - name: clone kati repo
-      git: repo=git@github.com:techSU/kati.git dest=/root/kati/ update=yes
-    # pigpio
+      git: repo=git@github.com:techSU/kati.git dest=/home/pi/kati/ update=yes accept_hostkey=yes
     - name: install pigpio
-      command: /root/kati/deploy/install_pigpio.sh chdir=/root/pigpio/
+      command: /home/pi/kati/deploy/install_pigpio.sh chdir=/home/pi
+      become: yes
     - name: start pigpio daemon
       command: pigpiod
+      become: yes
