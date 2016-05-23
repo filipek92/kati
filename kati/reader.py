@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import pigpio
-import wiegand
+import kati.wiegand
 
 
 BEEP_LENGTH = 1000 * 1000  # in microseconds
@@ -23,7 +23,7 @@ class Reader:
         self.led_red = led_red
 
         # start wiegand decoder with passed callback
-        self.wiegand = wiegand.decoder(pi, data_0, data_1, data_callback)
+        self.wiegand = kati.wiegand.decoder(pi, data_0, data_1, data_callback)
 
         # set output mode and clear values (HIGH = logical 0)
         for port in beeper, hold, led_green, led_red:
@@ -34,12 +34,12 @@ class Reader:
         self._setup_beep_wave(beeper)
 
         # handle tamper
-        # if tamper_callback:
-        #     pi.set_mode(tamper, pigpio.INPUT)
-        #     pi.set_pull_up_down(tamper, pigpio.PUD_UP)
-        #     self.cb_tamper = pi.callback(tamper, pigpio.RISING_EDGE, tamper_callback)
-        # else:
-        #     self.cb_tamper = None
+        if tamper_callback:
+            pi.set_mode(tamper, pigpio.INPUT)
+            pi.set_pull_up_down(tamper, pigpio.PUD_UP)
+            self.cb_tamper = pi.callback(tamper, pigpio.RISING_EDGE, tamper_callback)
+        else:
+            self.cb_tamper = None
 
     def _setup_beep_wave(self, beeper):
         # see http://abyz.co.uk/rpi/pigpio/python.html#wave_create
