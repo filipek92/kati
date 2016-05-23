@@ -30,11 +30,18 @@
         - gcc
         - make
         - python3
+        - python3-pip
+    - name: upgrade python pip
+      command: easy_install3 -U pip
+      become: yes
     - name: clone kati repo
       git: repo=git@github.com:techSU/kati.git dest=/home/pi/kati/ update=yes accept_hostkey=yes
+    - name: install kati python requirements
+      pip: executable=pip3 requirements=/home/pi/kati/requirements.txt
+      become: yes
     - name: install pigpio
-      command: /home/pi/kati/deploy/install_pigpio.sh chdir=/home/pi
+      script: install_pigpio.sh chdir=/home/pi/pigpio creates=/usr/local/bin/pigpiod
       become: yes
     - name: start pigpio daemon
-      command: pigpiod
+      command: pigpiod creates=/var/run/pigpio.pid
       become: yes
