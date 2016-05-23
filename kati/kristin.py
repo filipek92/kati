@@ -5,7 +5,7 @@ import logging
 
 
 # Kristin API endpoint
-KRISTIN_URL = 'https://kristin.buk.cvut.cz/api/v1/penetrate/{reader}/{card}'
+KRISTIN_URL = "https://kristin.buk.cvut.cz/api/v1/penetrate/{reader}/{card}"
 
 # communication timeout
 TIMEOUT = 3
@@ -31,7 +31,7 @@ def has_access(reader_id, card_number):
     request = requests.get(url, verify=False, timeout=TIMEOUT)
     request.raise_for_status()
 
-    return request.json()['result']
+    return request.json()["result"]
 
 
 def format_card_number(data):
@@ -43,4 +43,4 @@ def format_card_number(data):
     :return: card number in HEX format
     :rtype: str
     """
-    return '{:014x}'.format(data)
+    return "{:014x}".format(data)
