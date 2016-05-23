@@ -18,18 +18,17 @@ class Reader:
         Start Wiegand decoder, setup output ports, prepare waves and register callbacks.
         """
         self.pi = pi
-        # self.hold = hold
-        # self.led_green = led_green
-        # self.led_red = led_red
+        self.hold = hold
+        self.led_green = led_green
+        self.led_red = led_red
 
         # start wiegand decoder with passed callback
         self.wiegand = wiegand.decoder(pi, data_0, data_1, data_callback)
 
-        # set outputs
-        pi.set_mode(beeper, pigpio.OUTPUT)
-        pi.set_mode(hold, pigpio.OUTPUT)
-        pi.set_mode(led_green, pigpio.OUTPUT)
-        pi.set_mode(led_red, pigpio.OUTPUT)
+        # set output mode and clear values (HIGH = logical 0)
+        for port in beeper, hold, led_green, led_red:
+            pi.set_mode(port, pigpio.OUTPUT)
+            pi.write(port, pigpio.HIGH)
 
         # prepare waves
         self._setup_beep_wave(beeper)
@@ -45,8 +44,8 @@ class Reader:
     def _setup_beep_wave(self, beeper):
         # see http://abyz.co.uk/rpi/pigpio/python.html#wave_create
         wf = []
-        wf.append(pigpio.pulse(1 << beeper, 0, BEEP_LENGTH))
-        wf.append(pigpio.pulse(0, 1 << beeper, 0))
+        wf.append(pigpio.pulse(0, 1 << beeper, BEEP_LENGTH))
+        wf.append(pigpio.pulse(1 << beeper, 0, 0))
 
         self.pi.wave_add_new()
         self.pi.wave_add_generic(wf)
