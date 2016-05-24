@@ -8,7 +8,6 @@ HOLD_LEN = 2000 * 1000  # in microseconds
 
 
 # start logger
-logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger(__name__)
 
 

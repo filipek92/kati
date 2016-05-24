@@ -39,7 +39,6 @@ class Reader:
             self.text_id = "{}{}".format(_get_raspberry_serial_number(), data_1)
 
         # start logger
-        logging.basicConfig(level=logging.INFO)
         self.log = logging.getLogger("{}(text_id={})".format(__name__, self.text_id))
 
         # start wiegand decoder with passed callback

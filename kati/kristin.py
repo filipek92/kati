@@ -12,7 +12,6 @@ TIMEOUT = 3
 
 
 # start logger
-logging.basicConfig(level=logging.INFO)
 logging.captureWarnings(True)  # log HTTP errors
 log = logging.getLogger(__name__)
 
