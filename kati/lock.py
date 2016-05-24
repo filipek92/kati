@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
 
 import pigpio
+import logging
 
 
-HOLD_LEN = 1000 * 1000  # in microseconds
+HOLD_LEN = 2000 * 1000  # in microseconds
+
+
+# start logger
+logging.basicConfig(level=logging.DEBUG)
+log = logging.getLogger(__name__)
 
 
 class Lock:
@@ -30,13 +36,14 @@ class Lock:
         self.pi.wave_add_new()
         self.pi.wave_add_generic(wf)
         self.wave = self.pi.wave_create()  # create and save id
-        assert self.wave >= 0, "Unable to create wave"
+        assert self.wave >= 0, "Unable to create lock wave"
 
     def unlock(self):
         """
         Hold a lock for a while (non-blocking).
         """
         self.pi.wave_send_once(self.wave)
+        log.info("unlock for %.1f seconds", HOLD_LEN / 1e6)
 
     def cancel(self):
         """
@@ -48,9 +55,6 @@ class Lock:
 if __name__ == "__main__":
     # demo
     import time
-
-    def callback(bits, value):
-        print("bits={} value={}".format(bits, value))
 
     pi = pigpio.pi()
     l = Lock(pi, 17)

@@ -10,8 +10,11 @@ KRISTIN_URL = "https://kristin.buk.cvut.cz/api/v1/penetrate/{reader}/{card}"
 # communication timeout
 TIMEOUT = 3
 
-# log HTTP errors
-logging.captureWarnings(True)
+
+# start logger
+logging.basicConfig(level=logging.INFO)
+logging.captureWarnings(True)  # log HTTP errors
+log = logging.getLogger(__name__)
 
 
 def has_access(reader_id, card_number):
@@ -30,8 +33,13 @@ def has_access(reader_id, card_number):
     url = KRISTIN_URL.format(reader=reader_id, card=format_card_number(card_number))
     request = requests.get(url, verify=False, timeout=TIMEOUT)
     request.raise_for_status()
+    res = request.json()["result"]
 
-    return request.json()["result"]
+    # log result
+    res_text = "granted" if res else "denied"
+    log.info("access %s for card ID 0x%s at reader ID %s", res_text, format_card_number(card_number), reader_id)
+
+    return res
 
 
 def format_card_number(data):
