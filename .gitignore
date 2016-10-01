@@ -1,4 +1,11 @@
+### CUSTOM ###
+deploy/hosts
+
+
 # Created by https://www.gitignore.io
+
+### Ansible ###
+*.retry
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
