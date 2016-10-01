@@ -23,7 +23,7 @@
         - git
         - raspi-config
         - rpi-update
-    - name: install requirements
+    - name: install dev requirements
       apt: name={{item}} state=present
       become: yes
       with_items:
@@ -34,14 +34,25 @@
     - name: upgrade python pip
       command: easy_install3 -U pip
       become: yes
+
+    - name: install pigpio
+      script: install_pigpio.sh chdir=/home/pi/pigpio creates=/usr/local/bin/pigpiod
+      become: yes
+    - name: start pigpio daemon on reboot
+      cron: name=pigpiod state=present special_time=reboot user=root job="pigpiod"
+      become: yes
+    - name: start pigpio daemon now
+      command: pigpiod creates=/var/run/pigpio.pid
+      become: yes
+
     - name: clone kati repo
       git: repo=git@github.com:techSU/kati.git dest=/home/pi/kati/ update=yes accept_hostkey=yes
     - name: install kati python requirements
       pip: executable=pip3 requirements=/home/pi/kati/requirements.txt
       become: yes
-    - name: install pigpio
-      script: install_pigpio.sh chdir=/home/pi/pigpio creates=/usr/local/bin/pigpiod
+    - name: start kati daemon on reboot
+      cron: name=kati state=present special_time=reboot user=root job=/home/pi/kati/kati-daemon.py
       become: yes
-    - name: start pigpio daemon
-      command: pigpiod creates=/var/run/pigpio.pid
+    - name: start kati daemon now
+      command: /home/pi/kati/kati-daemon.py
       become: yes
