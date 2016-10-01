@@ -36,7 +36,7 @@ class Reader:
         else:
             # no explicit text_id provided - combine this Raspberry's serial
             # number with data_1 gpio (determines indoor/outdoor reader)
-            self.text_id = "{}{}".format(_get_raspberry_serial_number(), data_1)
+            self.text_id = "{}-{}".format(_get_raspberry_serial_number(), data_1)
 
         # start logger
         self.log = logging.getLogger("{}(text_id={})".format(__name__, self.text_id))
