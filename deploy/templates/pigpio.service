@@ -1,0 +1,15 @@
+[Unit]
+Description=Pigpio GPIO daemon
+Documentation=http://abyz.co.uk/rpi/pigpio/pigpiod.html
+
+[Service]
+Type=forking
+ExecStart=/usr/local/bin/pigpiod
+PIDFile=/run/pigpio.pid
+User=root
+Group=root
+TimeoutStopSec=3
+Restart=on-abnormal
+
+[Install]
+WantedBy=multi-user.target

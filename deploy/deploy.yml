@@ -1,16 +1,16 @@
 ---
 - hosts: all
   remote_user: pi
+  become: yes
   become_user: root
   become_method: sudo
   tasks:
-    # basic packages
+
+    # basic packages installation ==============================================================
     - name: update package index
       apt: update_cache=yes
-      become: yes
     - name: install basic packages
       apt: name={{item}} state=present
-      become: yes
       with_items:
         - htop
         - sudo
@@ -25,7 +25,6 @@
         - rpi-update
     - name: install dev requirements
       apt: name={{item}} state=present
-      become: yes
       with_items:
         - gcc
         - make
@@ -33,26 +32,43 @@
         - python3-pip
     - name: upgrade python pip
       command: easy_install3 -U pip
-      become: yes
 
+    # installation ============================================================================
     - name: install pigpio
-      script: install_pigpio.sh chdir=/home/pi/pigpio creates=/usr/local/bin/pigpiod
-      become: yes
-    - name: start pigpio daemon on reboot
-      cron: name=pigpiod state=present special_time=reboot user=root job="pigpiod"
-      become: yes
-    - name: start pigpio daemon now
-      command: pigpiod creates=/var/run/pigpio.pid
-      become: yes
+      script: templates/install_pigpio.sh chdir=/home/pi/pigpio creates=/usr/local/bin/pigpiod
 
     - name: clone kati repo
       git: repo=git@github.com:techSU/kati.git dest=/home/pi/kati/ update=yes accept_hostkey=yes
+      become: no
     - name: install kati python requirements
       pip: executable=pip3 requirements=/home/pi/kati/requirements.txt
-      become: yes
-    - name: start kati daemon on reboot
-      cron: name=kati state=present special_time=reboot user=root job=/home/pi/kati/kati-daemon.py
-      become: yes
-    - name: start kati daemon now
-      command: /home/pi/kati/kati-daemon.py
-      become: yes
+
+
+    # service installation ====================================================================
+    - name: install services
+      template: src=templates/{{ item }}.service dest=/etc/systemd/system/ owner=root group=root mode=644
+      notify:
+        - reload systemd
+      with_items:
+        - pigpio
+        - kati
+    - meta: flush_handlers  # reload systemd now
+
+    # service enabling ====================================================================
+    - name: enable services
+      command: systemctl enable {{ item }}
+      # systemd: name={{ item }} state=reloaded enabled=yes daemon_reload=yes  # TODO wait for Ansible 2.2
+      with_items:
+        - pigpio
+        - kati
+
+    # service starting ====================================================================
+    - name: start services
+      command: systemctl restart {{ item }}
+      with_items:
+        - pigpio
+        - kati
+
+  handlers:
+    - name: reload systemd
+      command: systemctl daemon-reload
