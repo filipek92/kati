@@ -8,7 +8,7 @@ import signal
 stop = False
 
 
-def shutdown():
+def shutdown(signum, frame):
     global stop
     stop = True
 
