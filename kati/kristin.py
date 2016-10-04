@@ -30,13 +30,19 @@ def has_access(reader_id, card_number):
     """
     # make request (with SSL check turned off)
     url = KRISTIN_URL.format(reader=reader_id, card=format_card_number(card_number))
-    request = requests.get(url, verify=False, timeout=TIMEOUT)
-    request.raise_for_status()
-    res = request.json()["result"]
 
-    # log result
-    res_text = "granted" if res else "denied"
-    log.info("access %s for card ID 0x%s at reader ID %s", res_text, format_card_number(card_number), reader_id)
+    try:
+        request = requests.get(url, verify=False, timeout=TIMEOUT)
+        request.raise_for_status()
+        res = request.json()["result"]
+
+        # log result
+        res_text = "granted" if res else "denied"
+        log.info("access %s for card ID 0x%s at reader ID %s", res_text, format_card_number(card_number), reader_id)
+
+    except requests.exceptions.RequestException:
+        log.exception("access check failed")
+        res = False
 
     return res
 
