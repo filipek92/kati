@@ -42,7 +42,8 @@
     - name: install pigpio
       script: templates/install_pigpio.sh chdir=/home/pi/pigpio creates=/usr/local/bin/pigpiod
     - name: clone kati repo
-      git: repo=git@github.com:techSU/kati.git dest=/home/pi/kati/ update=yes accept_hostkey=yes
+      git: repo=git://github.com/techSU/kati.git dest=/home/pi/kati/ update=yes
+      #git: repo=git@github.com:techSU/kati.git dest=/home/pi/kati/ update=yes accept_hostkey=yes
       become: no
     - name: install kati python requirements
       pip: executable=pip3 requirements=/home/pi/kati/requirements.txt
