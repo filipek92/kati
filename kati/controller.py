@@ -22,8 +22,7 @@ class Controller(object):
 
     def _callback(self, the_reader, card_number):
         # TODO handle timeout
-        # TODO use the_reader.text_id as reader ID
-        if kati.kristin.has_access(1, card_number):
+        if kati.kristin.has_access(the_reader.text_id, card_number):
             # if user has access, unlock
             log.info("access granted")
             self.lock.unlock()
