@@ -148,7 +148,7 @@
 <wire x1="0" y1="57.785" x2="0" y2="0" width="0" layer="20"/>
 <text x="59.69" y="41.91" size="1.778" layer="25">Kati
 v1.2</text>
-<text x="29.845" y="11.1125" size="1.778" layer="25" rot="R90">Filip Richter</text>
+<text x="29.845" y="9.2075" size="1.778" layer="25" rot="R90">Filip Richter</text>
 <text x="32.0675" y="14.9225" size="1.778" layer="25" rot="R90">2016</text>
 </plain>
 <libraries>
