@@ -2,20 +2,24 @@
 
 import requests
 import logging
+import functools
 
 
 # Kristin API endpoint
 KRISTIN_URL = "https://kristin.buk.cvut.cz/api/v1/penetrate/{reader}/{card}"
 
 # communication timeout
-TIMEOUT = 3
+TIMEOUT = 2
 
+# cache size for access checks
+CACHE_SIZE = 64
 
 # start logger
 logging.captureWarnings(True)  # log HTTP errors
 log = logging.getLogger(__name__)
 
 
+@functools.lru_cache(maxsize=CACHE_SIZE)
 def has_access(reader_id, card_number):
     """
     Verify the access for given reader and card.
