@@ -1,6 +1,6 @@
 [Unit]
 Description=Kati card access system service
-Documentation=https://github.com/techSU/kati
+Documentation=https://git.buk.cvut.cz/admins/kati
 
 Requires=pigpio.service
 After=syslog.target pigpio.service
