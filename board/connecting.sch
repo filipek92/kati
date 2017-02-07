@@ -2263,24 +2263,6 @@ Source: http://www.diodes.com/datasheets/ds23001.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="1N5059" prefix="D">
-<description>&lt;B&gt;DIODE&lt;/B&gt;&lt;p&gt;
-controlled avalanche rectifier</description>
-<gates>
-<gate name="1" symbol="D" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DO204-10">
-<connects>
-<connect gate="1" pin="A" pad="A"/>
-<connect gate="1" pin="C" pad="C"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 </devicesets>
 </library>
 <library name="rcl">
@@ -9873,9 +9855,6 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_0805" value="SML-LX0805SUGC-TR"/>
 <part name="L1" library="rcl" deviceset="L-US" device="0204/5" value="Door Lock"/>
 <part name="L2" library="rcl" deviceset="L-US" device="0204/5" value="Door Lock"/>
-<part name="D1" library="diode" deviceset="1N5059" device="" value="1N5822"/>
-<part name="D2" library="diode" deviceset="1N5059" device="" value="1N5822"/>
-<part name="X1" library="con-ptr500" deviceset="AK300/2" device="" value="External input"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="P+1" library="supply1" deviceset="+24V" device=""/>
 <part name="J4" library="con-molex" deviceset="22-?-04" device="05-7048"/>
@@ -9886,6 +9865,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <part name="X2" library="con-ptr500" deviceset="AK300/2" device="" value="External input"/>
 <part name="J3" library="con-molex" deviceset="22-?-04" device="05-7048"/>
 <part name="S1" library="switch-misc" deviceset="RF15" device="" value="External switch"/>
+<part name="S2" library="switch-misc" deviceset="RF15" device="" value="External switch"/>
 </parts>
 <sheets>
 <sheet>
@@ -9906,6 +9886,16 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <wire x1="132.08" y1="20.32" x2="132.08" y2="-15.24" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="132.08" y1="-15.24" x2="93.98" y2="-15.24" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="93.98" y1="-15.24" x2="93.98" y2="20.32" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="93.98" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="97" style="shortdash"/>
+<text x="134.62" y="78.74" size="1.778" layer="97">Variant 1:
+Direct connection of electromagnetic coil od door lock
+SJ1 Switch has to be soldered</text>
+<text x="134.62" y="53.34" size="1.778" layer="97">Option 2:
+Usage of external switch, KATI powered
+SJ1 has to be soldered</text>
+<text x="134.62" y="12.7" size="1.778" layer="97">Option 3:
+Usage of external power source
+SJ1 has to be un-soldered</text>
 </plain>
 <instances>
 <instance part="GND14" gate="1" x="50.8" y="45.72"/>
@@ -9929,10 +9919,6 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 </instance>
 <instance part="L1" gate="G$1" x="114.3" y="76.2"/>
 <instance part="L2" gate="G$1" x="116.84" y="50.8"/>
-<instance part="D1" gate="1" x="101.6" y="48.26"/>
-<instance part="D2" gate="1" x="121.92" y="38.1" rot="R180"/>
-<instance part="X1" gate="-1" x="137.16" y="33.02" rot="R180"/>
-<instance part="X1" gate="-2" x="137.16" y="38.1" rot="R180"/>
 <instance part="GND1" gate="1" x="50.8" y="45.72"/>
 <instance part="P+1" gate="1" x="50.8" y="83.82" rot="MR0"/>
 <instance part="J4" gate="-1" x="60.96" y="58.42"/>
@@ -9956,6 +9942,7 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <instance part="J3" gate="-3" x="93.98" y="10.16" rot="MR0"/>
 <instance part="J3" gate="-4" x="93.98" y="7.62" rot="MR0"/>
 <instance part="S1" gate="1" x="109.22" y="-25.4" rot="R270"/>
+<instance part="S2" gate="1" x="139.7" y="38.1" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -10076,29 +10063,13 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="96.52" y1="50.8" x2="106.68" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="50.8" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="50.8" x2="106.68" y2="33.02" width="0.1524" layer="91"/>
-<junction x="106.68" y="50.8"/>
-<wire x1="106.68" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-1" pin="KL"/>
-<pinref part="J1" gate="-3" pin="S"/>
-</segment>
-</net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="L2" gate="G$1" pin="2"/>
-<wire x1="116.84" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="43.18" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="48.26" x2="104.14" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="D1" gate="1" pin="C"/>
-<pinref part="D2" gate="1" pin="C"/>
-<wire x1="119.38" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="38.1" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
-<junction x="109.22" y="43.18"/>
+<wire x1="106.68" y1="33.02" x2="147.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="33.02" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="S2" gate="1" pin="S"/>
+<wire x1="144.78" y1="38.1" x2="147.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="33.02" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="J1" gate="-1" pin="S"/>
+<wire x1="96.52" y1="55.88" x2="106.68" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -10107,18 +10078,17 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <pinref part="J1" gate="-2" pin="S"/>
 </segment>
 </net>
-<net name="N$12" class="0">
-<segment>
-<pinref part="D1" gate="1" pin="A"/>
-<wire x1="99.06" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="J1" gate="-4" pin="S"/>
-</segment>
-</net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="D2" gate="1" pin="A"/>
-<wire x1="124.46" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="X1" gate="-2" pin="KL"/>
+<pinref part="S2" gate="1" pin="P"/>
+<pinref part="L2" gate="G$1" pin="2"/>
+<wire x1="116.84" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="43.18" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="38.1" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+<junction x="109.22" y="43.18"/>
+<pinref part="J1" gate="-4" pin="S"/>
+<wire x1="109.22" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="NO" class="0">
@@ -10149,12 +10119,6 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <segment>
 <pinref part="K1" gate="2" pin="P"/>
 <wire x1="50.8" y1="66.04" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="J1" gate="-1" pin="S"/>
-<wire x1="96.52" y1="55.88" x2="104.14" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -10203,9 +10167,24 @@ Marquardt, RAFI, ITT, and others&lt;p&gt;
 <junction x="101.6" y="-25.4"/>
 </segment>
 </net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="58.42" x2="116.84" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="50.8" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="J1" gate="-3" pin="S"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
